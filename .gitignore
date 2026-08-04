@@ -13,3 +13,6 @@ data/alerts/
 # Personal content drafts (Threads posts) — not part of the pipeline
 drafts/
 threads.md
+
+# Claude Code project config (content formula stays private; repo is public)
+.claude/
