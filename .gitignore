@@ -1,0 +1,15 @@
+# Secrets — NEVER commit. Copy config/secrets.example.json -> secrets.local.json locally.
+config/secrets.local.json
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Local caches & runtime state (reproducible: raw API caches, alert/news poller state+logs)
+data/raw/
+data/news/
+data/alerts/
+
+# Personal content drafts (Threads posts) — not part of the pipeline
+drafts/
+threads.md

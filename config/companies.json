@@ -1,0 +1,23 @@
+{
+  "_comment": "Target universe. CIK is the SEC EDGAR identifier. fiscal_year_end is MM-DD of the registrant's fiscal year end (these are 52/53-week calendars for several names, so the exact day drifts year to year). 'history_note' flags data-availability caveats an analyst must know.",
+  "companies": [
+    { "ticker": "NVDA",  "cik": 1045810, "name": "NVIDIA Corp",            "fiscal_year_end": "01-31", "sector": "Semiconductors",        "history_note": "" },
+    { "ticker": "MU",    "cik": 723125,  "name": "Micron Technology Inc",  "fiscal_year_end": "09-03", "sector": "Semiconductors (memory)", "history_note": "" },
+    { "ticker": "SNDK",  "cik": 2023554, "name": "Sandisk Corp",           "fiscal_year_end": "06-28", "sector": "Storage (NAND)",        "history_note": "Spun off from Western Digital in Feb 2025. Standalone SEC filings only exist from 2025 onward; earlier periods are inside Western Digital (CIK 106040) filings. Expect sparse multi-year history." },
+    { "ticker": "AVGO",  "cik": 1730168, "name": "Broadcom Inc.",          "fiscal_year_end": "11-01", "sector": "Semiconductors",        "history_note": "Current Broadcom Inc. holdco (post-2018 redomicile). FY ends late Oct/early Nov." },
+    { "ticker": "MRVL",  "cik": 1835632, "name": "Marvell Technology, Inc.","fiscal_year_end": "01-30", "sector": "Semiconductors",        "history_note": "Current Delaware holdco CIK (post-2021). FY ends late Jan/early Feb." },
+    { "ticker": "GOOGL", "cik": 1652044, "name": "Alphabet Inc.",          "fiscal_year_end": "12-31", "sector": "Internet/Platform",     "history_note": "" },
+    { "ticker": "MSFT",  "cik": 789019,  "name": "Microsoft Corp",         "fiscal_year_end": "06-30", "sector": "Software/Cloud",        "history_note": "FY ends June 30." },
+    { "ticker": "META",  "cik": 1326801, "name": "Meta Platforms, Inc.",   "fiscal_year_end": "12-31", "sector": "Internet/Platform",     "history_note": "" },
+    { "ticker": "AMZN",  "cik": 1018724, "name": "Amazon.com, Inc.",       "fiscal_year_end": "12-31", "sector": "E-commerce/Cloud",      "history_note": "" },
+    { "ticker": "TSLA",  "cik": 1318605, "name": "Tesla, Inc.",            "fiscal_year_end": "12-31", "sector": "Autos/Energy",          "history_note": "" },
+    { "ticker": "CEG",   "cik": 1868275, "name": "Constellation Energy Corp","fiscal_year_end": "12-31", "sector": "Utilities (nuclear)",  "history_note": "Spun off from Exelon in Feb 2022. Standalone SEC filings only from 2022 onward." },
+    { "ticker": "BE",    "cik": 1664703, "name": "Bloom Energy Corp",      "fiscal_year_end": "12-31", "sector": "Clean energy (fuel cells)","history_note": "" },
+    { "ticker": "AAOI",  "cik": 1158114, "name": "Applied Optoelectronics, Inc.","fiscal_year_end": "12-31", "sector": "Optical components","history_note": "" },
+    { "ticker": "IREN",  "cik": 1878848, "name": "IREN Ltd",               "fiscal_year_end": "06-30", "sector": "Bitcoin mining / AI cloud","history_note": "Was a foreign private issuer (filed 20-F + 6-K); transitioned to U.S. domestic filer and now files 10-K/10-Q. The pipeline captures the RECENT 10-K/10-Q periods only; older years that exist solely in 20-F are not picked up. FY ends June 30." },
+    { "ticker": "CRWV",  "cik": 1769628, "name": "CoreWeave, Inc.",        "fiscal_year_end": "12-31", "sector": "AI cloud infrastructure","history_note": "IPO'd Mar 2025; expect sparse multi-year history." },
+    { "ticker": "NOK",   "cik": 924613,  "name": "Nokia Corp",             "fiscal_year_end": "12-31", "sector": "Telecom equipment",     "history_note": "Foreign private issuer (Finland). Files 20-F (annual) + 6-K, NOT 10-K/10-Q. The current extract.py collects only 10-K/10-Q, so it will yield ZERO XBRL facts until the pipeline is extended to 20-F." },
+    { "ticker": "LITE",  "cik": 1633978, "name": "Lumentum Holdings Inc.", "fiscal_year_end": "06-28", "sector": "Optical/photonics",     "history_note": "52/53-week fiscal calendar; FY ends late June/early July." },
+    { "ticker": "PLTR",  "cik": 1321655, "name": "Palantir Technologies Inc.","fiscal_year_end": "12-31", "sector": "Software/Data analytics","history_note": "Direct listing Sep 2020; multi-class share structure (Class A/B/F). Heavy ongoing insider Form 4 activity (Rule 10b5-1 plans)." }
+  ]
+}

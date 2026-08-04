@@ -1,0 +1,22 @@
+{
+  "_comment": "Insider-filing alert config. 100% rule-based (no LLM, zero tokens at runtime). Tune freely; no code change needed.",
+
+  "watchlist_source": "config/companies.json",
+
+  "_comment_forms": "Which insider forms to track. 4 = change in ownership (the signal), 4/A = amendment. Add 3/5 only if you also re-seed (see docs).",
+  "forms_tracked": ["4", "4/A"],
+
+  "_comment_tiers": "Which signal tiers actually get pushed. HIGH = open-market buys + abnormally large sells. Add MEDIUM to also get ordinary sales.",
+  "push_tiers": ["HIGH"],
+
+  "thresholds": {
+    "_comment": "BUYS (code P) are ALWAYS HIGH (insider open-market buys are rare & telling). A SELL is HIGH only if big enough -- and 10b5-1 PRE-PLANNED sells need a much higher bar, because they were scheduled months ago and are not a reaction to current news. Tune these two numbers to taste.",
+    "discretionary_sale_usd": 5000000,
+    "plan_sale_usd": 50000000
+  },
+
+  "_comment_hours": "SEC only accepts filings ~6am-10pm ET on weekdays. Outside this window the poller exits in milliseconds with zero network calls. Set force via --force to bypass.",
+  "filing_hours_et": { "start": 6, "end": 23, "weekdays_only": true },
+
+  "notifier": "telegram"
+}

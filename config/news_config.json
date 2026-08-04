@@ -1,0 +1,33 @@
+{
+  "_comment": "News-alert layer config. Fetch/dedup/pre-filter are rule-based (0 token). Only the LLM judge (judge.enabled) spends tokens. Tune freely; no code change needed.",
+
+  "watchlist_source": "config/companies.json",
+
+  "sources": { "benzinga": true, "finnhub": true, "sec_8k": true },
+
+  "_comment_benzinga": "Free Basic tier serves GENERAL news with accurate stock tags but NOT server-side ticker filtering. We pull the firehose and filter locally by each story's stocks[].name.",
+  "benzinga": { "page_size": 100, "display_output": "full" },
+
+  "_comment_finnhub": "Per-ticker company-news is high-volume with LOOSE tagging (relays Yahoo aggregation). A text pre-gate (headline/summary must mention the ticker or company name) drops the obvious noise before anything reaches the LLM.",
+  "finnhub": { "lookback_days": 3 },
+
+  "_comment_hours": "SEC/US-market news window. Outside it the poller exits fast. --force bypasses.",
+  "filing_hours_et": { "start": 6, "end": 23, "weekdays_only": true },
+
+  "_comment_judge": "The LLM relevance/materiality judge. DISABLED until the Anthropic key + judge module are wired (Stage C). fetch cadence is every-5-min (Task Scheduler); judge runs at most every cadence_min minutes OR when the candidate queue reaches queue_trigger. Only materiality >= push_threshold is sent to Telegram.",
+  "judge": {
+    "enabled": true,
+    "_comment_provider": "openai = direct API (metered key). codex_cli = local Codex CLI via ChatGPT subscription (no per-token; but slower ~15s/batch and depends on `codex login` staying valid). NO fallback — if the provider breaks you get no alerts, which is the signal that it broke.",
+    "provider": "openai",
+    "model": "gpt-5.4-mini",
+    "codex": { "reasoning_effort": "low", "model": "", "timeout_sec": 180 },
+    "cadence_min": 15,
+    "queue_trigger": 12,
+    "materiality_push_threshold": 85,
+    "_comment_freshness": "max_age_hours: skip any article already older than this when first seen (drops stale rehashes / slow-surfacing aggregator content). suppress_repeat_days: once an event is pushed, suppress further articles about the SAME event for this many days.",
+    "max_age_hours": 4,
+    "suppress_repeat_days": 4
+  },
+
+  "notifier": "telegram"
+}

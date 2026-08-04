@@ -1,0 +1,1028 @@
+{
+  "_about": "Curated standardized field dictionary for SEC XBRL companyfacts data, designed from a sell-side/buy-side analyst perspective for US semiconductor & mega-cap tech equities. 'fields' map directly to XBRL tags (tried in priority order until one is present). 'derived_metrics' are computed from field keys via config-driven formulas. Fields with 'dimensional':true require XBRL axis extraction (segment/geography/product) and are NOT pulled by the basic extractor.",
+  "version": "1.0",
+  "fields": [
+    {
+      "key": "revenue",
+      "label": "Total Revenue",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "Revenues",
+        "RevenueFromContractWithCustomerIncludingAssessedTax",
+        "SalesRevenueNet"
+      ],
+      "dimensional": false,
+      "why": "Top line and the anchor for every growth, margin, and valuation multiple; also the denominator that turns dimensional segment/geo values into mix percentages."
+    },
+    {
+      "key": "cost_of_revenue",
+      "label": "Cost of Revenue",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "CostOfRevenue",
+        "CostOfGoodsAndServicesSold",
+        "CostOfGoodsSold"
+      ],
+      "dimensional": false,
+      "why": "Drives gross margin; the single biggest cost line for semis and the key to pricing/mix analysis."
+    },
+    {
+      "key": "gross_profit",
+      "label": "Gross Profit",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "GrossProfit"
+      ],
+      "dimensional": false,
+      "why": "Gross margin is the headline KPI for semis/hardware. Note: some filers (e.g. Alphabet) never report GrossProfit, so derive from revenue - cost_of_revenue when absent."
+    },
+    {
+      "key": "research_development_expense",
+      "label": "Research & Development Expense",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "ResearchAndDevelopmentExpense"
+      ],
+      "dimensional": false,
+      "why": "R&D intensity is the core competitive moat metric for semis/tech; central to any thesis on innovation and operating leverage."
+    },
+    {
+      "key": "sga_expense",
+      "label": "Selling, General & Administrative Expense",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "SellingGeneralAndAdministrativeExpense"
+      ],
+      "dimensional": false,
+      "why": "The combined opex line many semis report (NVDA, AVGO, MRVL); needed for operating leverage and margin bridge."
+    },
+    {
+      "key": "sales_marketing_expense",
+      "label": "Sales & Marketing Expense",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "important",
+      "us_gaap_tags": [
+        "SellingAndMarketingExpense",
+        "MarketingExpense"
+      ],
+      "dimensional": false,
+      "why": "Platforms (GOOGL, MSFT) split S&M out; isolates demand-gen spend and go-to-market efficiency vs back-office G&A."
+    },
+    {
+      "key": "general_administrative_expense",
+      "label": "General & Administrative Expense",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "important",
+      "us_gaap_tags": [
+        "GeneralAndAdministrativeExpense"
+      ],
+      "dimensional": false,
+      "why": "Reported separately by platform names; the other half of the opex split needed to reconcile to total opex."
+    },
+    {
+      "key": "total_operating_expenses",
+      "label": "Total Operating Expenses",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "optional",
+      "us_gaap_tags": [
+        "OperatingExpenses",
+        "CostsAndExpenses"
+      ],
+      "dimensional": false,
+      "why": "Convenient subtotal for the opex bridge, but definition varies by filer (some include COGS), so treat with care."
+    },
+    {
+      "key": "stock_based_compensation",
+      "label": "Stock-Based Compensation Expense",
+      "statement": "cash_flow",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "ShareBasedCompensation",
+        "AllocatedShareBasedCompensationExpense"
+      ],
+      "dimensional": false,
+      "why": "Massive non-cash cost in tech/semis; sourced from the CFO add-back. Essential to adjust GAAP vs non-GAAP margins, judge dilution-adjusted profitability and FCF quality."
+    },
+    {
+      "key": "operating_income",
+      "label": "Operating Income",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "OperatingIncomeLoss"
+      ],
+      "dimensional": false,
+      "why": "Operating margin is the primary profitability gauge before capital structure and tax; core to EV/EBIT and peer comparison."
+    },
+    {
+      "key": "interest_expense",
+      "label": "Interest Expense",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "important",
+      "us_gaap_tags": [
+        "InterestExpense",
+        "InterestExpenseNonoperating",
+        "InterestExpenseDebt"
+      ],
+      "dimensional": false,
+      "why": "Matters for leveraged names (AVGO post-M&A); needed for coverage ratios and the bridge from operating to pretax income."
+    },
+    {
+      "key": "interest_investment_income",
+      "label": "Interest & Investment Income",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "optional",
+      "us_gaap_tags": [
+        "InvestmentIncomeInterest",
+        "InvestmentIncomeInterestAndDividend",
+        "InterestIncomeOther",
+        "InvestmentIncomeNonoperating",
+        "InvestmentIncomeNet"
+      ],
+      "dimensional": false,
+      "why": "Cash-rich tech (MSFT, GOOGL, NVDA) earns material interest/investment income that inflates pretax; useful to normalize out."
+    },
+    {
+      "key": "other_nonoperating_income_expense",
+      "label": "Other Non-Operating Income/(Expense), Net",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "optional",
+      "us_gaap_tags": [
+        "NonoperatingIncomeExpense",
+        "OtherNonoperatingIncomeExpense"
+      ],
+      "dimensional": false,
+      "why": "Captures FX, equity-investment gains/losses and other below-the-line noise that can swing pretax income materially."
+    },
+    {
+      "key": "pretax_income",
+      "label": "Pretax Income",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "IncomeLossFromContinuingOperationsBeforeIncomeTaxesMinorityInterestAndIncomeLossFromEquityMethodInvestments",
+        "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"
+      ],
+      "dimensional": false,
+      "why": "Income before tax is the base for effective tax rate analysis and the link from operating performance to net income."
+    },
+    {
+      "key": "income_tax_expense",
+      "label": "Income Tax Expense/(Benefit)",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "IncomeTaxExpenseBenefit"
+      ],
+      "dimensional": false,
+      "why": "Needed to compute the effective tax rate, a key swing factor in EPS and a watch item given global minimum-tax changes."
+    },
+    {
+      "key": "net_income",
+      "label": "Net Income",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "NetIncomeLoss",
+        "ProfitLoss"
+      ],
+      "dimensional": false,
+      "why": "Bottom-line earnings; the basis for P/E, ROE and net-margin and the most-watched headline figure."
+    },
+    {
+      "key": "net_income_available_common",
+      "label": "Net Income Available to Common Stockholders",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "optional",
+      "us_gaap_tags": [
+        "NetIncomeLossAvailableToCommonStockholdersBasic",
+        "NetIncomeLossAvailableToCommonStockholdersDiluted"
+      ],
+      "dimensional": false,
+      "why": "The true EPS numerator after preferred/NCI adjustments; differs from net income for filers like AVGO with noncontrolling interests."
+    },
+    {
+      "key": "eps_basic",
+      "label": "Earnings Per Share - Basic",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD/shares",
+      "priority": "core",
+      "us_gaap_tags": [
+        "EarningsPerShareBasic",
+        "IncomeLossFromContinuingOperationsPerBasicShare"
+      ],
+      "dimensional": false,
+      "why": "As-reported basic per-share earnings; primary input to trailing P/E and a sanity check on the income statement."
+    },
+    {
+      "key": "eps_diluted",
+      "label": "Earnings Per Share - Diluted",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD/shares",
+      "priority": "core",
+      "us_gaap_tags": [
+        "EarningsPerShareDiluted",
+        "IncomeLossFromContinuingOperationsPerDilutedShare"
+      ],
+      "dimensional": false,
+      "why": "The headline EPS for valuation; captures dilution from RSUs/options, which is large in SBC-heavy tech."
+    },
+    {
+      "key": "dividends_per_share",
+      "label": "Dividends Declared Per Share",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD/shares",
+      "priority": "important",
+      "us_gaap_tags": [
+        "CommonStockDividendsPerShareDeclared",
+        "CommonStockDividendsPerShareCashPaid"
+      ],
+      "dimensional": false,
+      "why": "Drives dividend yield and payout ratio; coverage is uneven (NVDA token, GOOGL/META only began 2024, MU/AVGO/MRVL pay) so may be zero/absent."
+    },
+    {
+      "key": "weighted_avg_shares_basic",
+      "label": "Weighted Avg Shares Outstanding - Basic",
+      "statement": "shares",
+      "period_type": "duration",
+      "unit": "shares",
+      "priority": "important",
+      "us_gaap_tags": [
+        "WeightedAverageNumberOfSharesOutstandingBasic",
+        "WeightedAverageNumberOfShareOutstandingBasicAndDiluted"
+      ],
+      "dimensional": false,
+      "why": "Basic denominator for per-share math and tracking buyback-driven share shrink."
+    },
+    {
+      "key": "weighted_avg_shares_diluted",
+      "label": "Weighted Avg Shares Outstanding - Diluted",
+      "statement": "shares",
+      "period_type": "duration",
+      "unit": "shares",
+      "priority": "core",
+      "us_gaap_tags": [
+        "WeightedAverageNumberOfDilutedSharesOutstanding",
+        "WeightedAverageNumberOfShareOutstandingBasicAndDiluted"
+      ],
+      "dimensional": false,
+      "why": "Diluted denominator behind diluted EPS; essential for modeling dilution and reconciling EPS to net income."
+    },
+    {
+      "key": "shares_outstanding",
+      "label": "Common Shares Outstanding (DEI cover)",
+      "statement": "shares",
+      "period_type": "instant",
+      "unit": "shares",
+      "priority": "important",
+      "us_gaap_tags": [
+        "dei:EntityCommonStockSharesOutstanding"
+      ],
+      "dimensional": false,
+      "why": "Point-in-time share count from the cover page (dei taxonomy); denominator for current market cap. Multi-class issuers (GOOGL, META) report per class via dimensions, so the plain tag may undercount total shares."
+    },
+    {
+      "key": "segment_revenue",
+      "label": "Reportable Segment Revenue",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "Revenues",
+        "RevenueFromContractWithCustomerIncludingAssessedTax"
+      ],
+      "dimensional": true,
+      "why": "The single biggest thesis driver (NVDA Data Center, AVGO Semiconductor Solutions, GOOGL Cloud, MSFT Intelligent Cloud) — shows where growth and mix shift come from. Exists only as dimensional XBRL data (StatementBusinessSegmentsAxis), not a plain tag."
+    },
+    {
+      "key": "segment_operating_income",
+      "label": "Reportable Segment Operating Income",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "important",
+      "us_gaap_tags": [
+        "OperatingIncomeLoss"
+      ],
+      "dimensional": true,
+      "why": "Segment profitability reveals which businesses fund the company and is essential for sum-of-the-parts valuation. Dimensional only (segment axis)."
+    },
+    {
+      "key": "product_service_revenue",
+      "label": "Revenue by Product vs Service",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "important",
+      "us_gaap_tags": [
+        "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "Revenues"
+      ],
+      "dimensional": true,
+      "why": "Product/service split (MSFT product vs service, AVGO products vs subscriptions) separates one-time hardware from recurring software/cloud, a key durability signal. Dimensional (ProductOrServiceAxis)."
+    },
+    {
+      "key": "geographic_revenue",
+      "label": "Revenue by Geography",
+      "statement": "income_statement",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "important",
+      "us_gaap_tags": [
+        "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "Revenues",
+        "RevenueFromContractWithCustomerIncludingAssessedTax"
+      ],
+      "dimensional": true,
+      "why": "Geographic mix (China/Taiwan/US exposure) drives demand cyclicality and export-control risk, highly material for semis and directly relevant to Taiwanese investors. Dimensional only (geography axis)."
+    },
+    {
+      "key": "long_lived_assets_by_geography",
+      "label": "Long-Lived Assets by Geography",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "optional",
+      "us_gaap_tags": [
+        "NoncurrentAssets",
+        "PropertyPlantAndEquipmentNet"
+      ],
+      "dimensional": true,
+      "why": "Geographic asset footprint flags supply-chain concentration and capex location, complementing geographic revenue for country-risk assessment. Dimensional only."
+    },
+    {
+      "key": "remaining_performance_obligation",
+      "label": "Remaining Performance Obligations (Backlog)",
+      "statement": "income_statement",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "important",
+      "us_gaap_tags": [
+        "RevenueRemainingPerformanceObligation"
+      ],
+      "dimensional": false,
+      "why": "RPO is the cleanest forward-revenue indicator for platform/software names (MSFT, GOOGL Cloud, AVGO software) — contracted future revenue not yet recognized."
+    },
+    {
+      "key": "cash_and_cash_equivalents",
+      "label": "Cash & Cash Equivalents",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "CashAndCashEquivalentsAtCarryingValue",
+        "CashAndCashEquivalentsAtCarryingValueIncludingDiscontinuedOperations",
+        "Cash"
+      ],
+      "dimensional": false,
+      "why": "The most liquid asset and the starting point for net-cash/net-debt and runway analysis."
+    },
+    {
+      "key": "short_term_investments",
+      "label": "Short-Term Investments / Marketable Securities (Current)",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "ShortTermInvestments",
+        "MarketableSecuritiesCurrent",
+        "AvailableForSaleSecuritiesCurrent",
+        "MarketableSecurities"
+      ],
+      "dimensional": false,
+      "why": "Cash-like liquidity held in marketable securities; combined with cash to gauge true liquidity and net cash."
+    },
+    {
+      "key": "long_term_investments",
+      "label": "Long-Term / Non-Current Marketable Securities",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "optional",
+      "us_gaap_tags": [
+        "MarketableSecuritiesNoncurrent",
+        "LongTermInvestments"
+      ],
+      "dimensional": false,
+      "why": "Non-current marketable securities that still represent monetizable liquidity for cash-rich tech names."
+    },
+    {
+      "key": "accounts_receivable_net",
+      "label": "Accounts Receivable, Net (Current)",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "AccountsReceivableNetCurrent",
+        "ReceivablesNetCurrent"
+      ],
+      "dimensional": false,
+      "why": "Drives DSO and working-capital quality; spikes can signal channel stuffing or collection risk."
+    },
+    {
+      "key": "inventory_net",
+      "label": "Inventory, Net",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "InventoryNet"
+      ],
+      "dimensional": false,
+      "why": "Vital for semis: rising inventory and falling turns flag demand softening, obsolescence and future write-downs."
+    },
+    {
+      "key": "total_current_assets",
+      "label": "Total Current Assets",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "important",
+      "us_gaap_tags": [
+        "AssetsCurrent"
+      ],
+      "dimensional": false,
+      "why": "Numerator of the current ratio and basis for net working capital."
+    },
+    {
+      "key": "property_plant_equipment_net",
+      "label": "Property, Plant & Equipment, Net",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "PropertyPlantAndEquipmentNet"
+      ],
+      "dimensional": false,
+      "why": "Capital intensity and asset base; for semis/AI buildouts PP&E growth tracks fab and data-center capex."
+    },
+    {
+      "key": "goodwill",
+      "label": "Goodwill",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "Goodwill"
+      ],
+      "dimensional": false,
+      "why": "M&A-driven (huge for AVGO/MRVL); impairment risk and a key adjustment for tangible book value."
+    },
+    {
+      "key": "intangible_assets_net",
+      "label": "Intangible Assets, Net (Excl. Goodwill)",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "important",
+      "us_gaap_tags": [
+        "IntangibleAssetsNetExcludingGoodwill",
+        "FiniteLivedIntangibleAssetsNet"
+      ],
+      "dimensional": false,
+      "why": "Acquired IP/customer relationships; amortization drags GAAP earnings and adjusts tangible equity."
+    },
+    {
+      "key": "total_assets",
+      "label": "Total Assets",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "Assets"
+      ],
+      "dimensional": false,
+      "why": "Denominator for ROA and asset-turnover; the balance-sheet footing and leverage base."
+    },
+    {
+      "key": "accounts_payable",
+      "label": "Accounts Payable (Current)",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "AccountsPayableCurrent",
+        "AccountsPayableTradeCurrent"
+      ],
+      "dimensional": false,
+      "why": "Drives DPO and the cash conversion cycle; supplier financing of operations."
+    },
+    {
+      "key": "total_current_liabilities",
+      "label": "Total Current Liabilities",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "important",
+      "us_gaap_tags": [
+        "LiabilitiesCurrent"
+      ],
+      "dimensional": false,
+      "why": "Denominator of current/quick ratios and basis for net working capital."
+    },
+    {
+      "key": "short_term_debt",
+      "label": "Short-Term / Current Portion of Debt",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "LongTermDebtCurrent",
+        "DebtCurrent",
+        "LongTermDebtAndCapitalLeaseObligationsCurrent",
+        "ShortTermBorrowings"
+      ],
+      "dimensional": false,
+      "why": "Near-term refinancing/maturity wall; combined with long-term debt for total leverage and net debt."
+    },
+    {
+      "key": "commercial_paper",
+      "label": "Commercial Paper",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "optional",
+      "us_gaap_tags": [
+        "CommercialPaper"
+      ],
+      "dimensional": false,
+      "why": "Short-term funding many of these issuers tap; separate visibility into rollover/liquidity risk."
+    },
+    {
+      "key": "long_term_debt",
+      "label": "Long-Term Debt (Non-Current)",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "LongTermDebtNoncurrent",
+        "LongTermDebt",
+        "LongTermDebtAndCapitalLeaseObligations"
+      ],
+      "dimensional": false,
+      "why": "Core solvency metric; basis for net debt, debt/EBITDA and interest-coverage analysis."
+    },
+    {
+      "key": "deferred_revenue_current",
+      "label": "Deferred / Contract Revenue (Current)",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "important",
+      "us_gaap_tags": [
+        "ContractWithCustomerLiabilityCurrent",
+        "DeferredRevenueCurrent"
+      ],
+      "dimensional": false,
+      "why": "Booked-but-unrecognized revenue; a leading demand signal and quality-of-revenue indicator for subscription/cloud businesses."
+    },
+    {
+      "key": "deferred_revenue_noncurrent",
+      "label": "Deferred / Contract Revenue (Non-Current)",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "optional",
+      "us_gaap_tags": [
+        "ContractWithCustomerLiabilityNoncurrent",
+        "DeferredRevenueNoncurrent"
+      ],
+      "dimensional": false,
+      "why": "Longer-dated contracted backlog (multi-year enterprise/cloud commitments), indicating revenue visibility beyond 12 months."
+    },
+    {
+      "key": "total_liabilities",
+      "label": "Total Liabilities",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "Liabilities"
+      ],
+      "dimensional": false,
+      "why": "Total obligations; debt-to-assets and the complement of equity in the leverage picture."
+    },
+    {
+      "key": "total_stockholders_equity",
+      "label": "Total Stockholders' Equity (parent)",
+      "statement": "balance_sheet",
+      "period_type": "instant",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "StockholdersEquity",
+        "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+      ],
+      "dimensional": false,
+      "why": "Book value of the firm; denominator for ROE, BVPS and debt-to-equity, basis for P/B. Prefer the parent-only StockholdersEquity tag over the NCI-inclusive variant for BVPS."
+    },
+    {
+      "key": "net_cash_from_operating_activities",
+      "label": "Cash Flow from Operations (CFO)",
+      "statement": "cash_flow",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "NetCashProvidedByUsedInOperatingActivities",
+        "NetCashProvidedByUsedInOperatingActivitiesContinuingOperations"
+      ],
+      "dimensional": false,
+      "why": "The single most important cash flow line; the cash engine funding capex, buybacks and dividends and the base of FCF."
+    },
+    {
+      "key": "capital_expenditures",
+      "label": "Capital Expenditures (Capex)",
+      "statement": "cash_flow",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "PaymentsToAcquirePropertyPlantAndEquipment",
+        "PaymentsToAcquireProductiveAssets"
+      ],
+      "dimensional": false,
+      "why": "Drives FCF and signals AI/datacenter and fab investment intensity, the central capital-allocation debate for these names."
+    },
+    {
+      "key": "net_cash_from_investing_activities",
+      "label": "Cash Flow from Investing (CFI)",
+      "statement": "cash_flow",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "important",
+      "us_gaap_tags": [
+        "NetCashProvidedByUsedInInvestingActivities",
+        "NetCashProvidedByUsedInInvestingActivitiesContinuingOperations"
+      ],
+      "dimensional": false,
+      "why": "Captures total investing outflows beyond capex (acquisitions, securities) and ties the three-section cash bridge together."
+    },
+    {
+      "key": "net_cash_from_financing_activities",
+      "label": "Cash Flow from Financing (CFF)",
+      "statement": "cash_flow",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "important",
+      "us_gaap_tags": [
+        "NetCashProvidedByUsedInFinancingActivities",
+        "NetCashProvidedByUsedInFinancingActivitiesContinuingOperations"
+      ],
+      "dimensional": false,
+      "why": "Shows net effect of buybacks, dividends and debt; reveals whether the company is returning capital or raising it."
+    },
+    {
+      "key": "share_repurchases",
+      "label": "Share Repurchases (Buybacks)",
+      "statement": "cash_flow",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "core",
+      "us_gaap_tags": [
+        "PaymentsForRepurchaseOfCommonStock",
+        "PaymentsForRepurchaseOfCommonStockAndShareBasedCompensationAwards"
+      ],
+      "dimensional": false,
+      "why": "Primary capital-return lever for MSFT/GOOGL/META/AVGO/NVDA; key to per-share growth and total shareholder yield."
+    },
+    {
+      "key": "depreciation_and_amortization",
+      "label": "Depreciation & Amortization (D&A)",
+      "statement": "cash_flow",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "important",
+      "us_gaap_tags": [
+        "DepreciationDepletionAndAmortization",
+        "DepreciationAmortizationAndAccretionNet",
+        "DepreciationAndAmortization",
+        "Depreciation"
+      ],
+      "dimensional": false,
+      "why": "Largest non-cash add-back, reflects past capex flowing through the P&L; needed to reconcile earnings to cash and assess capital intensity."
+    },
+    {
+      "key": "dividends_paid",
+      "label": "Dividends Paid",
+      "statement": "cash_flow",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "important",
+      "us_gaap_tags": [
+        "PaymentsOfDividendsCommon",
+        "PaymentsOfDividendsCommonStock",
+        "PaymentsOfDividends"
+      ],
+      "dimensional": false,
+      "why": "Committed cash return; combined with buybacks gives total shareholder yield (MU/AVGO pay, NVDA token, META/GOOGL only recently initiated)."
+    },
+    {
+      "key": "acquisitions_net_of_cash",
+      "label": "Acquisitions, Net of Cash Acquired",
+      "statement": "cash_flow",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "optional",
+      "us_gaap_tags": [
+        "PaymentsToAcquireBusinessesNetOfCashAcquired"
+      ],
+      "dimensional": false,
+      "why": "M&A is a major capital-allocation channel for AVGO/MRVL and swings CFI; useful for separating organic vs inorganic strategy."
+    },
+    {
+      "key": "debt_issued",
+      "label": "Proceeds from Issuance of Debt",
+      "statement": "cash_flow",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "optional",
+      "us_gaap_tags": [
+        "ProceedsFromIssuanceOfLongTermDebt",
+        "ProceedsFromIssuanceOfDebt"
+      ],
+      "dimensional": false,
+      "why": "Shows leverage build, especially relevant for AVGO's acquisition-financed balance sheet."
+    },
+    {
+      "key": "debt_repaid",
+      "label": "Repayments of Debt",
+      "statement": "cash_flow",
+      "period_type": "duration",
+      "unit": "USD",
+      "priority": "optional",
+      "us_gaap_tags": [
+        "RepaymentsOfLongTermDebt",
+        "RepaymentsOfDebt"
+      ],
+      "dimensional": false,
+      "why": "Tracks deleveraging pace alongside debt issuance to gauge net financing posture."
+    }
+  ],
+  "derived_metrics": [
+    {
+      "key": "gross_profit_derived",
+      "label": "Gross Profit (derived fallback)",
+      "formula": "revenue - cost_of_revenue",
+      "unit": "USD",
+      "priority": "important",
+      "why": "Some filers (e.g. Alphabet) never report GrossProfit, so it must be computed from revenue minus cost of revenue."
+    },
+    {
+      "key": "gross_margin",
+      "label": "Gross Margin %",
+      "formula": "gross_profit / revenue",
+      "unit": "pure",
+      "priority": "core",
+      "why": "The single most-watched profitability gauge in semis; reflects pricing power, mix, and fab/process cost leverage."
+    },
+    {
+      "key": "operating_margin",
+      "label": "Operating Margin %",
+      "formula": "operating_income / revenue",
+      "unit": "pure",
+      "priority": "core",
+      "why": "Captures operating leverage after R&D and SG&A, the core efficiency story for both semis and platforms."
+    },
+    {
+      "key": "net_margin",
+      "label": "Net Margin %",
+      "formula": "net_income / revenue",
+      "unit": "pure",
+      "priority": "core",
+      "why": "Bottom-line profitability after tax and below-the-line items; needed to bridge to EPS and ROE."
+    },
+    {
+      "key": "effective_tax_rate",
+      "label": "Effective Tax Rate",
+      "formula": "income_tax_expense / pretax_income",
+      "unit": "pure",
+      "priority": "important",
+      "why": "Standardizes tax burden across companies/periods, flags one-off tax items, and feeds NOPAT/ROIC."
+    },
+    {
+      "key": "rd_intensity",
+      "label": "R&D Intensity (R&D / Revenue)",
+      "formula": "research_development_expense / revenue",
+      "unit": "pure",
+      "priority": "core",
+      "why": "R&D is the lifeblood of semis competitiveness; intensity reveals reinvestment rate and node/architecture commitment."
+    },
+    {
+      "key": "sbc_pct_revenue",
+      "label": "Stock-Based Comp % of Revenue",
+      "formula": "stock_based_compensation / revenue",
+      "unit": "pure",
+      "priority": "important",
+      "why": "SBC is large at big-tech/semis and dilutes shareholders; sizing it vs revenue checks earnings quality and true margins."
+    },
+    {
+      "key": "capex_intensity",
+      "label": "Capex Intensity (Capex / Revenue)",
+      "formula": "capital_expenditures / revenue",
+      "unit": "pure",
+      "priority": "important",
+      "why": "Distinguishes asset-heavy fab/datacenter builders from fabless designers and signals capital cycle position."
+    },
+    {
+      "key": "free_cash_flow",
+      "label": "Free Cash Flow (FCF)",
+      "formula": "net_cash_from_operating_activities - capital_expenditures",
+      "unit": "USD",
+      "priority": "core",
+      "why": "The cash actually available to return or reinvest; the headline valuation input (FCF yield, DCF), not reported as a single XBRL tag."
+    },
+    {
+      "key": "fcf_margin",
+      "label": "FCF Margin %",
+      "formula": "free_cash_flow / revenue",
+      "unit": "pure",
+      "priority": "core",
+      "why": "Normalizes cash generation against revenue, the cleanest cross-peer cash-efficiency comparison."
+    },
+    {
+      "key": "net_working_capital",
+      "label": "Net Working Capital",
+      "formula": "total_current_assets - total_current_liabilities",
+      "unit": "USD",
+      "priority": "important",
+      "why": "Operating liquidity buffer and a driver of free cash flow swings, especially for inventory-heavy semis."
+    },
+    {
+      "key": "total_debt",
+      "label": "Total Debt",
+      "formula": "short_term_debt + long_term_debt",
+      "unit": "USD",
+      "priority": "core",
+      "why": "Aggregate borrowings for leverage ratios; combines current and long-term debt across varying tags."
+    },
+    {
+      "key": "net_debt",
+      "label": "Net Debt (Net Cash)",
+      "formula": "total_debt - cash_and_cash_equivalents - short_term_investments",
+      "unit": "USD",
+      "priority": "core",
+      "why": "The headline solvency figure; most of these tech/semis names sit in net cash, central to EV and the thesis."
+    },
+    {
+      "key": "tangible_book_value",
+      "label": "Tangible Book Value",
+      "formula": "total_stockholders_equity - goodwill - intangible_assets_net",
+      "unit": "USD",
+      "priority": "optional",
+      "why": "Equity stripped of goodwill/intangibles; a conservative book-value floor for heavily acquisitive names."
+    },
+    {
+      "key": "book_value_per_share",
+      "label": "Book Value Per Share",
+      "formula": "total_stockholders_equity / shares_outstanding",
+      "unit": "USD/shares",
+      "priority": "important",
+      "why": "Equity per share for price-to-book screening; weak for asset-light/buyback-heavy tech (can go negative) so treat as context, not a hard floor."
+    },
+    {
+      "key": "inventory_days",
+      "label": "Days Inventory Outstanding (DIO)",
+      "formula": "(inventory_net / cost_of_revenue) * 365",
+      "unit": "days",
+      "priority": "important",
+      "why": "Critical cyclical signal in semis; rising DIO flags demand softening and looming write-downs/margin pressure."
+    },
+    {
+      "key": "days_sales_outstanding",
+      "label": "Days Sales Outstanding (DSO)",
+      "formula": "(accounts_receivable_net / revenue) * 365",
+      "unit": "days",
+      "priority": "optional",
+      "why": "Tracks receivables quality and channel/customer health; spikes can presage revenue-recognition or collection risk."
+    },
+    {
+      "key": "roe",
+      "label": "Return on Equity",
+      "formula": "net_income / total_stockholders_equity",
+      "unit": "pure",
+      "priority": "important",
+      "why": "Headline capital-efficiency metric; for buyback-heavy big-tech it captures returns net of shareholder returns."
+    },
+    {
+      "key": "roa",
+      "label": "Return on Assets",
+      "formula": "net_income / total_assets",
+      "unit": "pure",
+      "priority": "optional",
+      "why": "Efficiency of the total asset base, useful for comparing fab-heavy vs fabless and asset-light platform models."
+    },
+    {
+      "key": "roic",
+      "label": "Return on Invested Capital",
+      "formula": "(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents)",
+      "unit": "pure",
+      "priority": "core",
+      "why": "The truest test of value creation vs cost of capital; key for capital-intensive semis with heavy reinvestment."
+    },
+    {
+      "key": "revenue_yoy_growth",
+      "label": "Revenue YoY Growth %",
+      "formula": "(revenue - revenue_prior_year) / revenue_prior_year",
+      "unit": "pure",
+      "priority": "core",
+      "why": "Top-line momentum is the primary driver of the thesis and multiple in this growth-sensitive peer group (compare same fiscal period YoY)."
+    },
+    {
+      "key": "eps_yoy_growth",
+      "label": "Diluted EPS YoY Growth %",
+      "formula": "(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year",
+      "unit": "pure",
+      "priority": "important",
+      "why": "Captures earnings power growth net of dilution, the input to PEG and forward valuation."
+    },
+    {
+      "key": "diluted_share_count_change",
+      "label": "YoY Diluted Share Count Change",
+      "formula": "(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1",
+      "unit": "pure",
+      "priority": "optional",
+      "why": "Net buyback vs dilution signal; for these mega-caps SBC-driven dilution vs repurchase is a real per-share thesis driver."
+    },
+    {
+      "key": "deferred_revenue_total",
+      "label": "Total Deferred Revenue",
+      "formula": "deferred_revenue_current + deferred_revenue_noncurrent",
+      "unit": "USD",
+      "priority": "important",
+      "why": "Combining current and noncurrent gives one comparable demand-pipeline figure across companies that report the split differently."
+    },
+    {
+      "key": "segment_revenue_mix_pct",
+      "label": "Segment Revenue Mix %",
+      "formula": "segment_revenue / revenue",
+      "unit": "pure",
+      "priority": "important",
+      "why": "Normalizing each segment to total revenue is how analysts track mix shift (e.g. NVDA Data Center share rising toward ~90%) across periods and companies; depends on dimensional segment_revenue."
+    }
+  ],
+  "notes": [
+    "DIMENSIONAL FIELDS (harder to extract): segment_revenue, segment_operating_income, product_service_revenue, geographic_revenue and long_lived_assets_by_geography do NOT exist as plain top-level tags. They live as breakdowns of a base tag (e.g. RevenueFromContractWithCustomerExcludingAssessedTax / OperatingIncomeLoss / Revenues) qualified by an XBRL axis member: StatementBusinessSegmentsAxis (segments), ProductOrServiceAxis (product vs service), and the geography axes (srt:StatementGeographicalAxis / EntityWideDisclosure geographic tags). Extraction must iterate the dimensioned facts and read the member labels, and segment/member naming is company-specific and changes when companies re-segment, so cross-company and cross-time alignment requires a manual mapping layer. The derived metric segment_revenue_mix_pct depends on these dimensional values.",
+    "TAG-CONFLICT / DEDUP RESOLUTIONS: (1) revenue and total_revenue proposals were merged into one 'revenue' field with the union of tags in priority order (RevenueFromContractWithCustomerExcludingAssessedTax first, then Revenues, IncludingAssessedTax, SalesRevenueNet); this same field is the denominator for all mix and margin ratios. (2) stock_based_compensation was proposed by both the income-statement and cash-flow lenses with identical tags (ShareBasedCompensation / AllocatedShareBasedCompensationExpense) — kept once and assigned statement=cash_flow since the CFO add-back is the most consistently populated location. (3) gross_profit is a raw field but kept gross_profit_derived as a separate derived fallback because filers like Alphabet omit the GrossProfit tag entirely — pick the reported tag when present, else compute. (4) eps_basic/eps_diluted and the weighted_avg_shares_* fields were proposed by two lenses; merged with the union of tags, adding IncomeLossFromContinuingOperationsPer*Share and WeightedAverageNumberOfShareOutstandingBasicAndDiluted as fallbacks. (5) shares_outstanding_dei and shares_outstanding merged into one dei:EntityCommonStockSharesOutstanding field. (6) total_stockholders_equity and stockholders_equity merged; prefer the parent-only StockholdersEquity tag over the NCI-inclusive variant for BVPS/ROE. (7) Duplicate derived metrics (effective_tax_rate, fcf/free_cash_flow, net_cash/net_debt) were each consolidated to a single definition; total_debt is defined as a derived intermediate so net_debt and roic reference it consistently.",
+    "VALUATION INPUTS NOT SOURCEABLE FROM SEC: share price, market capitalization, enterprise value (EV), P/E, P/B, EV/EBITDA, FCF yield and dividend yield all require live/market price data, which XBRL/companyfacts does NOT contain. These must be built in the app by combining the SEC per-share fundamentals here (eps_diluted, book_value_per_share, dividends_per_share, shares_outstanding, free_cash_flow, net_debt) with an external market-data feed. No XBRL tag exists for them, so the original 'market_valuation_inputs_external' placeholder was intentionally dropped from the field list and recorded here instead.",
+    "SNDK (SanDisk) HISTORY GAP: SanDisk only has standalone SEC filings since its February 2025 spin-off from Western Digital (WDC). Its companyfacts will contain at most a few quarters of independent 10-Q/10-K data, so the ~3-year history target and all YoY growth metrics (revenue_yoy_growth, eps_yoy_growth, diluted_share_count_change) will be sparse or unavailable for SNDK until enough post-spin periods accumulate; pre-2025 figures, if needed, must be reconstructed from WDC carve-out disclosures outside companyfacts.",
+    "PERIOD/COMPARABILITY MECHANICS: when pulling points, filter on form (10-K vs 10-Q) and use fy/fp plus the frame field to select the right period; 10-Q points are quarterly (or YTD for some duration tags) while 10-K are annual, so YoY derived metrics must compare the SAME fiscal period (use t vs t-4 quarters for quarterly series). Multi-class issuers (GOOGL Class A/B/C, META Class A/B) report dei:EntityCommonStockSharesOutstanding per class via dimensions, so the undimensioned cover-page share count can undercount total shares — sum the class members for an accurate market-cap denominator.",
+    "Field count: 55 raw fields and 26 derived metrics. The raw set is slightly above the 35-55 target because several dimensional breakdowns (segment/geo/product) and dual-reporting opex lines (SG&A split into S&M + G&A for platforms) are retained to support both the semis and the mega-cap-platform peer groups in one schema; all are honestly priced by priority so the app can default to core-only views."
+  ]
+}
