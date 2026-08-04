@@ -14,5 +14,8 @@ data/alerts/
 drafts/
 threads.md
 
-# Claude Code project config (content formula stays private; repo is public)
-.claude/
+# Claude Code project config. Local machine settings stay out; the earnings-post
+# skill ships so a fresh clone can generate posts. Note `.claude/*` + negation:
+# a plain `.claude/` would make the skill un-recoverable by any later rule.
+.claude/*
+!.claude/skills/
