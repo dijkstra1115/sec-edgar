@@ -5049,3 +5049,703 @@ LITE,2026,Q3,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,-3.34375,
 LITE,2026,Q3,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.38816738816738816,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
 LITE,2026,Q3,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,2200000,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
 LITE,2026,Q3,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+PLTR,2023,Q1,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,417541000,USD,revenue - cost_of_revenue,important
+PLTR,2023,Q1,quarterly,gross_margin,Gross Margin %,derived,0.7950345211029997,pure,gross_profit / revenue,core
+PLTR,2023,Q1,quarterly,operating_margin,Operating Margin %,derived,0.007835319296401655,pure,operating_income / revenue,core
+PLTR,2023,Q1,quarterly,net_margin,Net Margin %,derived,0.03199247504693575,pure,net_income / revenue,core
+PLTR,2023,Q1,quarterly,effective_tax_rate,Effective Tax Rate,derived,0.0806931643625192,pure,income_tax_expense / pretax_income,important
+PLTR,2023,Q1,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.17155826697589044,pure,research_development_expense / revenue,core
+PLTR,2023,Q1,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.21842547211844945,pure,stock_based_compensation / revenue,important
+PLTR,2023,Q1,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,0.009053935177251489,pure,capital_expenditures / revenue,important
+PLTR,2023,Q1,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,182621000,USD,net_cash_from_operating_activities - capital_expenditures,core
+PLTR,2023,Q1,quarterly,fcf_margin,FCF Margin %,derived,0.3477263293385581,pure,free_cash_flow / revenue,core
+PLTR,2023,Q1,quarterly,net_working_capital,Net Working Capital,derived,2654734000,USD,total_current_assets - total_current_liabilities,important
+PLTR,2023,Q1,quarterly,total_debt,Total Debt,derived,,USD,short_term_debt + long_term_debt,core
+PLTR,2023,Q1,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+PLTR,2023,Q1,quarterly,tangible_book_value,Tangible Book Value,derived,2690603000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+PLTR,2023,Q1,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+PLTR,2023,Q1,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,,days,(inventory_net / cost_of_revenue) * 365,important
+PLTR,2023,Q1,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,176.5564295316326,days,(accounts_receivable_net / revenue) * 365,optional
+PLTR,2023,Q1,quarterly,roe,Return on Equity,derived,0.006168739740642713,pure,net_income / total_stockholders_equity,important
+PLTR,2023,Q1,quarterly,roa,Return on Assets,derived,0.004561870882926461,pure,net_income / total_assets,optional
+PLTR,2023,Q1,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+PLTR,2023,Q1,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+PLTR,2023,Q1,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+PLTR,2023,Q1,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+PLTR,2023,Q1,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,283951000,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+PLTR,2023,Q1,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+PLTR,2023,Q2,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,426418000,USD,revenue - cost_of_revenue,important
+PLTR,2023,Q2,quarterly,gross_margin,Gross Margin %,derived,0.7995582364709919,pure,gross_profit / revenue,core
+PLTR,2023,Q2,quarterly,operating_margin,Operating Margin %,derived,0.018889328485684875,pure,operating_income / revenue,core
+PLTR,2023,Q2,quarterly,net_margin,Net Margin %,derived,0.05273974015454223,pure,net_income / revenue,core
+PLTR,2023,Q2,quarterly,effective_tax_rate,Effective Tax Rate,derived,0.07226308957161402,pure,income_tax_expense / pretax_income,important
+PLTR,2023,Q2,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.186630090546523,pure,research_development_expense / revenue,core
+PLTR,2023,Q2,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.21413343283638062,pure,stock_based_compensation / revenue,important
+PLTR,2023,Q2,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,,pure,capital_expenditures / revenue,important
+PLTR,2023,Q2,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,,USD,net_cash_from_operating_activities - capital_expenditures,core
+PLTR,2023,Q2,quarterly,fcf_margin,FCF Margin %,derived,,pure,free_cash_flow / revenue,core
+PLTR,2023,Q2,quarterly,net_working_capital,Net Working Capital,derived,2891530000,USD,total_current_assets - total_current_liabilities,important
+PLTR,2023,Q2,quarterly,total_debt,Total Debt,derived,,USD,short_term_debt + long_term_debt,core
+PLTR,2023,Q2,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+PLTR,2023,Q2,quarterly,tangible_book_value,Tangible Book Value,derived,2924753000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+PLTR,2023,Q2,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+PLTR,2023,Q2,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,,days,(inventory_net / cost_of_revenue) * 365,important
+PLTR,2023,Q2,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,257.1658882053263,days,(accounts_receivable_net / revenue) * 365,optional
+PLTR,2023,Q2,quarterly,roe,Return on Equity,derived,0.009516916744995895,pure,net_income / total_stockholders_equity,important
+PLTR,2023,Q2,quarterly,roa,Return on Assets,derived,0.007066616686732337,pure,net_income / total_assets,optional
+PLTR,2023,Q2,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+PLTR,2023,Q2,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+PLTR,2023,Q2,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+PLTR,2023,Q2,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+PLTR,2023,Q2,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,310743000,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+PLTR,2023,Q2,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+PLTR,2023,Q3,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,450237000,USD,revenue - cost_of_revenue,important
+PLTR,2023,Q3,quarterly,gross_margin,Gross Margin %,derived,0.8066464932035495,pure,gross_profit / revenue,core
+PLTR,2023,Q3,quarterly,operating_margin,Operating Margin %,derived,0.07163371010769333,pure,operating_income / revenue,core
+PLTR,2023,Q3,quarterly,net_margin,Net Margin %,derived,0.1281086572105798,pure,net_income / revenue,core
+PLTR,2023,Q3,quarterly,effective_tax_rate,Effective Tax Rate,derived,0.08165664194875515,pure,income_tax_expense / pretax_income,important
+PLTR,2023,Q3,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.18938689513203227,pure,research_development_expense / revenue,core
+PLTR,2023,Q3,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.20492368661976246,pure,stock_based_compensation / revenue,important
+PLTR,2023,Q3,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,,pure,capital_expenditures / revenue,important
+PLTR,2023,Q3,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,,USD,net_cash_from_operating_activities - capital_expenditures,core
+PLTR,2023,Q3,quarterly,fcf_margin,FCF Margin %,derived,,pure,free_cash_flow / revenue,core
+PLTR,2023,Q3,quarterly,net_working_capital,Net Working Capital,derived,3120472000,USD,total_current_assets - total_current_liabilities,important
+PLTR,2023,Q3,quarterly,total_debt,Total Debt,derived,,USD,short_term_debt + long_term_debt,core
+PLTR,2023,Q3,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+PLTR,2023,Q3,quarterly,tangible_book_value,Tangible Book Value,derived,3161703000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+PLTR,2023,Q3,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+PLTR,2023,Q3,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,,days,(inventory_net / cost_of_revenue) * 365,important
+PLTR,2023,Q3,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,281.36818540953385,days,(accounts_receivable_net / revenue) * 365,optional
+PLTR,2023,Q3,quarterly,roe,Return on Equity,derived,0.022415255100681344,pure,net_income / total_stockholders_equity,important
+PLTR,2023,Q3,quarterly,roa,Return on Assets,derived,0.017051726551401875,pure,net_income / total_assets,optional
+PLTR,2023,Q3,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+PLTR,2023,Q3,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+PLTR,2023,Q3,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+PLTR,2023,Q3,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+PLTR,2023,Q3,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,258387000,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+PLTR,2023,Q3,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+PLTR,2023,FY,annual,gross_profit_derived,Gross Profit (derived fallback),derived,1793907000,USD,revenue - cost_of_revenue,important
+PLTR,2023,FY,annual,gross_margin,Gross Margin %,derived,0.8062459887856784,pure,gross_profit / revenue,core
+PLTR,2023,FY,annual,operating_margin,Operating Margin %,derived,0.05391701258240405,pure,operating_income / revenue,core
+PLTR,2023,FY,annual,net_margin,Net Margin %,derived,0.09430286218681068,pure,net_income / revenue,core
+PLTR,2023,FY,annual,effective_tax_rate,Effective Tax Rate,derived,0.08315794357440814,pure,income_tax_expense / pretax_income,important
+PLTR,2023,FY,annual,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.18185250236852654,pure,research_development_expense / revenue,core
+PLTR,2023,FY,annual,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.21388783521167526,pure,stock_based_compensation / revenue,important
+PLTR,2023,FY,annual,capex_intensity,Capex Intensity (Capex / Revenue),derived,0.006792772353587307,pure,capital_expenditures / revenue,important
+PLTR,2023,FY,annual,free_cash_flow,Free Cash Flow (FCF),derived,697069000,USD,net_cash_from_operating_activities - capital_expenditures,core
+PLTR,2023,FY,annual,fcf_margin,FCF Margin %,derived,0.3132877485604572,pure,free_cash_flow / revenue,core
+PLTR,2023,FY,annual,net_working_capital,Net Working Capital,derived,3392600000,USD,total_current_assets - total_current_liabilities,important
+PLTR,2023,FY,annual,total_debt,Total Debt,derived,,USD,short_term_debt + long_term_debt,core
+PLTR,2023,FY,annual,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+PLTR,2023,FY,annual,tangible_book_value,Tangible Book Value,derived,3449659000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+PLTR,2023,FY,annual,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+PLTR,2023,FY,annual,inventory_days,Days Inventory Outstanding (DIO),derived,,days,(inventory_net / cost_of_revenue) * 365,important
+PLTR,2023,FY,annual,days_sales_outstanding,Days Sales Outstanding (DSO),derived,59.84064805043748,days,(accounts_receivable_net / revenue) * 365,optional
+PLTR,2023,FY,annual,roe,Return on Equity,derived,0.060371548650707034,pure,net_income / total_stockholders_equity,important
+PLTR,2023,FY,annual,roa,Return on Assets,derived,0.04639656821285041,pure,net_income / total_assets,optional
+PLTR,2023,FY,annual,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+PLTR,2023,FY,annual,revenue_yoy_growth,Revenue YoY Growth %,derived,,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+PLTR,2023,FY,annual,eps_yoy_growth,Diluted EPS YoY Growth %,derived,,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+PLTR,2023,FY,annual,diluted_share_count_change,YoY Diluted Share Count Change,derived,,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+PLTR,2023,FY,annual,deferred_revenue_total,Total Deferred Revenue,derived,274948000,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+PLTR,2023,FY,annual,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+PLTR,2024,Q1,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,518082000,USD,revenue - cost_of_revenue,important
+PLTR,2024,Q1,quarterly,gross_margin,Gross Margin %,derived,0.8167286210190782,pure,gross_profit / revenue,core
+PLTR,2024,Q1,quarterly,operating_margin,Operating Margin %,derived,0.12750457957744923,pure,operating_income / revenue,core
+PLTR,2024,Q1,quarterly,net_margin,Net Margin %,derived,0.1663624124678011,pure,net_income / revenue,core
+PLTR,2024,Q1,quarterly,effective_tax_rate,Effective Tax Rate,derived,0.042040713111644964,pure,income_tax_expense / pretax_income,important
+PLTR,2024,Q1,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.17347218675217313,pure,research_development_expense / revenue,core
+PLTR,2024,Q1,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.1980820950345084,pure,stock_based_compensation / revenue,important
+PLTR,2024,Q1,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,0.004199653812320877,pure,capital_expenditures / revenue,important
+PLTR,2024,Q1,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,126915000,USD,net_cash_from_operating_activities - capital_expenditures,core
+PLTR,2024,Q1,quarterly,fcf_margin,FCF Margin %,derived,0.2000747235700841,pure,free_cash_flow / revenue,core
+PLTR,2024,Q1,quarterly,net_working_capital,Net Working Capital,derived,3685511000,USD,total_current_assets - total_current_liabilities,important
+PLTR,2024,Q1,quarterly,total_debt,Total Debt,derived,,USD,short_term_debt + long_term_debt,core
+PLTR,2024,Q1,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+PLTR,2024,Q1,quarterly,tangible_book_value,Tangible Book Value,derived,3751734000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+PLTR,2024,Q1,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+PLTR,2024,Q1,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,,days,(inventory_net / cost_of_revenue) * 365,important
+PLTR,2024,Q1,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,280.2132144061998,days,(accounts_receivable_net / revenue) * 365,optional
+PLTR,2024,Q1,quarterly,roe,Return on Equity,derived,0.027953285987835964,pure,net_income / total_stockholders_equity,important
+PLTR,2024,Q1,quarterly,roa,Return on Assets,derived,0.021953040505471203,pure,net_income / total_assets,optional
+PLTR,2024,Q1,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+PLTR,2024,Q1,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,0.20783493847893889,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+PLTR,2024,Q1,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,3.0,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+PLTR,2024,Q1,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.08237791434172492,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+PLTR,2024,Q1,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,257917000,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+PLTR,2024,Q1,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+PLTR,2024,Q2,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,549572000,USD,revenue - cost_of_revenue,important
+PLTR,2024,Q2,quarterly,gross_margin,Gross Margin %,derived,0.8104179999823043,pure,gross_profit / revenue,core
+PLTR,2024,Q2,quarterly,operating_margin,Operating Margin %,derived,0.15533655590193088,pure,operating_income / revenue,core
+PLTR,2024,Q2,quarterly,net_margin,Net Margin %,derived,0.19778686808211945,pure,net_income / revenue,core
+PLTR,2024,Q2,quarterly,effective_tax_rate,Effective Tax Rate,derived,0.036864427851860275,pure,income_tax_expense / pretax_income,important
+PLTR,2024,Q2,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.16041224890655828,pure,research_development_expense / revenue,core
+PLTR,2024,Q2,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.20905012873561862,pure,stock_based_compensation / revenue,important
+PLTR,2024,Q2,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,,pure,capital_expenditures / revenue,important
+PLTR,2024,Q2,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,,USD,net_cash_from_operating_activities - capital_expenditures,core
+PLTR,2024,Q2,quarterly,fcf_margin,FCF Margin %,derived,,pure,free_cash_flow / revenue,core
+PLTR,2024,Q2,quarterly,net_working_capital,Net Working Capital,derived,3966591000,USD,total_current_assets - total_current_liabilities,important
+PLTR,2024,Q2,quarterly,total_debt,Total Debt,derived,,USD,short_term_debt + long_term_debt,core
+PLTR,2024,Q2,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+PLTR,2024,Q2,quarterly,tangible_book_value,Tangible Book Value,derived,4029050000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+PLTR,2024,Q2,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+PLTR,2024,Q2,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,,days,(inventory_net / cost_of_revenue) * 365,important
+PLTR,2024,Q2,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,354.8837471650146,days,(accounts_receivable_net / revenue) * 365,optional
+PLTR,2024,Q2,quarterly,roe,Return on Equity,derived,0.03311324658241749,pure,net_income / total_stockholders_equity,important
+PLTR,2024,Q2,quarterly,roa,Return on Assets,derived,0.025833802013914036,pure,net_income / total_assets,optional
+PLTR,2024,Q2,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+PLTR,2024,Q2,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,0.27154019091834686,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+PLTR,2024,Q2,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,4.999999999999999,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+PLTR,2024,Q2,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.05993490346354835,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+PLTR,2024,Q2,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,294090000,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+PLTR,2024,Q2,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+PLTR,2024,Q3,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,578877000,USD,revenue - cost_of_revenue,important
+PLTR,2024,Q3,quarterly,gross_margin,Gross Margin %,derived,0.797883161777273,pure,gross_profit / revenue,core
+PLTR,2024,Q3,quarterly,operating_margin,Operating Margin %,derived,0.1559441831744579,pure,operating_income / revenue,core
+PLTR,2024,Q3,quarterly,net_margin,Net Margin %,derived,0.19782472061263984,pure,net_income / revenue,core
+PLTR,2024,Q3,quarterly,effective_tax_rate,Effective Tax Rate,derived,0.049691377664651606,pure,income_tax_expense / pretax_income,important
+PLTR,2024,Q3,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.16202950727482232,pure,research_development_expense / revenue,core
+PLTR,2024,Q3,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.1963085583226283,pure,stock_based_compensation / revenue,important
+PLTR,2024,Q3,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,,pure,capital_expenditures / revenue,important
+PLTR,2024,Q3,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,,USD,net_cash_from_operating_activities - capital_expenditures,core
+PLTR,2024,Q3,quarterly,fcf_margin,FCF Margin %,derived,,pure,free_cash_flow / revenue,core
+PLTR,2024,Q3,quarterly,net_working_capital,Net Working Capital,derived,4408506000,USD,total_current_assets - total_current_liabilities,important
+PLTR,2024,Q3,quarterly,total_debt,Total Debt,derived,,USD,short_term_debt + long_term_debt,core
+PLTR,2024,Q3,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+PLTR,2024,Q3,quarterly,tangible_book_value,Tangible Book Value,derived,4478656000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+PLTR,2024,Q3,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+PLTR,2024,Q3,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,,days,(inventory_net / cost_of_revenue) * 365,important
+PLTR,2024,Q3,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,336.11960315141226,days,(accounts_receivable_net / revenue) * 365,optional
+PLTR,2024,Q3,quarterly,roe,Return on Equity,derived,0.031907611652186245,pure,net_income / total_stockholders_equity,important
+PLTR,2024,Q3,quarterly,roa,Return on Assets,derived,0.02488255658668708,pure,net_income / total_assets,optional
+PLTR,2024,Q3,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+PLTR,2024,Q3,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,0.2998375015004685,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+PLTR,2024,Q3,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,1.0,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+PLTR,2024,Q3,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.057614809081527385,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+PLTR,2024,Q3,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,244433000,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+PLTR,2024,Q3,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+PLTR,2024,FY,annual,gross_profit_derived,Gross Profit (derived fallback),derived,2299517000,USD,revenue - cost_of_revenue,important
+PLTR,2024,FY,annual,gross_margin,Gross Margin %,derived,0.8024817248745161,pure,gross_profit / revenue,core
+PLTR,2024,FY,annual,operating_margin,Operating Margin %,derived,0.10832393709036481,pure,operating_income / revenue,core
+PLTR,2024,FY,annual,net_margin,Net Margin %,derived,0.16129431894600152,pure,net_income / revenue,core
+PLTR,2024,FY,annual,effective_tax_rate,Effective Tax Rate,derived,0.04345088547405519,pure,income_tax_expense / pretax_income,important
+PLTR,2024,FY,annual,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.1772384433191055,pure,research_development_expense / revenue,core
+PLTR,2024,FY,annual,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.24136671102181917,pure,stock_based_compensation / revenue,important
+PLTR,2024,FY,annual,capex_intensity,Capex Intensity (Capex / Revenue),derived,0.004408992893753182,pure,capital_expenditures / revenue,important
+PLTR,2024,FY,annual,free_cash_flow,Free Cash Flow (FCF),derived,1141231000,USD,net_cash_from_operating_activities - capital_expenditures,core
+PLTR,2024,FY,annual,fcf_margin,FCF Margin %,derived,0.3982649492742471,pure,free_cash_flow / revenue,core
+PLTR,2024,FY,annual,net_working_capital,Net Working Capital,derived,4938271000,USD,total_current_assets - total_current_liabilities,important
+PLTR,2024,FY,annual,total_debt,Total Debt,derived,,USD,short_term_debt + long_term_debt,core
+PLTR,2024,FY,annual,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+PLTR,2024,FY,annual,tangible_book_value,Tangible Book Value,derived,4985217000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+PLTR,2024,FY,annual,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+PLTR,2024,FY,annual,inventory_days,Days Inventory Outstanding (DIO),derived,,days,(inventory_net / cost_of_revenue) * 365,important
+PLTR,2024,FY,annual,days_sales_outstanding,Days Sales Outstanding (DSO),derived,73.24795228209179,days,(accounts_receivable_net / revenue) * 365,optional
+PLTR,2024,FY,annual,roe,Return on Equity,derived,0.09237749274225382,pure,net_income / total_stockholders_equity,important
+PLTR,2024,FY,annual,roa,Return on Assets,derived,0.0728904676382662,pure,net_income / total_assets,optional
+PLTR,2024,FY,annual,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+PLTR,2024,FY,annual,revenue_yoy_growth,Revenue YoY Growth %,derived,0.2878613688375613,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+PLTR,2024,FY,annual,eps_yoy_growth,Diluted EPS YoY Growth %,derived,1.1111111111111112,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+PLTR,2024,FY,annual,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.0665343154939213,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+PLTR,2024,FY,annual,deferred_revenue_total,Total Deferred Revenue,derived,299509000,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+PLTR,2024,FY,annual,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+PLTR,2025,Q1,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,710885000,USD,revenue - cost_of_revenue,important
+PLTR,2025,Q1,quarterly,gross_margin,Gross Margin %,derived,0.804300479150992,pure,gross_profit / revenue,core
+PLTR,2025,Q1,quarterly,operating_margin,Operating Margin %,derived,0.19918199252139773,pure,operating_income / revenue,core
+PLTR,2025,Q1,quarterly,net_margin,Net Margin %,derived,0.24215623603419112,pure,net_income / revenue,core
+PLTR,2025,Q1,quarterly,effective_tax_rate,Effective Tax Rate,derived,0.025072095147683104,pure,income_tax_expense / pretax_income,important
+PLTR,2025,Q1,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.15261439942071947,pure,research_development_expense / revenue,core
+PLTR,2025,Q1,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.1757516787255828,pure,stock_based_compensation / revenue,important
+PLTR,2025,Q1,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,0.0069966227492066005,pure,capital_expenditures / revenue,important
+PLTR,2025,Q1,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,304079000,USD,net_cash_from_operating_activities - capital_expenditures,core
+PLTR,2025,Q1,quarterly,fcf_margin,FCF Margin %,derived,0.34403720067205595,pure,free_cash_flow / revenue,core
+PLTR,2025,Q1,quarterly,net_working_capital,Net Working Capital,derived,5315156000,USD,total_current_assets - total_current_liabilities,important
+PLTR,2025,Q1,quarterly,total_debt,Total Debt,derived,,USD,short_term_debt + long_term_debt,core
+PLTR,2025,Q1,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+PLTR,2025,Q1,quarterly,tangible_book_value,Tangible Book Value,derived,5407246000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+PLTR,2025,Q1,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+PLTR,2025,Q1,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,,days,(inventory_net / cost_of_revenue) * 365,important
+PLTR,2025,Q1,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,299.48331457082895,days,(accounts_receivable_net / revenue) * 365,optional
+PLTR,2025,Q1,quarterly,roe,Return on Equity,derived,0.03945886502137199,pure,net_income / total_stockholders_equity,important
+PLTR,2025,Q1,quarterly,roa,Return on Assets,derived,0.03176987337086089,pure,net_income / total_assets,optional
+PLTR,2025,Q1,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+PLTR,2025,Q1,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,0.3933502328411667,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+PLTR,2025,Q1,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,1.0,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+PLTR,2025,Q1,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.06362674664087886,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+PLTR,2025,Q1,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,354928000,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+PLTR,2025,Q1,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+PLTR,2025,Q2,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,810763000,USD,revenue - cost_of_revenue,important
+PLTR,2025,Q2,quarterly,gross_margin,Gross Margin %,derived,0.8077766497259631,pure,gross_profit / revenue,core
+PLTR,2025,Q2,quarterly,operating_margin,Operating Margin %,derived,0.26832500246588364,pure,operating_income / revenue,core
+PLTR,2025,Q2,quarterly,net_margin,Net Margin %,derived,0.32552353947456253,pure,net_income / revenue,core
+PLTR,2025,Q2,quarterly,effective_tax_rate,Effective Tax Rate,derived,0.010825847161677223,pure,income_tax_expense / pretax_income,important
+PLTR,2025,Q2,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.1345455849723572,pure,research_development_expense / revenue,core
+PLTR,2025,Q2,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.15938176561253048,pure,stock_based_compensation / revenue,important
+PLTR,2025,Q2,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,,pure,capital_expenditures / revenue,important
+PLTR,2025,Q2,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,,USD,net_cash_from_operating_activities - capital_expenditures,core
+PLTR,2025,Q2,quarterly,fcf_margin,FCF Margin %,derived,,pure,free_cash_flow / revenue,core
+PLTR,2025,Q2,quarterly,net_working_capital,Net Working Capital,derived,5800753000,USD,total_current_assets - total_current_liabilities,important
+PLTR,2025,Q2,quarterly,total_debt,Total Debt,derived,,USD,short_term_debt + long_term_debt,core
+PLTR,2025,Q2,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+PLTR,2025,Q2,quarterly,tangible_book_value,Tangible Book Value,derived,5913141000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+PLTR,2025,Q2,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+PLTR,2025,Q2,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,,days,(inventory_net / cost_of_revenue) * 365,important
+PLTR,2025,Q2,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,271.82671662862396,days,(accounts_receivable_net / revenue) * 365,optional
+PLTR,2025,Q2,quarterly,roe,Return on Equity,derived,0.0551075148665832,pure,net_income / total_stockholders_equity,important
+PLTR,2025,Q2,quarterly,roa,Return on Assets,derived,0.04435797443497471,pure,net_income / total_assets,optional
+PLTR,2025,Q2,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+PLTR,2025,Q2,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,0.48008653157045655,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+PLTR,2025,Q2,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,1.1666666666666667,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+PLTR,2025,Q2,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.061380811497596444,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+PLTR,2025,Q2,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,421422000,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+PLTR,2025,Q2,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+PLTR,2025,Q3,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,973785000,USD,revenue - cost_of_revenue,important
+PLTR,2025,Q3,quarterly,gross_margin,Gross Margin %,derived,0.8244785334249999,pure,gross_profit / revenue,core
+PLTR,2025,Q3,quarterly,operating_margin,Operating Margin %,derived,0.3329596678328191,pure,operating_income / revenue,core
+PLTR,2025,Q3,quarterly,net_margin,Net Margin %,derived,0.4026773528226421,pure,net_income / revenue,core
+PLTR,2025,Q3,quarterly,effective_tax_rate,Effective Tax Rate,derived,0.0078105976886624585,pure,income_tax_expense / pretax_income,important
+PLTR,2025,Q3,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.12208278440629519,pure,research_development_expense / revenue,core
+PLTR,2025,Q3,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.14589718667131774,pure,stock_based_compensation / revenue,important
+PLTR,2025,Q3,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,,pure,capital_expenditures / revenue,important
+PLTR,2025,Q3,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,,USD,net_cash_from_operating_activities - capital_expenditures,core
+PLTR,2025,Q3,quarterly,fcf_margin,FCF Margin %,derived,,pure,free_cash_flow / revenue,core
+PLTR,2025,Q3,quarterly,net_working_capital,Net Working Capital,derived,6405753000,USD,total_current_assets - total_current_liabilities,important
+PLTR,2025,Q3,quarterly,total_debt,Total Debt,derived,,USD,short_term_debt + long_term_debt,core
+PLTR,2025,Q3,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+PLTR,2025,Q3,quarterly,tangible_book_value,Tangible Book Value,derived,6575846000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+PLTR,2025,Q3,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+PLTR,2025,Q3,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,,days,(inventory_net / cost_of_revenue) * 365,important
+PLTR,2025,Q3,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,310.86244763320724,days,(accounts_receivable_net / revenue) * 365,optional
+PLTR,2025,Q3,quarterly,roe,Return on Equity,derived,0.07216479828333604,pure,net_income / total_stockholders_equity,important
+PLTR,2025,Q3,quarterly,roa,Return on Assets,derived,0.058614905668748676,pure,net_income / total_assets,optional
+PLTR,2025,Q3,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+PLTR,2025,Q3,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,0.6279337740311723,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+PLTR,2025,Q3,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,2.0,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+PLTR,2025,Q3,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.04531976683909389,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+PLTR,2025,Q3,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,360623000,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+PLTR,2025,Q3,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+PLTR,2025,FY,annual,gross_profit_derived,Gross Profit (derived fallback),derived,3686269000,USD,revenue - cost_of_revenue,important
+PLTR,2025,FY,annual,gross_margin,Gross Margin %,derived,0.8236651721415028,pure,gross_profit / revenue,core
+PLTR,2025,FY,annual,operating_margin,Operating Margin %,derived,0.3159495165398041,pure,operating_income / revenue,core
+PLTR,2025,FY,annual,net_margin,Net Margin %,derived,0.3630996776634105,pure,net_income / revenue,core
+PLTR,2025,FY,annual,effective_tax_rate,Effective Tax Rate,derived,0.013710895830014818,pure,income_tax_expense / pretax_income,important
+PLTR,2025,FY,annual,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.12460813961334803,pure,research_development_expense / revenue,core
+PLTR,2025,FY,annual,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.15284130341422955,pure,stock_based_compensation / revenue,important
+PLTR,2025,FY,annual,capex_intensity,Capex Intensity (Capex / Revenue),derived,0.007570642121477949,pure,capital_expenditures / revenue,important
+PLTR,2025,FY,annual,free_cash_flow,Free Cash Flow (FCF),derived,2100591000,USD,net_cash_from_operating_activities - capital_expenditures,core
+PLTR,2025,FY,annual,fcf_margin,FCF Margin %,derived,0.4693590314797676,pure,free_cash_flow / revenue,core
+PLTR,2025,FY,annual,net_working_capital,Net Working Capital,derived,7182593000,USD,total_current_assets - total_current_liabilities,important
+PLTR,2025,FY,annual,total_debt,Total Debt,derived,,USD,short_term_debt + long_term_debt,core
+PLTR,2025,FY,annual,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+PLTR,2025,FY,annual,tangible_book_value,Tangible Book Value,derived,7387268000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+PLTR,2025,FY,annual,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+PLTR,2025,FY,annual,inventory_days,Days Inventory Outstanding (DIO),derived,,days,(inventory_net / cost_of_revenue) * 365,important
+PLTR,2025,FY,annual,days_sales_outstanding,Days Sales Outstanding (DSO),derived,84.98677561968125,days,(accounts_receivable_net / revenue) * 365,optional
+PLTR,2025,FY,annual,roe,Return on Equity,derived,0.21997753431985953,pure,net_income / total_stockholders_equity,important
+PLTR,2025,FY,annual,roa,Return on Assets,derived,0.18257993580507464,pure,net_income / total_assets,optional
+PLTR,2025,FY,annual,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+PLTR,2025,FY,annual,revenue_yoy_growth,Revenue YoY Growth %,derived,0.5618339093221548,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+PLTR,2025,FY,annual,eps_yoy_growth,Diluted EPS YoY Growth %,derived,2.3157894736842106,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+PLTR,2025,FY,annual,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.04666972414924331,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+PLTR,2025,FY,annual,deferred_revenue_total,Total Deferred Revenue,derived,455179000,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+PLTR,2025,FY,annual,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+PLTR,2026,Q1,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,1416785000,USD,revenue - cost_of_revenue,important
+PLTR,2026,Q1,quarterly,gross_margin,Gross Margin %,derived,0.8678180527421883,pure,gross_profit / revenue,core
+PLTR,2026,Q1,quarterly,operating_margin,Operating Margin %,derived,0.46184359386322166,pure,operating_income / revenue,core
+PLTR,2026,Q1,quarterly,net_margin,Net Margin %,derived,0.5332206693319728,pure,net_income / revenue,core
+PLTR,2026,Q1,quarterly,effective_tax_rate,Effective Tax Rate,derived,0.013728321260048098,pure,income_tax_expense / pretax_income,important
+PLTR,2026,Q1,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.09860509389109161,pure,research_development_expense / revenue,core
+PLTR,2026,Q1,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.12348039885261576,pure,stock_based_compensation / revenue,important
+PLTR,2026,Q1,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,0.004533307035538162,pure,capital_expenditures / revenue,important
+PLTR,2026,Q1,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,891764000,USD,net_cash_from_operating_activities - capital_expenditures,core
+PLTR,2026,Q1,quarterly,fcf_margin,FCF Margin %,derived,0.5462288900472442,pure,free_cash_flow / revenue,core
+PLTR,2026,Q1,quarterly,net_working_capital,Net Working Capital,derived,8168755000,USD,total_current_assets - total_current_liabilities,important
+PLTR,2026,Q1,quarterly,total_debt,Total Debt,derived,,USD,short_term_debt + long_term_debt,core
+PLTR,2026,Q1,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+PLTR,2026,Q1,quarterly,tangible_book_value,Tangible Book Value,derived,8449663000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+PLTR,2026,Q1,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+PLTR,2026,Q1,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,,days,(inventory_net / cost_of_revenue) * 365,important
+PLTR,2026,Q1,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,314.250252513961,days,(accounts_receivable_net / revenue) * 365,optional
+PLTR,2026,Q1,quarterly,roe,Return on Equity,derived,0.10302505555547008,pure,net_income / total_stockholders_equity,important
+PLTR,2026,Q1,quarterly,roa,Return on Assets,derived,0.0853526208913008,pure,net_income / total_assets,optional
+PLTR,2026,Q1,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+PLTR,2026,Q1,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,0.8471163256416494,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+PLTR,2026,Q1,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,3.25,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+PLTR,2026,Q1,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.007092554189135347,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+PLTR,2026,Q1,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,557996000,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+PLTR,2026,Q1,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+PLTR,2026,Q2,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,1638594000,USD,revenue - cost_of_revenue,important
+PLTR,2026,Q2,quarterly,gross_margin,Gross Margin %,derived,0.8466155919200771,pure,gross_profit / revenue,core
+PLTR,2026,Q2,quarterly,operating_margin,Operating Margin %,derived,0.4712069043908851,pure,operating_income / revenue,core
+PLTR,2026,Q2,quarterly,net_margin,Net Margin %,derived,0.5486487994610078,pure,net_income / revenue,core
+PLTR,2026,Q2,quarterly,effective_tax_rate,Effective Tax Rate,derived,0.014225802126055977,pure,income_tax_expense / pretax_income,important
+PLTR,2026,Q2,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.09946607118499749,pure,research_development_expense / revenue,core
+PLTR,2026,Q2,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.1370260568008498,pure,stock_based_compensation / revenue,important
+PLTR,2026,Q2,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,,pure,capital_expenditures / revenue,important
+PLTR,2026,Q2,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,,USD,net_cash_from_operating_activities - capital_expenditures,core
+PLTR,2026,Q2,quarterly,fcf_margin,FCF Margin %,derived,,pure,free_cash_flow / revenue,core
+PLTR,2026,Q2,quarterly,net_working_capital,Net Working Capital,derived,9563931000,USD,total_current_assets - total_current_liabilities,important
+PLTR,2026,Q2,quarterly,total_debt,Total Debt,derived,,USD,short_term_debt + long_term_debt,core
+PLTR,2026,Q2,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+PLTR,2026,Q2,quarterly,tangible_book_value,Tangible Book Value,derived,9774194000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+PLTR,2026,Q2,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+PLTR,2026,Q2,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,,days,(inventory_net / cost_of_revenue) * 365,important
+PLTR,2026,Q2,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,280.0960829031178,days,(accounts_receivable_net / revenue) * 365,optional
+PLTR,2026,Q2,quarterly,roe,Return on Equity,derived,0.1086422062013502,pure,net_income / total_stockholders_equity,important
+PLTR,2026,Q2,quarterly,roa,Return on Assets,derived,0.09092641869325715,pure,net_income / total_assets,optional
+PLTR,2026,Q2,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+PLTR,2026,Q2,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,0.928334945705726,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+PLTR,2026,Q2,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,2.1538461538461537,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+PLTR,2026,Q2,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.0022560275186975787,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+PLTR,2026,Q2,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,613159000,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+PLTR,2026,Q2,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+INTC,2023,Q1,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,4008000000,USD,revenue - cost_of_revenue,important
+INTC,2023,Q1,quarterly,gross_margin,Gross Margin %,derived,0.3421254801536492,pure,gross_profit / revenue,core
+INTC,2023,Q1,quarterly,operating_margin,Operating Margin %,derived,-0.12530943235168587,pure,operating_income / revenue,core
+INTC,2023,Q1,quarterly,net_margin,Net Margin %,derived,-0.23542466922748612,pure,net_income / revenue,core
+INTC,2023,Q1,quarterly,effective_tax_rate,Effective Tax Rate,derived,-1.390328151986183,pure,income_tax_expense / pretax_income,important
+INTC,2023,Q1,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.35074690567648314,pure,research_development_expense / revenue,core
+INTC,2023,Q1,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.0630815194195476,pure,stock_based_compensation / revenue,important
+INTC,2023,Q1,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,0.6327784891165172,pure,capital_expenditures / revenue,important
+INTC,2023,Q1,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,-9198000000,USD,net_cash_from_operating_activities - capital_expenditures,core
+INTC,2023,Q1,quarterly,fcf_margin,FCF Margin %,derived,-0.7851472471190781,pure,free_cash_flow / revenue,core
+INTC,2023,Q1,quarterly,net_working_capital,Net Working Capital,derived,20921000000,USD,total_current_assets - total_current_liabilities,important
+INTC,2023,Q1,quarterly,total_debt,Total Debt,derived,50273000000,USD,short_term_debt + long_term_debt,core
+INTC,2023,Q1,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+INTC,2023,Q1,quarterly,tangible_book_value,Tangible Book Value,derived,64901000000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+INTC,2023,Q1,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+INTC,2023,Q1,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,615.3425457376411,days,(inventory_net / cost_of_revenue) * 365,important
+INTC,2023,Q1,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,119.85958173282116,days,(accounts_receivable_net / revenue) * 365,optional
+INTC,2023,Q1,quarterly,roe,Return on Equity,derived,-0.028125924188498762,pure,net_income / total_stockholders_equity,important
+INTC,2023,Q1,quarterly,roa,Return on Assets,derived,-0.01488373097035666,pure,net_income / total_assets,optional
+INTC,2023,Q1,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+INTC,2023,Q1,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+INTC,2023,Q1,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+INTC,2023,Q1,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+INTC,2023,Q1,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,0,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+INTC,2023,Q1,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+INTC,2023,Q2,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,4638000000,USD,revenue - cost_of_revenue,important
+INTC,2023,Q2,quarterly,gross_margin,Gross Margin %,derived,0.358174376399722,pure,gross_profit / revenue,core
+INTC,2023,Q2,quarterly,operating_margin,Operating Margin %,derived,-0.07846165727083172,pure,operating_income / revenue,core
+INTC,2023,Q2,quarterly,net_margin,Net Margin %,derived,0.114371766159549,pure,net_income / revenue,core
+INTC,2023,Q2,quarterly,effective_tax_rate,Effective Tax Rate,derived,2.8051470588235294,pure,income_tax_expense / pretax_income,important
+INTC,2023,Q2,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.31508224573326127,pure,research_development_expense / revenue,core
+INTC,2023,Q2,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,,pure,stock_based_compensation / revenue,important
+INTC,2023,Q2,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,,pure,capital_expenditures / revenue,important
+INTC,2023,Q2,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,,USD,net_cash_from_operating_activities - capital_expenditures,core
+INTC,2023,Q2,quarterly,fcf_margin,FCF Margin %,derived,,pure,free_cash_flow / revenue,core
+INTC,2023,Q2,quarterly,net_working_capital,Net Working Capital,derived,16176000000,USD,total_current_assets - total_current_liabilities,important
+INTC,2023,Q2,quarterly,total_debt,Total Debt,derived,49046000000,USD,short_term_debt + long_term_debt,core
+INTC,2023,Q2,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+INTC,2023,Q2,quarterly,tangible_book_value,Tangible Book Value,derived,68253000000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+INTC,2023,Q2,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+INTC,2023,Q2,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,526.3097100228613,days,(inventory_net / cost_of_revenue) * 365,important
+INTC,2023,Q2,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,84.4497644605761,days,(accounts_receivable_net / revenue) * 365,optional
+INTC,2023,Q2,quarterly,roe,Return on Equity,derived,0.01466089866062148,pure,net_income / total_stockholders_equity,important
+INTC,2023,Q2,quarterly,roa,Return on Assets,derived,0.007978279255935226,pure,net_income / total_assets,optional
+INTC,2023,Q2,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+INTC,2023,Q2,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+INTC,2023,Q2,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+INTC,2023,Q2,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+INTC,2023,Q2,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,0,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+INTC,2023,Q2,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+INTC,2023,Q3,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,6018000000,USD,revenue - cost_of_revenue,important
+INTC,2023,Q3,quarterly,gross_margin,Gross Margin %,derived,0.42506003672835146,pure,gross_profit / revenue,core
+INTC,2023,Q3,quarterly,operating_margin,Operating Margin %,derived,-0.0005650515609549371,pure,operating_income / revenue,core
+INTC,2023,Q3,quarterly,net_margin,Net Margin %,derived,0.02097753920045204,pure,net_income / revenue,core
+INTC,2023,Q3,quarterly,effective_tax_rate,Effective Tax Rate,derived,6.961538461538462,pure,income_tax_expense / pretax_income,important
+INTC,2023,Q3,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.27334369261195085,pure,research_development_expense / revenue,core
+INTC,2023,Q3,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,,pure,stock_based_compensation / revenue,important
+INTC,2023,Q3,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,,pure,capital_expenditures / revenue,important
+INTC,2023,Q3,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,,USD,net_cash_from_operating_activities - capital_expenditures,core
+INTC,2023,Q3,quarterly,fcf_margin,FCF Margin %,derived,,pure,free_cash_flow / revenue,core
+INTC,2023,Q3,quarterly,net_working_capital,Net Working Capital,derived,15197000000,USD,total_current_assets - total_current_liabilities,important
+INTC,2023,Q3,quarterly,total_debt,Total Debt,derived,48879000000,USD,short_term_debt + long_term_debt,core
+INTC,2023,Q3,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+INTC,2023,Q3,quarterly,tangible_book_value,Tangible Book Value,derived,69252000000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+INTC,2023,Q3,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+INTC,2023,Q3,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,514.1388206388207,days,(inventory_net / cost_of_revenue) * 365,important
+INTC,2023,Q3,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,73.29389744314169,days,(accounts_receivable_net / revenue) * 365,optional
+INTC,2023,Q3,quarterly,roe,Return on Equity,derived,0.0029171127459165333,pure,net_income / total_stockholders_equity,important
+INTC,2023,Q3,quarterly,roa,Return on Assets,derived,0.0015727849944661269,pure,net_income / total_assets,optional
+INTC,2023,Q3,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+INTC,2023,Q3,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+INTC,2023,Q3,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+INTC,2023,Q3,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+INTC,2023,Q3,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,0,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+INTC,2023,Q3,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+INTC,2023,FY,annual,gross_profit_derived,Gross Profit (derived fallback),derived,21711000000,USD,revenue - cost_of_revenue,important
+INTC,2023,FY,annual,gross_margin,Gross Margin %,derived,0.400365125027661,pure,gross_profit / revenue,core
+INTC,2023,FY,annual,operating_margin,Operating Margin %,derived,0.001714981190528878,pure,operating_income / revenue,core
+INTC,2023,FY,annual,net_margin,Net Margin %,derived,0.031146271298959947,pure,net_income / revenue,core
+INTC,2023,FY,annual,effective_tax_rate,Effective Tax Rate,derived,-1.1981627296587927,pure,income_tax_expense / pretax_income,important
+INTC,2023,FY,annual,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.2958987976691008,pure,research_development_expense / revenue,core
+INTC,2023,FY,annual,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.05954488456148115,pure,stock_based_compensation / revenue,important
+INTC,2023,FY,annual,capex_intensity,Capex Intensity (Capex / Revenue),derived,0.4748469425389098,pure,capital_expenditures / revenue,important
+INTC,2023,FY,annual,free_cash_flow,Free Cash Flow (FCF),derived,-14279000000,USD,net_cash_from_operating_activities - capital_expenditures,core
+INTC,2023,FY,annual,fcf_margin,FCF Margin %,derived,-0.26331415504905215,pure,free_cash_flow / revenue,core
+INTC,2023,FY,annual,net_working_capital,Net Working Capital,derived,15216000000,USD,total_current_assets - total_current_liabilities,important
+INTC,2023,FY,annual,total_debt,Total Debt,derived,49266000000,USD,short_term_debt + long_term_debt,core
+INTC,2023,FY,annual,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+INTC,2023,FY,annual,tangible_book_value,Tangible Book Value,derived,73410000000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+INTC,2023,FY,annual,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+INTC,2023,FY,annual,inventory_days,Days Inventory Outstanding (DIO),derived,124.89943721745549,days,(inventory_net / cost_of_revenue) * 365,important
+INTC,2023,FY,annual,days_sales_outstanding,Days Sales Outstanding (DSO),derived,22.898318211993807,days,(accounts_receivable_net / revenue) * 365,optional
+INTC,2023,FY,annual,roe,Return on Equity,derived,0.01599583293872526,pure,net_income / total_stockholders_equity,important
+INTC,2023,FY,annual,roa,Return on Assets,derived,0.008816528511473493,pure,net_income / total_assets,optional
+INTC,2023,FY,annual,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+INTC,2023,FY,annual,revenue_yoy_growth,Revenue YoY Growth %,derived,,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+INTC,2023,FY,annual,eps_yoy_growth,Diluted EPS YoY Growth %,derived,,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+INTC,2023,FY,annual,diluted_share_count_change,YoY Diluted Share Count Change,derived,,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+INTC,2023,FY,annual,deferred_revenue_total,Total Deferred Revenue,derived,0,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+INTC,2023,FY,annual,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+INTC,2024,Q1,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,5217000000,USD,revenue - cost_of_revenue,important
+INTC,2024,Q1,quarterly,gross_margin,Gross Margin %,derived,0.410012574662056,pure,gross_profit / revenue,core
+INTC,2024,Q1,quarterly,operating_margin,Operating Margin %,derived,-0.08401446086136435,pure,operating_income / revenue,core
+INTC,2024,Q1,quarterly,net_margin,Net Margin %,derived,-0.029943414020748193,pure,net_income / revenue,core
+INTC,2024,Q1,quarterly,effective_tax_rate,Effective Tax Rate,derived,0.39221140472878996,pure,income_tax_expense / pretax_income,important
+INTC,2024,Q1,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.3443885570575291,pure,research_development_expense / revenue,core
+INTC,2024,Q1,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.09265954102483495,pure,stock_based_compensation / revenue,important
+INTC,2024,Q1,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,0.46919207796290474,pure,capital_expenditures / revenue,important
+INTC,2024,Q1,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,-7193000000,USD,net_cash_from_operating_activities - capital_expenditures,core
+INTC,2024,Q1,quarterly,fcf_margin,FCF Margin %,derived,-0.5653096510531279,pure,free_cash_flow / revenue,core
+INTC,2024,Q1,quarterly,net_working_capital,Net Working Capital,derived,15395000000,USD,total_current_assets - total_current_liabilities,important
+INTC,2024,Q1,quarterly,total_debt,Total Debt,derived,52450000000,USD,short_term_debt + long_term_debt,core
+INTC,2024,Q1,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+INTC,2024,Q1,quarterly,tangible_book_value,Tangible Book Value,derived,73858000000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+INTC,2024,Q1,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+INTC,2024,Q1,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,558.8530704675636,days,(inventory_net / cost_of_revenue) * 365,important
+INTC,2024,Q1,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,95.32340458975165,days,(accounts_receivable_net / revenue) * 365,optional
+INTC,2024,Q1,quarterly,roe,Return on Equity,derived,-0.0035952553952421844,pure,net_income / total_stockholders_equity,important
+INTC,2024,Q1,quarterly,roa,Return on Assets,derived,-0.0019768280470910536,pure,net_income / total_assets,optional
+INTC,2024,Q1,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+INTC,2024,Q1,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,0.08612889457959881,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+INTC,2024,Q1,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,-0.8636363636363636,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+INTC,2024,Q1,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.02118440057775639,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+INTC,2024,Q1,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,0,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+INTC,2024,Q1,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+INTC,2024,Q2,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,4547000000,USD,revenue - cost_of_revenue,important
+INTC,2024,Q2,quarterly,gross_margin,Gross Margin %,derived,0.354320891451726,pure,gross_profit / revenue,core
+INTC,2024,Q2,quarterly,operating_margin,Operating Margin %,derived,-0.15304293618016052,pure,operating_income / revenue,core
+INTC,2024,Q2,quarterly,net_margin,Net Margin %,derived,-0.12545780409880777,pure,net_income / revenue,core
+INTC,2024,Q2,quarterly,effective_tax_rate,Effective Tax Rate,derived,0.17465069860279442,pure,income_tax_expense / pretax_income,important
+INTC,2024,Q2,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.3303202680589106,pure,research_development_expense / revenue,core
+INTC,2024,Q2,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,,pure,stock_based_compensation / revenue,important
+INTC,2024,Q2,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,,pure,capital_expenditures / revenue,important
+INTC,2024,Q2,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,,USD,net_cash_from_operating_activities - capital_expenditures,core
+INTC,2024,Q2,quarterly,fcf_margin,FCF Margin %,derived,,pure,free_cash_flow / revenue,core
+INTC,2024,Q2,quarterly,net_working_capital,Net Working Capital,derived,18802000000,USD,total_current_assets - total_current_liabilities,important
+INTC,2024,Q2,quarterly,total_debt,Total Debt,derived,53029000000,USD,short_term_debt + long_term_debt,core
+INTC,2024,Q2,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+INTC,2024,Q2,quarterly,tangible_book_value,Tangible Book Value,derived,83404000000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+INTC,2024,Q2,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+INTC,2024,Q2,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,495.30050687907317,days,(inventory_net / cost_of_revenue) * 365,important
+INTC,2024,Q2,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,89.05283254110496,days,(accounts_receivable_net / revenue) * 365,optional
+INTC,2024,Q2,quarterly,roe,Return on Equity,derived,-0.013972177142906734,pure,net_income / total_stockholders_equity,important
+INTC,2024,Q2,quarterly,roa,Return on Assets,derived,-0.007807764118231857,pure,net_income / total_assets,optional
+INTC,2024,Q2,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+INTC,2024,Q2,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,-0.008958220712024095,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+INTC,2024,Q2,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,-2.085714285714286,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+INTC,2024,Q2,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.016920877025738745,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+INTC,2024,Q2,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,0,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+INTC,2024,Q2,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+INTC,2024,Q3,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,1997000000,USD,revenue - cost_of_revenue,important
+INTC,2024,Q3,quarterly,gross_margin,Gross Margin %,derived,0.15033122553447756,pure,gross_profit / revenue,core
+INTC,2024,Q3,quarterly,operating_margin,Operating Margin %,derived,-0.6817976513098465,pure,operating_income / revenue,core
+INTC,2024,Q3,quarterly,net_margin,Net Margin %,derived,-1.252559470039145,pure,net_income / revenue,core
+INTC,2024,Q3,quarterly,effective_tax_rate,Effective Tax Rate,derived,-0.8697996918335902,pure,income_tax_expense / pretax_income,important
+INTC,2024,Q3,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.30480277024992475,pure,research_development_expense / revenue,core
+INTC,2024,Q3,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,,pure,stock_based_compensation / revenue,important
+INTC,2024,Q3,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,,pure,capital_expenditures / revenue,important
+INTC,2024,Q3,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,,USD,net_cash_from_operating_activities - capital_expenditures,core
+INTC,2024,Q3,quarterly,fcf_margin,FCF Margin %,derived,,pure,free_cash_flow / revenue,core
+INTC,2024,Q3,quarterly,net_working_capital,Net Working Capital,derived,10978000000,USD,total_current_assets - total_current_liabilities,important
+INTC,2024,Q3,quarterly,total_debt,Total Debt,derived,50236000000,USD,short_term_debt + long_term_debt,core
+INTC,2024,Q3,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+INTC,2024,Q3,quarterly,tangible_book_value,Tangible Book Value,derived,70877000000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+INTC,2024,Q3,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+INTC,2024,Q3,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,390.06201825108536,days,(inventory_net / cost_of_revenue) * 365,important
+INTC,2024,Q3,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,85.75466726889492,days,(accounts_receivable_net / revenue) * 365,optional
+INTC,2024,Q3,quarterly,roe,Return on Equity,derived,-0.16717236667604388,pure,net_income / total_stockholders_equity,important
+INTC,2024,Q3,quarterly,roa,Return on Assets,derived,-0.08597100370978909,pure,net_income / total_assets,optional
+INTC,2024,Q3,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+INTC,2024,Q3,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,-0.06173188303432688,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+INTC,2024,Q3,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,-56.428571428571416,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+INTC,2024,Q3,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.014897138803499743,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+INTC,2024,Q3,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,0,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+INTC,2024,Q3,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+INTC,2024,FY,annual,gross_profit_derived,Gross Profit (derived fallback),derived,17345000000,USD,revenue - cost_of_revenue,important
+INTC,2024,FY,annual,gross_margin,Gross Margin %,derived,0.32664168283083184,pure,gross_profit / revenue,core
+INTC,2024,FY,annual,operating_margin,Operating Margin %,derived,-0.2199205288036007,pure,operating_income / revenue,core
+INTC,2024,FY,annual,net_margin,Net Margin %,derived,-0.35321368712453627,pure,net_income / revenue,core
+INTC,2024,FY,annual,effective_tax_rate,Effective Tax Rate,derived,-0.715700267618198,pure,income_tax_expense / pretax_income,important
+INTC,2024,FY,annual,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.31159488521873413,pure,research_development_expense / revenue,core
+INTC,2024,FY,annual,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.06421724637954088,pure,stock_based_compensation / revenue,important
+INTC,2024,FY,annual,capex_intensity,Capex Intensity (Capex / Revenue),derived,0.45091429539933336,pure,capital_expenditures / revenue,important
+INTC,2024,FY,annual,free_cash_flow,Free Cash Flow (FCF),derived,-15656000000,USD,net_cash_from_operating_activities - capital_expenditures,core
+INTC,2024,FY,annual,fcf_margin,FCF Margin %,derived,-0.2948343722340446,pure,free_cash_flow / revenue,core
+INTC,2024,FY,annual,net_working_capital,Net Working Capital,derived,11658000000,USD,total_current_assets - total_current_liabilities,important
+INTC,2024,FY,annual,total_debt,Total Debt,derived,50011000000,USD,short_term_debt + long_term_debt,core
+INTC,2024,FY,annual,net_debt,Net Debt (Net Cash),derived,40914000000,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+INTC,2024,FY,annual,tangible_book_value,Tangible Book Value,derived,70886000000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+INTC,2024,FY,annual,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+INTC,2024,FY,annual,inventory_days,Days Inventory Outstanding (DIO),derived,124.51812283253162,days,(inventory_net / cost_of_revenue) * 365,important
+INTC,2024,FY,annual,days_sales_outstanding,Days Sales Outstanding (DSO),derived,23.906706088397584,days,(accounts_receivable_net / revenue) * 365,optional
+INTC,2024,FY,annual,roe,Return on Equity,derived,-0.18893925657298277,pure,net_income / total_stockholders_equity,important
+INTC,2024,FY,annual,roa,Return on Assets,derived,-0.09545766852431484,pure,net_income / total_assets,optional
+INTC,2024,FY,annual,roic,Return on Invested Capital,derived,-0.14206667795426084,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+INTC,2024,FY,annual,revenue_yoy_growth,Revenue YoY Growth %,derived,-0.020782621523935976,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+INTC,2024,FY,annual,eps_yoy_growth,Diluted EPS YoY Growth %,derived,-11.95,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+INTC,2024,FY,annual,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.01614434947768273,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+INTC,2024,FY,annual,deferred_revenue_total,Total Deferred Revenue,derived,0,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+INTC,2024,FY,annual,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+INTC,2025,Q1,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,4672000000,USD,revenue - cost_of_revenue,important
+INTC,2025,Q1,quarterly,gross_margin,Gross Margin %,derived,0.36883239914739085,pure,gross_profit / revenue,core
+INTC,2025,Q1,quarterly,operating_margin,Operating Margin %,derived,-0.023762532564932503,pure,operating_income / revenue,core
+INTC,2025,Q1,quarterly,net_margin,Net Margin %,derived,-0.06481408383989895,pure,net_income / revenue,core
+INTC,2025,Q1,quarterly,effective_tax_rate,Effective Tax Rate,derived,-0.5136518771331058,pure,income_tax_expense / pretax_income,important
+INTC,2025,Q1,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.28736085892476515,pure,research_development_expense / revenue,core
+INTC,2025,Q1,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.05399857898476356,pure,stock_based_compensation / revenue,important
+INTC,2025,Q1,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,0.40917344280413676,pure,capital_expenditures / revenue,important
+INTC,2025,Q1,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,-4370000000,USD,net_cash_from_operating_activities - capital_expenditures,core
+INTC,2025,Q1,quarterly,fcf_margin,FCF Margin %,derived,-0.34499092129154496,pure,free_cash_flow / revenue,core
+INTC,2025,Q1,quarterly,net_working_capital,Net Working Capital,derived,9960000000,USD,total_current_assets - total_current_liabilities,important
+INTC,2025,Q1,quarterly,total_debt,Total Debt,derived,50151000000,USD,short_term_debt + long_term_debt,core
+INTC,2025,Q1,quarterly,net_debt,Net Debt (Net Cash),derived,,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+INTC,2025,Q1,quarterly,tangible_book_value,Tangible Book Value,derived,71495000000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+INTC,2025,Q1,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+INTC,2025,Q1,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,560.6710444027517,days,(inventory_net / cost_of_revenue) * 365,important
+INTC,2025,Q1,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,88.28925554590668,days,(accounts_receivable_net / revenue) * 365,optional
+INTC,2025,Q1,quarterly,roe,Return on Equity,derived,-0.008230081398612615,pure,net_income / total_stockholders_equity,important
+INTC,2025,Q1,quarterly,roa,Return on Assets,derived,-0.004270658857065574,pure,net_income / total_assets,optional
+INTC,2025,Q1,quarterly,roic,Return on Invested Capital,derived,,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+INTC,2025,Q1,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,-0.004479723357434769,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+INTC,2025,Q1,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,1.1111111111111112,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+INTC,2025,Q1,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.023809523809523725,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+INTC,2025,Q1,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,0,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+INTC,2025,Q1,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+INTC,2025,Q2,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,3542000000,USD,revenue - cost_of_revenue,important
+INTC,2025,Q2,quarterly,gross_margin,Gross Margin %,derived,0.2754491017964072,pure,gross_profit / revenue,core
+INTC,2025,Q2,quarterly,operating_margin,Operating Margin %,derived,-0.246986546387744,pure,operating_income / revenue,core
+INTC,2025,Q2,quarterly,net_margin,Net Margin %,derived,-0.22692277782098141,pure,net_income / revenue,core
+INTC,2025,Q2,quarterly,effective_tax_rate,Effective Tax Rate,derived,-0.09209100758396534,pure,income_tax_expense / pretax_income,important
+INTC,2025,Q2,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.28649195116260984,pure,research_development_expense / revenue,core
+INTC,2025,Q2,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,,pure,stock_based_compensation / revenue,important
+INTC,2025,Q2,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,,pure,capital_expenditures / revenue,important
+INTC,2025,Q2,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,,USD,net_cash_from_operating_activities - capital_expenditures,core
+INTC,2025,Q2,quarterly,fcf_margin,FCF Margin %,derived,,pure,free_cash_flow / revenue,core
+INTC,2025,Q2,quarterly,net_working_capital,Net Working Capital,derived,8409000000,USD,total_current_assets - total_current_liabilities,important
+INTC,2025,Q2,quarterly,total_debt,Total Debt,derived,50757000000,USD,short_term_debt + long_term_debt,core
+INTC,2025,Q2,quarterly,net_debt,Net Debt (Net Cash),derived,40647000000,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+INTC,2025,Q2,quarterly,tangible_book_value,Tangible Book Value,derived,70914000000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+INTC,2025,Q2,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+INTC,2025,Q2,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,445.70194268541377,days,(inventory_net / cost_of_revenue) * 365,important
+INTC,2025,Q2,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,66.98810171864065,days,(accounts_receivable_net / revenue) * 365,optional
+INTC,2025,Q2,quarterly,roe,Return on Equity,derived,-0.029811101008346698,pure,net_income / total_stockholders_equity,important
+INTC,2025,Q2,quarterly,roa,Return on Assets,derived,-0.015156866819031788,pure,net_income / total_assets,optional
+INTC,2025,Q2,quarterly,roic,Return on Invested Capital,derived,-0.024953639575578425,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+INTC,2025,Q2,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,0.0020260266500428583,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+INTC,2025,Q2,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,0.7631578947368421,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+INTC,2025,Q2,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.0239043824701195,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+INTC,2025,Q2,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,0,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+INTC,2025,Q2,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+INTC,2025,Q3,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,5218000000,USD,revenue - cost_of_revenue,important
+INTC,2025,Q3,quarterly,gross_margin,Gross Margin %,derived,0.3821870651138944,pure,gross_profit / revenue,core
+INTC,2025,Q3,quarterly,operating_margin,Operating Margin %,derived,0.05002563539148905,pure,operating_income / revenue,core
+INTC,2025,Q3,quarterly,net_margin,Net Margin %,derived,0.2975902732000293,pure,net_income / revenue,core
+INTC,2025,Q3,quarterly,effective_tax_rate,Effective Tax Rate,derived,0.0664626147791867,pure,income_tax_expense / pretax_income,important
+INTC,2025,Q3,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.23665128543177325,pure,research_development_expense / revenue,core
+INTC,2025,Q3,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,,pure,stock_based_compensation / revenue,important
+INTC,2025,Q3,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,,pure,capital_expenditures / revenue,important
+INTC,2025,Q3,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,,USD,net_cash_from_operating_activities - capital_expenditures,core
+INTC,2025,Q3,quarterly,fcf_margin,FCF Margin %,derived,,pure,free_cash_flow / revenue,core
+INTC,2025,Q3,quarterly,net_working_capital,Net Working Capital,derived,19434000000,USD,total_current_assets - total_current_liabilities,important
+INTC,2025,Q3,quarterly,total_debt,Total Debt,derived,46553000000,USD,short_term_debt + long_term_debt,core
+INTC,2025,Q3,quarterly,net_debt,Net Debt (Net Cash),derived,34840000000,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+INTC,2025,Q3,quarterly,tangible_book_value,Tangible Book Value,derived,79587000000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+INTC,2025,Q3,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+INTC,2025,Q3,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,497.1529342027267,days,(inventory_net / cost_of_revenue) * 365,important
+INTC,2025,Q3,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,85.60243169999268,days,(accounts_receivable_net / revenue) * 365,optional
+INTC,2025,Q3,quarterly,roe,Return on Equity,derived,0.03819470557268557,pure,net_income / total_stockholders_equity,important
+INTC,2025,Q3,quarterly,roa,Return on Assets,derived,0.019866610598785413,pure,net_income / total_assets,optional
+INTC,2025,Q3,quarterly,roic,Return on Invested Capital,derived,0.004496897016008516,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+INTC,2025,Q3,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,0.027777777777777776,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+INTC,2025,Q3,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,-1.231958762886598,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+INTC,2025,Q3,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.05568499534016769,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+INTC,2025,Q3,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,0,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+INTC,2025,Q3,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+INTC,2025,FY,annual,gross_profit_derived,Gross Profit (derived fallback),derived,18375000000,USD,revenue - cost_of_revenue,important
+INTC,2025,FY,annual,gross_margin,Gross Margin %,derived,0.34766238434904356,pure,gross_profit / revenue,core
+INTC,2025,FY,annual,operating_margin,Operating Margin %,derived,-0.04188976973870925,pure,operating_income / revenue,core
+INTC,2025,FY,annual,net_margin,Net Margin %,derived,-0.005051747299112633,pure,net_income / revenue,core
+INTC,2025,FY,annual,effective_tax_rate,Effective Tax Rate,derived,0.98330122029544,pure,income_tax_expense / pretax_income,important
+INTC,2025,FY,annual,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.26060961534823,pure,research_development_expense / revenue,core
+INTC,2025,FY,annual,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.0460522581499631,pure,stock_based_compensation / revenue,important
+INTC,2025,FY,annual,capex_intensity,Capex Intensity (Capex / Revenue),derived,0.2771082057782907,pure,capital_expenditures / revenue,important
+INTC,2025,FY,annual,free_cash_flow,Free Cash Flow (FCF),derived,-4949000000,USD,net_cash_from_operating_activities - capital_expenditures,core
+INTC,2025,FY,annual,fcf_margin,FCF Margin %,derived,-0.0936370688513424,pure,free_cash_flow / revenue,core
+INTC,2025,FY,annual,net_working_capital,Net Working Capital,derived,32113000000,USD,total_current_assets - total_current_liabilities,important
+INTC,2025,FY,annual,total_debt,Total Debt,derived,46585000000,USD,short_term_debt + long_term_debt,core
+INTC,2025,FY,annual,net_debt,Net Debt (Net Cash),derived,31836000000,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+INTC,2025,FY,annual,tangible_book_value,Tangible Book Value,derived,87597000000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+INTC,2025,FY,annual,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+INTC,2025,FY,annual,inventory_days,Days Inventory Outstanding (DIO),derived,122.99350310342828,days,(inventory_net / cost_of_revenue) * 365,important
+INTC,2025,FY,annual,days_sales_outstanding,Days Sales Outstanding (DSO),derived,26.511929313378616,days,(accounts_receivable_net / revenue) * 365,optional
+INTC,2025,FY,annual,roe,Return on Equity,derived,-0.002336346374287939,pure,net_income / total_stockholders_equity,important
+INTC,2025,FY,annual,roa,Return on Assets,derived,-0.0012628352780365986,pure,net_income / total_assets,optional
+INTC,2025,FY,annual,roic,Return on Invested Capital,derived,-0.00025218858170064244,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+INTC,2025,FY,annual,revenue_yoy_growth,Revenue YoY Growth %,derived,-0.004670345191239336,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+INTC,2025,FY,annual,eps_yoy_growth,Diluted EPS YoY Growth %,derived,-0.9863013698630138,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+INTC,2025,FY,annual,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.05841121495327095,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+INTC,2025,FY,annual,deferred_revenue_total,Total Deferred Revenue,derived,0,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+INTC,2025,FY,annual,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+INTC,2026,Q1,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,5347000000,USD,revenue - cost_of_revenue,important
+INTC,2026,Q1,quarterly,gross_margin,Gross Margin %,derived,0.39382779700964865,pure,gross_profit / revenue,core
+INTC,2026,Q1,quarterly,operating_margin,Operating Margin %,derived,-0.23097886130956766,pure,operating_income / revenue,core
+INTC,2026,Q1,quarterly,net_margin,Net Margin %,derived,-0.2745820136996391,pure,net_income / revenue,core
+INTC,2026,Q1,quarterly,effective_tax_rate,Effective Tax Rate,derived,-0.08489609731373543,pure,income_tax_expense / pretax_income,important
+INTC,2026,Q1,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.24858216100758637,pure,research_development_expense / revenue,core
+INTC,2026,Q1,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,0.04573911762539589,pure,stock_based_compensation / revenue,important
+INTC,2026,Q1,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,0.2678058481255064,pure,capital_expenditures / revenue,important
+INTC,2026,Q1,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,-2540000000,USD,net_cash_from_operating_activities - capital_expenditures,core
+INTC,2026,Q1,quarterly,fcf_margin,FCF Margin %,derived,-0.1870810930249687,pure,free_cash_flow / revenue,core
+INTC,2026,Q1,quarterly,net_working_capital,Net Working Capital,derived,35272000000,USD,total_current_assets - total_current_liabilities,important
+INTC,2026,Q1,quarterly,total_debt,Total Debt,derived,45031000000,USD,short_term_debt + long_term_debt,core
+INTC,2026,Q1,quarterly,net_debt,Net Debt (Net Cash),derived,27467000000,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+INTC,2026,Q1,quarterly,tangible_book_value,Tangible Book Value,derived,88207000000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+INTC,2026,Q1,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+INTC,2026,Q1,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,551.0923450789793,days,(inventory_net / cost_of_revenue) * 365,important
+INTC,2026,Q1,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,109.30912572733298,days,(accounts_receivable_net / revenue) * 365,optional
+INTC,2026,Q1,quarterly,roe,Return on Equity,derived,-0.0334667935436379,pure,net_income / total_stockholders_equity,important
+INTC,2026,Q1,quarterly,roa,Return on Assets,derived,-0.018155962051701634,pure,net_income / total_assets,optional
+INTC,2026,Q1,quarterly,roic,Return on Invested Capital,derived,-0.024445200830417697,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+INTC,2026,Q1,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,0.07184021473119129,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+INTC,2026,Q1,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,2.8421052631578947,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+INTC,2026,Q1,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.17038913193644944,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+INTC,2026,Q1,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,0,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+INTC,2026,Q1,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important
+INTC,2026,Q2,quarterly,gross_profit_derived,Gross Profit (derived fallback),derived,6509000000,USD,revenue - cost_of_revenue,important
+INTC,2026,Q2,quarterly,gross_margin,Gross Margin %,derived,0.40358382936507936,pure,gross_profit / revenue,core
+INTC,2026,Q2,quarterly,operating_margin,Operating Margin %,derived,0.11135912698412699,pure,operating_income / revenue,core
+INTC,2026,Q2,quarterly,net_margin,Net Margin %,derived,-0.6840897817460317,pure,net_income / revenue,core
+INTC,2026,Q2,quarterly,effective_tax_rate,Effective Tax Rate,derived,-0.0026804695443201775,pure,income_tax_expense / pretax_income,important
+INTC,2026,Q2,quarterly,rd_intensity,R&D Intensity (R&D / Revenue),derived,0.2088293650793651,pure,research_development_expense / revenue,core
+INTC,2026,Q2,quarterly,sbc_pct_revenue,Stock-Based Comp % of Revenue,derived,,pure,stock_based_compensation / revenue,important
+INTC,2026,Q2,quarterly,capex_intensity,Capex Intensity (Capex / Revenue),derived,,pure,capital_expenditures / revenue,important
+INTC,2026,Q2,quarterly,free_cash_flow,Free Cash Flow (FCF),derived,,USD,net_cash_from_operating_activities - capital_expenditures,core
+INTC,2026,Q2,quarterly,fcf_margin,FCF Margin %,derived,,pure,free_cash_flow / revenue,core
+INTC,2026,Q2,quarterly,net_working_capital,Net Working Capital,derived,21543000000,USD,total_current_assets - total_current_liabilities,important
+INTC,2026,Q2,quarterly,total_debt,Total Debt,derived,50537000000,USD,short_term_debt + long_term_debt,core
+INTC,2026,Q2,quarterly,net_debt,Net Debt (Net Cash),derived,37413000000,USD,total_debt - cash_and_cash_equivalents - short_term_investments,core
+INTC,2026,Q2,quarterly,tangible_book_value,Tangible Book Value,derived,64532000000,USD,total_stockholders_equity - goodwill - intangible_assets_net,optional
+INTC,2026,Q2,quarterly,book_value_per_share,Book Value Per Share,derived,,USD/shares,total_stockholders_equity / shares_outstanding,important
+INTC,2026,Q2,quarterly,inventory_days,Days Inventory Outstanding (DIO),derived,474.0180891984614,days,(inventory_net / cost_of_revenue) * 365,important
+INTC,2026,Q2,quarterly,days_sales_outstanding,Days Sales Outstanding (DSO),derived,91.2726314484127,days,(accounts_receivable_net / revenue) * 365,optional
+INTC,2026,Q2,quarterly,roe,Return on Equity,derived,-0.12603093372324142,pure,net_income / total_stockholders_equity,important
+INTC,2026,Q2,quarterly,roa,Return on Assets,derived,-0.05450036801209253,pure,net_income / total_assets,optional
+INTC,2026,Q2,quarterly,roic,Return on Invested Capital,derived,0.014382924989430126,pure,(operating_income * (1 - effective_tax_rate)) / (total_debt + total_stockholders_equity - cash_and_cash_equivalents),core
+INTC,2026,Q2,quarterly,revenue_yoy_growth,Revenue YoY Growth %,derived,0.2542188350571584,pure,(revenue - revenue_prior_year) / revenue_prior_year,core
+INTC,2026,Q2,quarterly,eps_yoy_growth,Diluted EPS YoY Growth %,derived,2.2238805970149254,pure,(eps_diluted - eps_diluted_prior_year) / eps_diluted_prior_year,important
+INTC,2026,Q2,quarterly,diluted_share_count_change,YoY Diluted Share Count Change,derived,0.16823071641107812,pure,(weighted_avg_shares_diluted / weighted_avg_shares_diluted_prior_year) - 1,optional
+INTC,2026,Q2,quarterly,deferred_revenue_total,Total Deferred Revenue,derived,0,USD,deferred_revenue_current + deferred_revenue_noncurrent,important
+INTC,2026,Q2,quarterly,segment_revenue_mix_pct,Segment Revenue Mix %,derived,,pure,segment_revenue / revenue,important

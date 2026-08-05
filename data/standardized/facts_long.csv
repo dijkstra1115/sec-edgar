@@ -7370,3 +7370,1007 @@ LITE,1633978,2024,FY,annual,debt_issued,Proceeds from Issuance of Debt,cash_flow
 LITE,1633978,2025,Q1,quarterly,debt_issued,Proceeds from Issuance of Debt,cash_flow,76500000,USD,2024-06-30,2024-09-28,10-Q,0001628280-24-046443,ProceedsFromIssuanceOfDebt
 LITE,1633978,2025,FY,annual,debt_issued,Proceeds from Issuance of Debt,cash_flow,76500000,USD,2024-06-30,2025-06-28,10-K,0001628280-25-040830,ProceedsFromIssuanceOfDebt
 LITE,1633978,2026,Q1,quarterly,debt_issued,Proceeds from Issuance of Debt,cash_flow,0,USD,2025-06-29,2025-09-27,10-Q,0001628280-25-049073,ProceedsFromIssuanceOfDebt
+PLTR,1321655,2023,Q1,quarterly,revenue,Total Revenue,income_statement,525186000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,RevenueFromContractWithCustomerExcludingAssessedTax
+PLTR,1321655,2023,Q2,quarterly,revenue,Total Revenue,income_statement,533317000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,RevenueFromContractWithCustomerExcludingAssessedTax
+PLTR,1321655,2023,Q3,quarterly,revenue,Total Revenue,income_statement,558159000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,RevenueFromContractWithCustomerExcludingAssessedTax
+PLTR,1321655,2023,FY,annual,revenue,Total Revenue,income_statement,2225012000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,RevenueFromContractWithCustomerExcludingAssessedTax
+PLTR,1321655,2024,Q1,quarterly,revenue,Total Revenue,income_statement,634338000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,RevenueFromContractWithCustomerExcludingAssessedTax
+PLTR,1321655,2024,Q2,quarterly,revenue,Total Revenue,income_statement,678134000,USD,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,RevenueFromContractWithCustomerExcludingAssessedTax
+PLTR,1321655,2024,Q3,quarterly,revenue,Total Revenue,income_statement,725516000,USD,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,RevenueFromContractWithCustomerExcludingAssessedTax
+PLTR,1321655,2024,FY,annual,revenue,Total Revenue,income_statement,2865507000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,RevenueFromContractWithCustomerExcludingAssessedTax
+PLTR,1321655,2025,Q1,quarterly,revenue,Total Revenue,income_statement,883855000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,RevenueFromContractWithCustomerExcludingAssessedTax
+PLTR,1321655,2025,Q2,quarterly,revenue,Total Revenue,income_statement,1003697000,USD,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,RevenueFromContractWithCustomerExcludingAssessedTax
+PLTR,1321655,2025,Q3,quarterly,revenue,Total Revenue,income_statement,1181092000,USD,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,RevenueFromContractWithCustomerExcludingAssessedTax
+PLTR,1321655,2025,FY,annual,revenue,Total Revenue,income_statement,4475446000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,RevenueFromContractWithCustomerExcludingAssessedTax
+PLTR,1321655,2026,Q1,quarterly,revenue,Total Revenue,income_statement,1632583000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,RevenueFromContractWithCustomerExcludingAssessedTax
+PLTR,1321655,2026,Q2,quarterly,revenue,Total Revenue,income_statement,1935464000,USD,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,RevenueFromContractWithCustomerExcludingAssessedTax
+PLTR,1321655,2023,Q1,quarterly,cost_of_revenue,Cost of Revenue,income_statement,107645000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,CostOfRevenue
+PLTR,1321655,2023,Q2,quarterly,cost_of_revenue,Cost of Revenue,income_statement,106899000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,CostOfRevenue
+PLTR,1321655,2023,Q3,quarterly,cost_of_revenue,Cost of Revenue,income_statement,107922000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,CostOfRevenue
+PLTR,1321655,2023,FY,annual,cost_of_revenue,Cost of Revenue,income_statement,431105000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,CostOfRevenue
+PLTR,1321655,2024,Q1,quarterly,cost_of_revenue,Cost of Revenue,income_statement,116256000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,CostOfRevenue
+PLTR,1321655,2024,Q2,quarterly,cost_of_revenue,Cost of Revenue,income_statement,128562000,USD,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,CostOfRevenue
+PLTR,1321655,2024,Q3,quarterly,cost_of_revenue,Cost of Revenue,income_statement,146639000,USD,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,CostOfRevenue
+PLTR,1321655,2024,FY,annual,cost_of_revenue,Cost of Revenue,income_statement,565990000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,CostOfRevenue
+PLTR,1321655,2025,Q1,quarterly,cost_of_revenue,Cost of Revenue,income_statement,172970000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,CostOfRevenue
+PLTR,1321655,2025,Q2,quarterly,cost_of_revenue,Cost of Revenue,income_statement,192934000,USD,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,CostOfRevenue
+PLTR,1321655,2025,Q3,quarterly,cost_of_revenue,Cost of Revenue,income_statement,207307000,USD,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,CostOfRevenue
+PLTR,1321655,2025,FY,annual,cost_of_revenue,Cost of Revenue,income_statement,789177000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,CostOfRevenue
+PLTR,1321655,2026,Q1,quarterly,cost_of_revenue,Cost of Revenue,income_statement,215798000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,CostOfRevenue
+PLTR,1321655,2026,Q2,quarterly,cost_of_revenue,Cost of Revenue,income_statement,296870000,USD,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,CostOfRevenue
+PLTR,1321655,2023,Q1,quarterly,gross_profit,Gross Profit,income_statement,417541000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,GrossProfit
+PLTR,1321655,2023,Q2,quarterly,gross_profit,Gross Profit,income_statement,426418000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,GrossProfit
+PLTR,1321655,2023,Q3,quarterly,gross_profit,Gross Profit,income_statement,450237000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,GrossProfit
+PLTR,1321655,2023,FY,annual,gross_profit,Gross Profit,income_statement,1793907000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,GrossProfit
+PLTR,1321655,2024,Q1,quarterly,gross_profit,Gross Profit,income_statement,518082000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,GrossProfit
+PLTR,1321655,2024,Q2,quarterly,gross_profit,Gross Profit,income_statement,549572000,USD,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,GrossProfit
+PLTR,1321655,2024,Q3,quarterly,gross_profit,Gross Profit,income_statement,578877000,USD,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,GrossProfit
+PLTR,1321655,2024,FY,annual,gross_profit,Gross Profit,income_statement,2299517000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,GrossProfit
+PLTR,1321655,2025,Q1,quarterly,gross_profit,Gross Profit,income_statement,710885000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,GrossProfit
+PLTR,1321655,2025,Q2,quarterly,gross_profit,Gross Profit,income_statement,810763000,USD,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,GrossProfit
+PLTR,1321655,2025,Q3,quarterly,gross_profit,Gross Profit,income_statement,973785000,USD,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,GrossProfit
+PLTR,1321655,2025,FY,annual,gross_profit,Gross Profit,income_statement,3686269000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,GrossProfit
+PLTR,1321655,2026,Q1,quarterly,gross_profit,Gross Profit,income_statement,1416785000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,GrossProfit
+PLTR,1321655,2026,Q2,quarterly,gross_profit,Gross Profit,income_statement,1638594000,USD,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,GrossProfit
+PLTR,1321655,2023,Q1,quarterly,research_development_expense,Research & Development Expense,income_statement,90100000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,ResearchAndDevelopmentExpense
+PLTR,1321655,2023,Q2,quarterly,research_development_expense,Research & Development Expense,income_statement,99533000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,ResearchAndDevelopmentExpense
+PLTR,1321655,2023,Q3,quarterly,research_development_expense,Research & Development Expense,income_statement,105708000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,ResearchAndDevelopmentExpense
+PLTR,1321655,2023,FY,annual,research_development_expense,Research & Development Expense,income_statement,404624000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,ResearchAndDevelopmentExpense
+PLTR,1321655,2024,Q1,quarterly,research_development_expense,Research & Development Expense,income_statement,110040000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,ResearchAndDevelopmentExpense
+PLTR,1321655,2024,Q2,quarterly,research_development_expense,Research & Development Expense,income_statement,108781000,USD,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,ResearchAndDevelopmentExpense
+PLTR,1321655,2024,Q3,quarterly,research_development_expense,Research & Development Expense,income_statement,117555000,USD,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,ResearchAndDevelopmentExpense
+PLTR,1321655,2024,FY,annual,research_development_expense,Research & Development Expense,income_statement,507878000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,ResearchAndDevelopmentExpense
+PLTR,1321655,2025,Q1,quarterly,research_development_expense,Research & Development Expense,income_statement,134889000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,ResearchAndDevelopmentExpense
+PLTR,1321655,2025,Q2,quarterly,research_development_expense,Research & Development Expense,income_statement,135043000,USD,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,ResearchAndDevelopmentExpense
+PLTR,1321655,2025,Q3,quarterly,research_development_expense,Research & Development Expense,income_statement,144191000,USD,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,ResearchAndDevelopmentExpense
+PLTR,1321655,2025,FY,annual,research_development_expense,Research & Development Expense,income_statement,557677000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,ResearchAndDevelopmentExpense
+PLTR,1321655,2026,Q1,quarterly,research_development_expense,Research & Development Expense,income_statement,160981000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,ResearchAndDevelopmentExpense
+PLTR,1321655,2026,Q2,quarterly,research_development_expense,Research & Development Expense,income_statement,192513000,USD,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,ResearchAndDevelopmentExpense
+PLTR,1321655,2023,Q1,quarterly,sales_marketing_expense,Sales & Marketing Expense,income_statement,187093000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,SellingAndMarketingExpense
+PLTR,1321655,2023,Q2,quarterly,sales_marketing_expense,Sales & Marketing Expense,income_statement,184163000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,SellingAndMarketingExpense
+PLTR,1321655,2023,Q3,quarterly,sales_marketing_expense,Sales & Marketing Expense,income_statement,176373000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,SellingAndMarketingExpense
+PLTR,1321655,2023,FY,annual,sales_marketing_expense,Sales & Marketing Expense,income_statement,744992000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,SellingAndMarketingExpense
+PLTR,1321655,2024,Q1,quarterly,sales_marketing_expense,Sales & Marketing Expense,income_statement,193177000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,SellingAndMarketingExpense
+PLTR,1321655,2024,Q2,quarterly,sales_marketing_expense,Sales & Marketing Expense,income_statement,196809000,USD,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,SellingAndMarketingExpense
+PLTR,1321655,2024,Q3,quarterly,sales_marketing_expense,Sales & Marketing Expense,income_statement,209474000,USD,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,SellingAndMarketingExpense
+PLTR,1321655,2024,FY,annual,sales_marketing_expense,Sales & Marketing Expense,income_statement,887755000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,SellingAndMarketingExpense
+PLTR,1321655,2025,Q1,quarterly,sales_marketing_expense,Sales & Marketing Expense,income_statement,236309000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,SellingAndMarketingExpense
+PLTR,1321655,2025,Q2,quarterly,sales_marketing_expense,Sales & Marketing Expense,income_statement,243788000,USD,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,SellingAndMarketingExpense
+PLTR,1321655,2025,Q3,quarterly,sales_marketing_expense,Sales & Marketing Expense,income_statement,274636000,USD,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,SellingAndMarketingExpense
+PLTR,1321655,2025,FY,annual,sales_marketing_expense,Sales & Marketing Expense,income_statement,1056859000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,SellingAndMarketingExpense
+PLTR,1321655,2026,Q1,quarterly,sales_marketing_expense,Sales & Marketing Expense,income_statement,319220000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,SellingAndMarketingExpense
+PLTR,1321655,2026,Q2,quarterly,sales_marketing_expense,Sales & Marketing Expense,income_statement,339500000,USD,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,SellingAndMarketingExpense
+PLTR,1321655,2023,Q1,quarterly,general_administrative_expense,General & Administrative Expense,income_statement,136233000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,GeneralAndAdministrativeExpense
+PLTR,1321655,2023,Q2,quarterly,general_administrative_expense,General & Administrative Expense,income_statement,132648000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,GeneralAndAdministrativeExpense
+PLTR,1321655,2023,Q3,quarterly,general_administrative_expense,General & Administrative Expense,income_statement,128173000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,GeneralAndAdministrativeExpense
+PLTR,1321655,2023,FY,annual,general_administrative_expense,General & Administrative Expense,income_statement,524325000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,GeneralAndAdministrativeExpense
+PLTR,1321655,2024,Q1,quarterly,general_administrative_expense,General & Administrative Expense,income_statement,133984000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,GeneralAndAdministrativeExpense
+PLTR,1321655,2024,Q2,quarterly,general_administrative_expense,General & Administrative Expense,income_statement,138643000,USD,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,GeneralAndAdministrativeExpense
+PLTR,1321655,2024,Q3,quarterly,general_administrative_expense,General & Administrative Expense,income_statement,138708000,USD,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,GeneralAndAdministrativeExpense
+PLTR,1321655,2024,FY,annual,general_administrative_expense,General & Administrative Expense,income_statement,593481000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,GeneralAndAdministrativeExpense
+PLTR,1321655,2025,Q1,quarterly,general_administrative_expense,General & Administrative Expense,income_statement,163639000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,GeneralAndAdministrativeExpense
+PLTR,1321655,2025,Q2,quarterly,general_administrative_expense,General & Administrative Expense,income_statement,162615000,USD,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,GeneralAndAdministrativeExpense
+PLTR,1321655,2025,Q3,quarterly,general_administrative_expense,General & Administrative Expense,income_statement,161702000,USD,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,GeneralAndAdministrativeExpense
+PLTR,1321655,2025,FY,annual,general_administrative_expense,General & Administrative Expense,income_statement,657718000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,GeneralAndAdministrativeExpense
+PLTR,1321655,2026,Q1,quarterly,general_administrative_expense,General & Administrative Expense,income_statement,182586000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,GeneralAndAdministrativeExpense
+PLTR,1321655,2026,Q2,quarterly,general_administrative_expense,General & Administrative Expense,income_statement,194577000,USD,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,GeneralAndAdministrativeExpense
+PLTR,1321655,2023,Q1,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,413426000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,OperatingExpenses
+PLTR,1321655,2023,Q2,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,416344000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,OperatingExpenses
+PLTR,1321655,2023,Q3,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,410254000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,OperatingExpenses
+PLTR,1321655,2023,FY,annual,total_operating_expenses,Total Operating Expenses,income_statement,1673941000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,OperatingExpenses
+PLTR,1321655,2024,Q1,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,437201000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,OperatingExpenses
+PLTR,1321655,2024,Q2,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,444233000,USD,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,OperatingExpenses
+PLTR,1321655,2024,Q3,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,465737000,USD,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,OperatingExpenses
+PLTR,1321655,2024,FY,annual,total_operating_expenses,Total Operating Expenses,income_statement,1989114000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,OperatingExpenses
+PLTR,1321655,2025,Q1,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,534837000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,OperatingExpenses
+PLTR,1321655,2025,Q2,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,541446000,USD,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,OperatingExpenses
+PLTR,1321655,2025,Q3,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,580529000,USD,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,OperatingExpenses
+PLTR,1321655,2025,FY,annual,total_operating_expenses,Total Operating Expenses,income_statement,2272254000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,OperatingExpenses
+PLTR,1321655,2026,Q1,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,662787000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,OperatingExpenses
+PLTR,1321655,2026,Q2,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,726590000,USD,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,OperatingExpenses
+PLTR,1321655,2023,Q1,quarterly,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,114714000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,ShareBasedCompensation
+PLTR,1321655,2023,FY,annual,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,475903000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,ShareBasedCompensation
+PLTR,1321655,2024,Q1,quarterly,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,125651000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,ShareBasedCompensation
+PLTR,1321655,2024,FY,annual,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,691638000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,ShareBasedCompensation
+PLTR,1321655,2025,Q1,quarterly,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,155339000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,ShareBasedCompensation
+PLTR,1321655,2025,FY,annual,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,684033000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,ShareBasedCompensation
+PLTR,1321655,2026,Q1,quarterly,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,201592000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,ShareBasedCompensation
+PLTR,1321655,2023,Q2,quarterly,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,114201000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,AllocatedShareBasedCompensationExpense
+PLTR,1321655,2023,Q3,quarterly,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,114380000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,AllocatedShareBasedCompensationExpense
+PLTR,1321655,2024,Q2,quarterly,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,141764000,USD,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,AllocatedShareBasedCompensationExpense
+PLTR,1321655,2024,Q3,quarterly,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,142425000,USD,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,AllocatedShareBasedCompensationExpense
+PLTR,1321655,2025,Q2,quarterly,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,159971000,USD,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,AllocatedShareBasedCompensationExpense
+PLTR,1321655,2025,Q3,quarterly,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,172318000,USD,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,AllocatedShareBasedCompensationExpense
+PLTR,1321655,2026,Q2,quarterly,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,265209000,USD,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,AllocatedShareBasedCompensationExpense
+PLTR,1321655,2023,Q1,quarterly,operating_income,Operating Income,income_statement,4115000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,OperatingIncomeLoss
+PLTR,1321655,2023,Q2,quarterly,operating_income,Operating Income,income_statement,10074000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,OperatingIncomeLoss
+PLTR,1321655,2023,Q3,quarterly,operating_income,Operating Income,income_statement,39983000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,OperatingIncomeLoss
+PLTR,1321655,2023,FY,annual,operating_income,Operating Income,income_statement,119966000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,OperatingIncomeLoss
+PLTR,1321655,2024,Q1,quarterly,operating_income,Operating Income,income_statement,80881000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,OperatingIncomeLoss
+PLTR,1321655,2024,Q2,quarterly,operating_income,Operating Income,income_statement,105339000,USD,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,OperatingIncomeLoss
+PLTR,1321655,2024,Q3,quarterly,operating_income,Operating Income,income_statement,113140000,USD,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,OperatingIncomeLoss
+PLTR,1321655,2024,FY,annual,operating_income,Operating Income,income_statement,310403000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,OperatingIncomeLoss
+PLTR,1321655,2025,Q1,quarterly,operating_income,Operating Income,income_statement,176048000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,OperatingIncomeLoss
+PLTR,1321655,2025,Q2,quarterly,operating_income,Operating Income,income_statement,269317000,USD,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,OperatingIncomeLoss
+PLTR,1321655,2025,Q3,quarterly,operating_income,Operating Income,income_statement,393256000,USD,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,OperatingIncomeLoss
+PLTR,1321655,2025,FY,annual,operating_income,Operating Income,income_statement,1414015000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,OperatingIncomeLoss
+PLTR,1321655,2026,Q1,quarterly,operating_income,Operating Income,income_statement,753998000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,OperatingIncomeLoss
+PLTR,1321655,2026,Q2,quarterly,operating_income,Operating Income,income_statement,912004000,USD,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,OperatingIncomeLoss
+PLTR,1321655,2023,Q1,quarterly,interest_expense,Interest Expense,income_statement,1275000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,InterestExpense
+PLTR,1321655,2023,Q2,quarterly,interest_expense,Interest Expense,income_statement,1317000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,InterestExpense
+PLTR,1321655,2023,Q3,quarterly,interest_expense,Interest Expense,income_statement,742000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,InterestExpense
+PLTR,1321655,2023,FY,annual,interest_expense,Interest Expense,income_statement,3470000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,InterestExpense
+PLTR,1321655,2023,Q1,quarterly,interest_investment_income,Interest & Investment Income,income_statement,20853000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,InvestmentIncomeInterest
+PLTR,1321655,2023,Q2,quarterly,interest_investment_income,Interest & Investment Income,income_statement,30310000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,InvestmentIncomeInterest
+PLTR,1321655,2023,Q3,quarterly,interest_investment_income,Interest & Investment Income,income_statement,36864000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,InvestmentIncomeInterest
+PLTR,1321655,2023,FY,annual,interest_investment_income,Interest & Investment Income,income_statement,132572000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,InvestmentIncomeInterest
+PLTR,1321655,2024,Q1,quarterly,interest_investment_income,Interest & Investment Income,income_statement,43352000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,InvestmentIncomeInterest
+PLTR,1321655,2024,Q2,quarterly,interest_investment_income,Interest & Investment Income,income_statement,46593000,USD,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,InvestmentIncomeInterest
+PLTR,1321655,2024,Q3,quarterly,interest_investment_income,Interest & Investment Income,income_statement,52120000,USD,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,InvestmentIncomeInterest
+PLTR,1321655,2024,FY,annual,interest_investment_income,Interest & Investment Income,income_statement,196792000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,InvestmentIncomeInterest
+PLTR,1321655,2025,Q1,quarterly,interest_investment_income,Interest & Investment Income,income_statement,50441000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,InvestmentIncomeInterest
+PLTR,1321655,2025,Q2,quarterly,interest_investment_income,Interest & Investment Income,income_statement,56255000,USD,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,InvestmentIncomeInterest
+PLTR,1321655,2025,Q3,quarterly,interest_investment_income,Interest & Investment Income,income_statement,59762000,USD,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,InvestmentIncomeInterest
+PLTR,1321655,2025,FY,annual,interest_investment_income,Interest & Investment Income,income_statement,229181000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,InvestmentIncomeInterest
+PLTR,1321655,2026,Q1,quarterly,interest_investment_income,Interest & Investment Income,income_statement,66394000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,InvestmentIncomeInterest
+PLTR,1321655,2026,Q2,quarterly,interest_investment_income,Interest & Investment Income,income_statement,77505000,USD,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,InvestmentIncomeInterest
+PLTR,1321655,2023,Q1,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,-2861000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,OtherNonoperatingIncomeExpense
+PLTR,1321655,2023,Q2,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,-9024000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,OtherNonoperatingIncomeExpense
+PLTR,1321655,2023,Q3,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,3864000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,OtherNonoperatingIncomeExpense
+PLTR,1321655,2023,FY,annual,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,-11977000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,OtherNonoperatingIncomeExpense
+PLTR,1321655,2024,Q1,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,-13507000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,OtherNonoperatingIncomeExpense
+PLTR,1321655,2024,Q2,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,-11173000,USD,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,OtherNonoperatingIncomeExpense
+PLTR,1321655,2024,Q3,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,-8110000,USD,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,OtherNonoperatingIncomeExpense
+PLTR,1321655,2024,FY,annual,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,-18022000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,OtherNonoperatingIncomeExpense
+PLTR,1321655,2025,Q1,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,-3173000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,OtherNonoperatingIncomeExpense
+PLTR,1321655,2025,Q2,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,6596000,USD,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,OtherNonoperatingIncomeExpense
+PLTR,1321655,2025,Q3,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,27483000,USD,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,OtherNonoperatingIncomeExpense
+PLTR,1321655,2025,FY,annual,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,14172000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,OtherNonoperatingIncomeExpense
+PLTR,1321655,2026,Q1,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,68209000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,OtherNonoperatingIncomeExpense
+PLTR,1321655,2026,Q2,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,91836000,USD,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,OtherNonoperatingIncomeExpense
+PLTR,1321655,2023,Q1,quarterly,pretax_income,Pretax Income,income_statement,20832000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+PLTR,1321655,2023,Q2,quarterly,pretax_income,Pretax Income,income_statement,30043000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+PLTR,1321655,2023,Q3,quarterly,pretax_income,Pretax Income,income_statement,79969000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+PLTR,1321655,2023,FY,annual,pretax_income,Pretax Income,income_statement,237091000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+PLTR,1321655,2024,Q1,quarterly,pretax_income,Pretax Income,income_statement,110726000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+PLTR,1321655,2024,Q2,quarterly,pretax_income,Pretax Income,income_statement,140759000,USD,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+PLTR,1321655,2024,Q3,quarterly,pretax_income,Pretax Income,income_statement,157150000,USD,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+PLTR,1321655,2024,FY,annual,pretax_income,Pretax Income,income_statement,489173000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+PLTR,1321655,2025,Q1,quarterly,pretax_income,Pretax Income,income_statement,223316000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+PLTR,1321655,2025,Q2,quarterly,pretax_income,Pretax Income,income_statement,332168000,USD,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+PLTR,1321655,2025,Q3,quarterly,pretax_income,Pretax Income,income_statement,480501000,USD,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+PLTR,1321655,2025,FY,annual,pretax_income,Pretax Income,income_statement,1657368000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+PLTR,1321655,2026,Q1,quarterly,pretax_income,Pretax Income,income_statement,888601000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+PLTR,1321655,2026,Q2,quarterly,pretax_income,Pretax Income,income_statement,1081345000,USD,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+PLTR,1321655,2023,Q1,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,1681000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,IncomeTaxExpenseBenefit
+PLTR,1321655,2023,Q2,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,2171000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,IncomeTaxExpenseBenefit
+PLTR,1321655,2023,Q3,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,6530000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,IncomeTaxExpenseBenefit
+PLTR,1321655,2023,FY,annual,income_tax_expense,Income Tax Expense/(Benefit),income_statement,19716000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,IncomeTaxExpenseBenefit
+PLTR,1321655,2024,Q1,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,4655000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,IncomeTaxExpenseBenefit
+PLTR,1321655,2024,Q2,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,5189000,USD,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,IncomeTaxExpenseBenefit
+PLTR,1321655,2024,Q3,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,7809000,USD,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,IncomeTaxExpenseBenefit
+PLTR,1321655,2024,FY,annual,income_tax_expense,Income Tax Expense/(Benefit),income_statement,21255000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,IncomeTaxExpenseBenefit
+PLTR,1321655,2025,Q1,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,5599000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,IncomeTaxExpenseBenefit
+PLTR,1321655,2025,Q2,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,3596000,USD,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,IncomeTaxExpenseBenefit
+PLTR,1321655,2025,Q3,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,3753000,USD,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,IncomeTaxExpenseBenefit
+PLTR,1321655,2025,FY,annual,income_tax_expense,Income Tax Expense/(Benefit),income_statement,22724000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,IncomeTaxExpenseBenefit
+PLTR,1321655,2026,Q1,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,12199000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,IncomeTaxExpenseBenefit
+PLTR,1321655,2026,Q2,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,15383000,USD,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,IncomeTaxExpenseBenefit
+PLTR,1321655,2023,Q1,quarterly,net_income,Net Income,income_statement,16802000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,NetIncomeLoss
+PLTR,1321655,2023,Q2,quarterly,net_income,Net Income,income_statement,28127000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,NetIncomeLoss
+PLTR,1321655,2023,Q3,quarterly,net_income,Net Income,income_statement,71505000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,NetIncomeLoss
+PLTR,1321655,2023,FY,annual,net_income,Net Income,income_statement,209825000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,NetIncomeLoss
+PLTR,1321655,2024,Q1,quarterly,net_income,Net Income,income_statement,105530000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,NetIncomeLoss
+PLTR,1321655,2024,Q2,quarterly,net_income,Net Income,income_statement,134126000,USD,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,NetIncomeLoss
+PLTR,1321655,2024,Q3,quarterly,net_income,Net Income,income_statement,143525000,USD,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,NetIncomeLoss
+PLTR,1321655,2024,FY,annual,net_income,Net Income,income_statement,462190000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,NetIncomeLoss
+PLTR,1321655,2025,Q1,quarterly,net_income,Net Income,income_statement,214031000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,NetIncomeLoss
+PLTR,1321655,2025,Q2,quarterly,net_income,Net Income,income_statement,326727000,USD,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,NetIncomeLoss
+PLTR,1321655,2025,Q3,quarterly,net_income,Net Income,income_statement,475599000,USD,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,NetIncomeLoss
+PLTR,1321655,2025,FY,annual,net_income,Net Income,income_statement,1625033000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,NetIncomeLoss
+PLTR,1321655,2026,Q1,quarterly,net_income,Net Income,income_statement,870527000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,NetIncomeLoss
+PLTR,1321655,2026,Q2,quarterly,net_income,Net Income,income_statement,1061890000,USD,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,NetIncomeLoss
+PLTR,1321655,2023,Q1,quarterly,net_income_available_common,Net Income Available to Common Stockholders,income_statement,16802000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,NetIncomeLossAvailableToCommonStockholdersDiluted
+PLTR,1321655,2023,Q2,quarterly,net_income_available_common,Net Income Available to Common Stockholders,income_statement,28127000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,NetIncomeLossAvailableToCommonStockholdersDiluted
+PLTR,1321655,2023,Q3,quarterly,net_income_available_common,Net Income Available to Common Stockholders,income_statement,71505000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,NetIncomeLossAvailableToCommonStockholdersDiluted
+PLTR,1321655,2023,FY,annual,net_income_available_common,Net Income Available to Common Stockholders,income_statement,209825000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,NetIncomeLossAvailableToCommonStockholdersDiluted
+PLTR,1321655,2024,Q1,quarterly,net_income_available_common,Net Income Available to Common Stockholders,income_statement,105530000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,NetIncomeLossAvailableToCommonStockholdersDiluted
+PLTR,1321655,2024,Q2,quarterly,net_income_available_common,Net Income Available to Common Stockholders,income_statement,134126000,USD,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,NetIncomeLossAvailableToCommonStockholdersDiluted
+PLTR,1321655,2024,Q3,quarterly,net_income_available_common,Net Income Available to Common Stockholders,income_statement,143525000,USD,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,NetIncomeLossAvailableToCommonStockholdersDiluted
+PLTR,1321655,2024,FY,annual,net_income_available_common,Net Income Available to Common Stockholders,income_statement,462190000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,NetIncomeLossAvailableToCommonStockholdersDiluted
+PLTR,1321655,2025,Q1,quarterly,net_income_available_common,Net Income Available to Common Stockholders,income_statement,214031000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,NetIncomeLossAvailableToCommonStockholdersDiluted
+PLTR,1321655,2025,Q2,quarterly,net_income_available_common,Net Income Available to Common Stockholders,income_statement,326727000,USD,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,NetIncomeLossAvailableToCommonStockholdersDiluted
+PLTR,1321655,2025,Q3,quarterly,net_income_available_common,Net Income Available to Common Stockholders,income_statement,475599000,USD,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,NetIncomeLossAvailableToCommonStockholdersDiluted
+PLTR,1321655,2025,FY,annual,net_income_available_common,Net Income Available to Common Stockholders,income_statement,1625033000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,NetIncomeLossAvailableToCommonStockholdersDiluted
+PLTR,1321655,2026,Q1,quarterly,net_income_available_common,Net Income Available to Common Stockholders,income_statement,870527000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,NetIncomeLossAvailableToCommonStockholdersDiluted
+PLTR,1321655,2026,Q2,quarterly,net_income_available_common,Net Income Available to Common Stockholders,income_statement,1061890000,USD,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,NetIncomeLossAvailableToCommonStockholdersDiluted
+PLTR,1321655,2023,Q1,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,0.01,USD/shares,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,EarningsPerShareBasic
+PLTR,1321655,2023,Q2,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,0.01,USD/shares,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,EarningsPerShareBasic
+PLTR,1321655,2023,Q3,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,0.03,USD/shares,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,EarningsPerShareBasic
+PLTR,1321655,2023,FY,annual,eps_basic,Earnings Per Share - Basic,income_statement,0.1,USD/shares,2023-01-01,2023-12-31,10-K,0001321655-24-000022,EarningsPerShareBasic
+PLTR,1321655,2024,Q1,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,0.05,USD/shares,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,EarningsPerShareBasic
+PLTR,1321655,2024,Q2,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,0.06,USD/shares,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,EarningsPerShareBasic
+PLTR,1321655,2024,Q3,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,0.06,USD/shares,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,EarningsPerShareBasic
+PLTR,1321655,2024,FY,annual,eps_basic,Earnings Per Share - Basic,income_statement,0.21,USD/shares,2024-01-01,2024-12-31,10-K,0001321655-25-000022,EarningsPerShareBasic
+PLTR,1321655,2025,Q1,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,0.09,USD/shares,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,EarningsPerShareBasic
+PLTR,1321655,2025,Q2,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,0.14,USD/shares,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,EarningsPerShareBasic
+PLTR,1321655,2025,Q3,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,0.2,USD/shares,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,EarningsPerShareBasic
+PLTR,1321655,2025,FY,annual,eps_basic,Earnings Per Share - Basic,income_statement,0.69,USD/shares,2025-01-01,2025-12-31,10-K,0001321655-26-000011,EarningsPerShareBasic
+PLTR,1321655,2026,Q1,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,0.36,USD/shares,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,EarningsPerShareBasic
+PLTR,1321655,2026,Q2,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,0.44,USD/shares,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,EarningsPerShareBasic
+PLTR,1321655,2023,Q1,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,0.01,USD/shares,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,EarningsPerShareDiluted
+PLTR,1321655,2023,Q2,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,0.01,USD/shares,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,EarningsPerShareDiluted
+PLTR,1321655,2023,Q3,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,0.03,USD/shares,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,EarningsPerShareDiluted
+PLTR,1321655,2023,FY,annual,eps_diluted,Earnings Per Share - Diluted,income_statement,0.09,USD/shares,2023-01-01,2023-12-31,10-K,0001321655-24-000022,EarningsPerShareDiluted
+PLTR,1321655,2024,Q1,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,0.04,USD/shares,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,EarningsPerShareDiluted
+PLTR,1321655,2024,Q2,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,0.06,USD/shares,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,EarningsPerShareDiluted
+PLTR,1321655,2024,Q3,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,0.06,USD/shares,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,EarningsPerShareDiluted
+PLTR,1321655,2024,FY,annual,eps_diluted,Earnings Per Share - Diluted,income_statement,0.19,USD/shares,2024-01-01,2024-12-31,10-K,0001321655-25-000022,EarningsPerShareDiluted
+PLTR,1321655,2025,Q1,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,0.08,USD/shares,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,EarningsPerShareDiluted
+PLTR,1321655,2025,Q2,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,0.13,USD/shares,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,EarningsPerShareDiluted
+PLTR,1321655,2025,Q3,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,0.18,USD/shares,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,EarningsPerShareDiluted
+PLTR,1321655,2025,FY,annual,eps_diluted,Earnings Per Share - Diluted,income_statement,0.63,USD/shares,2025-01-01,2025-12-31,10-K,0001321655-26-000011,EarningsPerShareDiluted
+PLTR,1321655,2026,Q1,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,0.34,USD/shares,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,EarningsPerShareDiluted
+PLTR,1321655,2026,Q2,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,0.41,USD/shares,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,EarningsPerShareDiluted
+PLTR,1321655,2023,Q1,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,2107780000,shares,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,WeightedAverageNumberOfSharesOutstandingBasic
+PLTR,1321655,2023,Q2,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,2131224000,shares,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,WeightedAverageNumberOfSharesOutstandingBasic
+PLTR,1321655,2023,Q3,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,2162530000,shares,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,WeightedAverageNumberOfSharesOutstandingBasic
+PLTR,1321655,2023,FY,annual,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,2147446000,shares,2023-01-01,2023-12-31,10-K,0001321655-24-000022,WeightedAverageNumberOfSharesOutstandingBasic
+PLTR,1321655,2024,Q1,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,2213545000,shares,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,WeightedAverageNumberOfSharesOutstandingBasic
+PLTR,1321655,2024,Q2,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,2231592000,shares,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,WeightedAverageNumberOfSharesOutstandingBasic
+PLTR,1321655,2024,Q3,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,2250032000,shares,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,WeightedAverageNumberOfSharesOutstandingBasic
+PLTR,1321655,2024,FY,annual,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,2250163000,shares,2024-01-01,2024-12-31,10-K,0001321655-25-000022,WeightedAverageNumberOfSharesOutstandingBasic
+PLTR,1321655,2025,Q1,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,2348679000,shares,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,WeightedAverageNumberOfSharesOutstandingBasic
+PLTR,1321655,2025,Q2,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,2365196000,shares,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,WeightedAverageNumberOfSharesOutstandingBasic
+PLTR,1321655,2025,Q3,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,2377167000,shares,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,WeightedAverageNumberOfSharesOutstandingBasic
+PLTR,1321655,2025,FY,annual,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,2369612000,shares,2025-01-01,2025-12-31,10-K,0001321655-26-000011,WeightedAverageNumberOfSharesOutstandingBasic
+PLTR,1321655,2026,Q1,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,2393869000,shares,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,WeightedAverageNumberOfSharesOutstandingBasic
+PLTR,1321655,2026,Q2,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,2399820000,shares,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,WeightedAverageNumberOfSharesOutstandingBasic
+PLTR,1321655,2023,Q1,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,2217439000,shares,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,WeightedAverageNumberOfDilutedSharesOutstanding
+PLTR,1321655,2023,Q2,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,2278155000,shares,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,WeightedAverageNumberOfDilutedSharesOutstanding
+PLTR,1321655,2023,Q3,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,2325600000,shares,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,WeightedAverageNumberOfDilutedSharesOutstanding
+PLTR,1321655,2023,FY,annual,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,2297927000,shares,2023-01-01,2023-12-31,10-K,0001321655-24-000022,WeightedAverageNumberOfDilutedSharesOutstanding
+PLTR,1321655,2024,Q1,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,2400107000,shares,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,WeightedAverageNumberOfDilutedSharesOutstanding
+PLTR,1321655,2024,Q2,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,2414696000,shares,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,WeightedAverageNumberOfDilutedSharesOutstanding
+PLTR,1321655,2024,Q3,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,2459589000,shares,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,WeightedAverageNumberOfDilutedSharesOutstanding
+PLTR,1321655,2024,FY,annual,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,2450818000,shares,2024-01-01,2024-12-31,10-K,0001321655-25-000022,WeightedAverageNumberOfDilutedSharesOutstanding
+PLTR,1321655,2025,Q1,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,2552818000,shares,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,WeightedAverageNumberOfDilutedSharesOutstanding
+PLTR,1321655,2025,Q2,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,2562912000,shares,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,WeightedAverageNumberOfDilutedSharesOutstanding
+PLTR,1321655,2025,Q3,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,2571057000,shares,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,WeightedAverageNumberOfDilutedSharesOutstanding
+PLTR,1321655,2025,FY,annual,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,2565197000,shares,2025-01-01,2025-12-31,10-K,0001321655-26-000011,WeightedAverageNumberOfDilutedSharesOutstanding
+PLTR,1321655,2026,Q1,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,2570924000,shares,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,WeightedAverageNumberOfDilutedSharesOutstanding
+PLTR,1321655,2026,Q2,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,2568694000,shares,2026-04-01,2026-06-30,10-Q,0001321655-26-000041,WeightedAverageNumberOfDilutedSharesOutstanding
+PLTR,1321655,2023,Q1,quarterly,remaining_performance_obligation,Remaining Performance Obligations (Backlog),income_statement,936000000,USD,,2023-03-31,10-Q,0001321655-23-000044,RevenueRemainingPerformanceObligation
+PLTR,1321655,2023,Q2,quarterly,remaining_performance_obligation,Remaining Performance Obligations (Backlog),income_statement,967600000,USD,,2023-06-30,10-Q,0001321655-23-000090,RevenueRemainingPerformanceObligation
+PLTR,1321655,2023,Q3,quarterly,remaining_performance_obligation,Remaining Performance Obligations (Backlog),income_statement,987700000,USD,,2023-09-30,10-Q,0001321655-23-000118,RevenueRemainingPerformanceObligation
+PLTR,1321655,2023,FY,annual,remaining_performance_obligation,Remaining Performance Obligations (Backlog),income_statement,1200000000,USD,,2023-12-31,10-K,0001321655-24-000022,RevenueRemainingPerformanceObligation
+PLTR,1321655,2024,Q1,quarterly,remaining_performance_obligation,Remaining Performance Obligations (Backlog),income_statement,1300000000,USD,,2024-03-31,10-Q,0001321655-24-000071,RevenueRemainingPerformanceObligation
+PLTR,1321655,2024,Q2,quarterly,remaining_performance_obligation,Remaining Performance Obligations (Backlog),income_statement,1400000000,USD,,2024-06-30,10-Q,0001321655-24-000135,RevenueRemainingPerformanceObligation
+PLTR,1321655,2024,Q3,quarterly,remaining_performance_obligation,Remaining Performance Obligations (Backlog),income_statement,1600000000,USD,,2024-09-30,10-Q,0001321655-24-000209,RevenueRemainingPerformanceObligation
+PLTR,1321655,2024,FY,annual,remaining_performance_obligation,Remaining Performance Obligations (Backlog),income_statement,1700000000,USD,,2024-12-31,10-K,0001321655-25-000022,RevenueRemainingPerformanceObligation
+PLTR,1321655,2025,Q1,quarterly,remaining_performance_obligation,Remaining Performance Obligations (Backlog),income_statement,1900000000,USD,,2025-03-31,10-Q,0001321655-25-000066,RevenueRemainingPerformanceObligation
+PLTR,1321655,2025,Q2,quarterly,remaining_performance_obligation,Remaining Performance Obligations (Backlog),income_statement,2400000000,USD,,2025-06-30,10-Q,0001321655-25-000106,RevenueRemainingPerformanceObligation
+PLTR,1321655,2025,Q3,quarterly,remaining_performance_obligation,Remaining Performance Obligations (Backlog),income_statement,2600000000,USD,,2025-09-30,10-Q,0001321655-25-000131,RevenueRemainingPerformanceObligation
+PLTR,1321655,2025,FY,annual,remaining_performance_obligation,Remaining Performance Obligations (Backlog),income_statement,4100000000,USD,,2025-12-31,10-K,0001321655-26-000011,RevenueRemainingPerformanceObligation
+PLTR,1321655,2026,Q1,quarterly,remaining_performance_obligation,Remaining Performance Obligations (Backlog),income_statement,4500000000,USD,,2026-03-31,10-Q,0001321655-26-000028,RevenueRemainingPerformanceObligation
+PLTR,1321655,2026,Q2,quarterly,remaining_performance_obligation,Remaining Performance Obligations (Backlog),income_statement,4900000000,USD,,2026-06-30,10-Q,0001321655-26-000041,RevenueRemainingPerformanceObligation
+PLTR,1321655,2023,Q1,quarterly,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,1264738000,USD,,2023-03-31,10-Q,0001321655-23-000044,CashAndCashEquivalentsAtCarryingValue
+PLTR,1321655,2023,Q2,quarterly,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,1055923000,USD,,2023-06-30,10-Q,0001321655-23-000090,CashAndCashEquivalentsAtCarryingValue
+PLTR,1321655,2023,Q3,quarterly,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,1040310000,USD,,2023-09-30,10-Q,0001321655-23-000118,CashAndCashEquivalentsAtCarryingValue
+PLTR,1321655,2023,FY,annual,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,831047000,USD,,2023-12-31,10-K,0001321655-24-000022,CashAndCashEquivalentsAtCarryingValue
+PLTR,1321655,2024,Q1,quarterly,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,520388000,USD,,2024-03-31,10-Q,0001321655-24-000071,CashAndCashEquivalentsAtCarryingValue
+PLTR,1321655,2024,Q2,quarterly,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,512659000,USD,,2024-06-30,10-Q,0001321655-24-000135,CashAndCashEquivalentsAtCarryingValue
+PLTR,1321655,2024,Q3,quarterly,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,768710000,USD,,2024-09-30,10-Q,0001321655-24-000209,CashAndCashEquivalentsAtCarryingValue
+PLTR,1321655,2024,FY,annual,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,2098524000,USD,,2024-12-31,10-K,0001321655-25-000022,CashAndCashEquivalentsAtCarryingValue
+PLTR,1321655,2025,Q1,quarterly,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,993464000,USD,,2025-03-31,10-Q,0001321655-25-000066,CashAndCashEquivalentsAtCarryingValue
+PLTR,1321655,2025,Q2,quarterly,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,929547000,USD,,2025-06-30,10-Q,0001321655-25-000106,CashAndCashEquivalentsAtCarryingValue
+PLTR,1321655,2025,Q3,quarterly,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,1615967000,USD,,2025-09-30,10-Q,0001321655-25-000131,CashAndCashEquivalentsAtCarryingValue
+PLTR,1321655,2025,FY,annual,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,1423796000,USD,,2025-12-31,10-K,0001321655-26-000011,CashAndCashEquivalentsAtCarryingValue
+PLTR,1321655,2026,Q1,quarterly,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,2291631000,USD,,2026-03-31,10-Q,0001321655-26-000028,CashAndCashEquivalentsAtCarryingValue
+PLTR,1321655,2026,Q2,quarterly,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,2030047000,USD,,2026-06-30,10-Q,0001321655-26-000041,CashAndCashEquivalentsAtCarryingValue
+PLTR,1321655,2023,Q1,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,1639797000,USD,,2023-03-31,10-Q,0001321655-23-000044,MarketableSecuritiesCurrent
+PLTR,1321655,2023,Q2,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,2047329000,USD,,2023-06-30,10-Q,0001321655-23-000090,MarketableSecuritiesCurrent
+PLTR,1321655,2023,Q3,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,2243264000,USD,,2023-09-30,10-Q,0001321655-23-000118,MarketableSecuritiesCurrent
+PLTR,1321655,2023,FY,annual,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,2843132000,USD,,2023-12-31,10-K,0001321655-24-000022,MarketableSecuritiesCurrent
+PLTR,1321655,2024,Q1,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,3347512000,USD,,2024-03-31,10-Q,0001321655-24-000071,MarketableSecuritiesCurrent
+PLTR,1321655,2024,Q2,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,3485800000,USD,,2024-06-30,10-Q,0001321655-24-000135,MarketableSecuritiesCurrent
+PLTR,1321655,2024,Q3,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,3795949000,USD,,2024-09-30,10-Q,0001321655-24-000209,MarketableSecuritiesCurrent
+PLTR,1321655,2024,FY,annual,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,3131463000,USD,,2024-12-31,10-K,0001321655-25-000022,MarketableSecuritiesCurrent
+PLTR,1321655,2025,Q1,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,4437225000,USD,,2025-03-31,10-Q,0001321655-25-000066,MarketableSecuritiesCurrent
+PLTR,1321655,2025,Q2,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,5070875000,USD,,2025-06-30,10-Q,0001321655-25-000106,MarketableSecuritiesCurrent
+PLTR,1321655,2025,Q3,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,4821850000,USD,,2025-09-30,10-Q,0001321655-25-000131,MarketableSecuritiesCurrent
+PLTR,1321655,2025,FY,annual,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,5753247000,USD,,2025-12-31,10-K,0001321655-26-000011,MarketableSecuritiesCurrent
+PLTR,1321655,2026,Q1,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,5734782000,USD,,2026-03-31,10-Q,0001321655-26-000028,MarketableSecuritiesCurrent
+PLTR,1321655,2026,Q2,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,7379052000,USD,,2026-06-30,10-Q,0001321655-26-000041,MarketableSecuritiesCurrent
+PLTR,1321655,2023,Q1,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,254041000,USD,,2023-03-31,10-Q,0001321655-23-000044,AccountsReceivableNetCurrent
+PLTR,1321655,2023,Q2,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,375756000,USD,,2023-06-30,10-Q,0001321655-23-000090,AccountsReceivableNetCurrent
+PLTR,1321655,2023,Q3,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,430269000,USD,,2023-09-30,10-Q,0001321655-23-000118,AccountsReceivableNetCurrent
+PLTR,1321655,2023,FY,annual,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,364784000,USD,,2023-12-31,10-K,0001321655-24-000022,AccountsReceivableNetCurrent
+PLTR,1321655,2024,Q1,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,486986000,USD,,2024-03-31,10-Q,0001321655-24-000071,AccountsReceivableNetCurrent
+PLTR,1321655,2024,Q2,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,659339000,USD,,2024-06-30,10-Q,0001321655-24-000135,AccountsReceivableNetCurrent
+PLTR,1321655,2024,Q3,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,668110000,USD,,2024-09-30,10-Q,0001321655-24-000209,AccountsReceivableNetCurrent
+PLTR,1321655,2024,FY,annual,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,575048000,USD,,2024-12-31,10-K,0001321655-25-000022,AccountsReceivableNetCurrent
+PLTR,1321655,2025,Q1,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,725205000,USD,,2025-03-31,10-Q,0001321655-25-000066,AccountsReceivableNetCurrent
+PLTR,1321655,2025,Q2,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,747484000,USD,,2025-06-30,10-Q,0001321655-25-000106,AccountsReceivableNetCurrent
+PLTR,1321655,2025,Q3,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,1005910000,USD,,2025-09-30,10-Q,0001321655-25-000131,AccountsReceivableNetCurrent
+PLTR,1321655,2025,FY,annual,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,1042065000,USD,,2025-12-31,10-K,0001321655-26-000011,AccountsReceivableNetCurrent
+PLTR,1321655,2026,Q1,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,1405588000,USD,,2026-03-31,10-Q,0001321655-26-000028,AccountsReceivableNetCurrent
+PLTR,1321655,2026,Q2,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,1485249000,USD,,2026-06-30,10-Q,0001321655-26-000041,AccountsReceivableNetCurrent
+PLTR,1321655,2023,Q1,quarterly,total_current_assets,Total Current Assets,balance_sheet,3256147000,USD,,2023-03-31,10-Q,0001321655-23-000044,AssetsCurrent
+PLTR,1321655,2023,Q2,quarterly,total_current_assets,Total Current Assets,balance_sheet,3576914000,USD,,2023-06-30,10-Q,0001321655-23-000090,AssetsCurrent
+PLTR,1321655,2023,Q3,quarterly,total_current_assets,Total Current Assets,balance_sheet,3809397000,USD,,2023-09-30,10-Q,0001321655-23-000118,AssetsCurrent
+PLTR,1321655,2023,FY,annual,total_current_assets,Total Current Assets,balance_sheet,4138618000,USD,,2023-12-31,10-K,0001321655-24-000022,AssetsCurrent
+PLTR,1321655,2024,Q1,quarterly,total_current_assets,Total Current Assets,balance_sheet,4436064000,USD,,2024-03-31,10-Q,0001321655-24-000071,AssetsCurrent
+PLTR,1321655,2024,Q2,quarterly,total_current_assets,Total Current Assets,balance_sheet,4773510000,USD,,2024-06-30,10-Q,0001321655-24-000135,AssetsCurrent
+PLTR,1321655,2024,Q3,quarterly,total_current_assets,Total Current Assets,balance_sheet,5351962000,USD,,2024-09-30,10-Q,0001321655-24-000209,AssetsCurrent
+PLTR,1321655,2024,FY,annual,total_current_assets,Total Current Assets,balance_sheet,5934289000,USD,,2024-12-31,10-K,0001321655-25-000022,AssetsCurrent
+PLTR,1321655,2025,Q1,quarterly,total_current_assets,Total Current Assets,balance_sheet,6282599000,USD,,2025-03-31,10-Q,0001321655-25-000066,AssetsCurrent
+PLTR,1321655,2025,Q2,quarterly,total_current_assets,Total Current Assets,balance_sheet,6890393000,USD,,2025-06-30,10-Q,0001321655-25-000106,AssetsCurrent
+PLTR,1321655,2025,Q3,quarterly,total_current_assets,Total Current Assets,balance_sheet,7586156000,USD,,2025-09-30,10-Q,0001321655-25-000131,AssetsCurrent
+PLTR,1321655,2025,FY,annual,total_current_assets,Total Current Assets,balance_sheet,8358174000,USD,,2025-12-31,10-K,0001321655-26-000011,AssetsCurrent
+PLTR,1321655,2026,Q1,quarterly,total_current_assets,Total Current Assets,balance_sheet,9551704000,USD,,2026-03-31,10-Q,0001321655-26-000028,AssetsCurrent
+PLTR,1321655,2026,Q2,quarterly,total_current_assets,Total Current Assets,balance_sheet,11099513000,USD,,2026-06-30,10-Q,0001321655-26-000041,AssetsCurrent
+PLTR,1321655,2023,Q1,quarterly,property_plant_equipment_net,"Property, Plant & Equipment, Net",balance_sheet,63115000,USD,,2023-03-31,10-Q,0001321655-23-000044,PropertyPlantAndEquipmentNet
+PLTR,1321655,2023,Q2,quarterly,property_plant_equipment_net,"Property, Plant & Equipment, Net",balance_sheet,54097000,USD,,2023-06-30,10-Q,0001321655-23-000090,PropertyPlantAndEquipmentNet
+PLTR,1321655,2023,Q3,quarterly,property_plant_equipment_net,"Property, Plant & Equipment, Net",balance_sheet,50133000,USD,,2023-09-30,10-Q,0001321655-23-000118,PropertyPlantAndEquipmentNet
+PLTR,1321655,2023,FY,annual,property_plant_equipment_net,"Property, Plant & Equipment, Net",balance_sheet,47758000,USD,,2023-12-31,10-K,0001321655-24-000022,PropertyPlantAndEquipmentNet
+PLTR,1321655,2024,Q1,quarterly,property_plant_equipment_net,"Property, Plant & Equipment, Net",balance_sheet,46906000,USD,,2024-03-31,10-Q,0001321655-24-000071,PropertyPlantAndEquipmentNet
+PLTR,1321655,2024,Q2,quarterly,property_plant_equipment_net,"Property, Plant & Equipment, Net",balance_sheet,43483000,USD,,2024-06-30,10-Q,0001321655-24-000135,PropertyPlantAndEquipmentNet
+PLTR,1321655,2024,Q3,quarterly,property_plant_equipment_net,"Property, Plant & Equipment, Net",balance_sheet,40345000,USD,,2024-09-30,10-Q,0001321655-24-000209,PropertyPlantAndEquipmentNet
+PLTR,1321655,2024,FY,annual,property_plant_equipment_net,"Property, Plant & Equipment, Net",balance_sheet,39638000,USD,,2024-12-31,10-K,0001321655-25-000022,PropertyPlantAndEquipmentNet
+PLTR,1321655,2025,Q1,quarterly,property_plant_equipment_net,"Property, Plant & Equipment, Net",balance_sheet,39669000,USD,,2025-03-31,10-Q,0001321655-25-000066,PropertyPlantAndEquipmentNet
+PLTR,1321655,2025,Q2,quarterly,property_plant_equipment_net,"Property, Plant & Equipment, Net",balance_sheet,43523000,USD,,2025-06-30,10-Q,0001321655-25-000106,PropertyPlantAndEquipmentNet
+PLTR,1321655,2025,Q3,quarterly,property_plant_equipment_net,"Property, Plant & Equipment, Net",balance_sheet,45706000,USD,,2025-09-30,10-Q,0001321655-25-000131,PropertyPlantAndEquipmentNet
+PLTR,1321655,2025,FY,annual,property_plant_equipment_net,"Property, Plant & Equipment, Net",balance_sheet,51960000,USD,,2025-12-31,10-K,0001321655-26-000011,PropertyPlantAndEquipmentNet
+PLTR,1321655,2026,Q1,quarterly,property_plant_equipment_net,"Property, Plant & Equipment, Net",balance_sheet,55726000,USD,,2026-03-31,10-Q,0001321655-26-000028,PropertyPlantAndEquipmentNet
+PLTR,1321655,2026,Q2,quarterly,property_plant_equipment_net,"Property, Plant & Equipment, Net",balance_sheet,61403000,USD,,2026-06-30,10-Q,0001321655-26-000041,PropertyPlantAndEquipmentNet
+PLTR,1321655,2023,Q1,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,33130000,USD,,2023-03-31,10-Q,0001321655-23-000044,FiniteLivedIntangibleAssetsNet
+PLTR,1321655,2023,Q2,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,30721000,USD,,2023-06-30,10-Q,0001321655-23-000090,FiniteLivedIntangibleAssetsNet
+PLTR,1321655,2023,Q3,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,28312000,USD,,2023-09-30,10-Q,0001321655-23-000118,FiniteLivedIntangibleAssetsNet
+PLTR,1321655,2023,FY,annual,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,25902000,USD,,2023-12-31,10-K,0001321655-24-000022,FiniteLivedIntangibleAssetsNet
+PLTR,1321655,2024,Q1,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,23493000,USD,,2024-03-31,10-Q,0001321655-24-000071,FiniteLivedIntangibleAssetsNet
+PLTR,1321655,2024,Q2,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,21474000,USD,,2024-06-30,10-Q,0001321655-24-000135,FiniteLivedIntangibleAssetsNet
+PLTR,1321655,2024,Q3,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,19487000,USD,,2024-09-30,10-Q,0001321655-24-000209,FiniteLivedIntangibleAssetsNet
+PLTR,1321655,2024,FY,annual,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,18058000,USD,,2024-12-31,10-K,0001321655-25-000022,FiniteLivedIntangibleAssetsNet
+PLTR,1321655,2025,Q1,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,16909000,USD,,2025-03-31,10-Q,0001321655-25-000066,FiniteLivedIntangibleAssetsNet
+PLTR,1321655,2025,Q2,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,15760000,USD,,2025-06-30,10-Q,0001321655-25-000106,FiniteLivedIntangibleAssetsNet
+PLTR,1321655,2025,Q3,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,14611000,USD,,2025-09-30,10-Q,0001321655-25-000131,FiniteLivedIntangibleAssetsNet
+PLTR,1321655,2023,Q1,quarterly,total_assets,Total Assets,balance_sheet,3683138000,USD,,2023-03-31,10-Q,0001321655-23-000044,Assets
+PLTR,1321655,2023,Q2,quarterly,total_assets,Total Assets,balance_sheet,3980264000,USD,,2023-06-30,10-Q,0001321655-23-000090,Assets
+PLTR,1321655,2023,Q3,quarterly,total_assets,Total Assets,balance_sheet,4193417000,USD,,2023-09-30,10-Q,0001321655-23-000118,Assets
+PLTR,1321655,2023,FY,annual,total_assets,Total Assets,balance_sheet,4522425000,USD,,2023-12-31,10-K,0001321655-24-000022,Assets
+PLTR,1321655,2024,Q1,quarterly,total_assets,Total Assets,balance_sheet,4807079000,USD,,2024-03-31,10-Q,0001321655-24-000071,Assets
+PLTR,1321655,2024,Q2,quarterly,total_assets,Total Assets,balance_sheet,5191880000,USD,,2024-06-30,10-Q,0001321655-24-000135,Assets
+PLTR,1321655,2024,Q3,quarterly,total_assets,Total Assets,balance_sheet,5768097000,USD,,2024-09-30,10-Q,0001321655-24-000209,Assets
+PLTR,1321655,2024,FY,annual,total_assets,Total Assets,balance_sheet,6340884000,USD,,2024-12-31,10-K,0001321655-25-000022,Assets
+PLTR,1321655,2025,Q1,quarterly,total_assets,Total Assets,balance_sheet,6736917000,USD,,2025-03-31,10-Q,0001321655-25-000066,Assets
+PLTR,1321655,2025,Q2,quarterly,total_assets,Total Assets,balance_sheet,7365688000,USD,,2025-06-30,10-Q,0001321655-25-000106,Assets
+PLTR,1321655,2025,Q3,quarterly,total_assets,Total Assets,balance_sheet,8113960000,USD,,2025-09-30,10-Q,0001321655-25-000131,Assets
+PLTR,1321655,2025,FY,annual,total_assets,Total Assets,balance_sheet,8900392000,USD,,2025-12-31,10-K,0001321655-26-000011,Assets
+PLTR,1321655,2026,Q1,quarterly,total_assets,Total Assets,balance_sheet,10199183000,USD,,2026-03-31,10-Q,0001321655-26-000028,Assets
+PLTR,1321655,2026,Q2,quarterly,total_assets,Total Assets,balance_sheet,11678564000,USD,,2026-06-30,10-Q,0001321655-26-000041,Assets
+PLTR,1321655,2023,Q1,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,4530000,USD,,2023-03-31,10-Q,0001321655-23-000044,AccountsPayableCurrent
+PLTR,1321655,2023,Q2,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,4613000,USD,,2023-06-30,10-Q,0001321655-23-000090,AccountsPayableCurrent
+PLTR,1321655,2023,Q3,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,9475000,USD,,2023-09-30,10-Q,0001321655-23-000118,AccountsPayableCurrent
+PLTR,1321655,2023,FY,annual,accounts_payable,Accounts Payable (Current),balance_sheet,12122000,USD,,2023-12-31,10-K,0001321655-24-000022,AccountsPayableCurrent
+PLTR,1321655,2024,Q1,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,35634000,USD,,2024-03-31,10-Q,0001321655-24-000071,AccountsPayableCurrent
+PLTR,1321655,2024,Q2,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,67345000,USD,,2024-06-30,10-Q,0001321655-24-000135,AccountsPayableCurrent
+PLTR,1321655,2024,Q3,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,27021000,USD,,2024-09-30,10-Q,0001321655-24-000209,AccountsPayableCurrent
+PLTR,1321655,2024,FY,annual,accounts_payable,Accounts Payable (Current),balance_sheet,103000,USD,,2024-12-31,10-K,0001321655-25-000022,AccountsPayableCurrent
+PLTR,1321655,2025,Q1,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,2330000,USD,,2025-03-31,10-Q,0001321655-25-000066,AccountsPayableCurrent
+PLTR,1321655,2025,Q2,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,10774000,USD,,2025-06-30,10-Q,0001321655-25-000106,AccountsPayableCurrent
+PLTR,1321655,2025,Q3,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,67503000,USD,,2025-09-30,10-Q,0001321655-25-000131,AccountsPayableCurrent
+PLTR,1321655,2025,FY,annual,accounts_payable,Accounts Payable (Current),balance_sheet,8064000,USD,,2025-12-31,10-K,0001321655-26-000011,AccountsPayableCurrent
+PLTR,1321655,2026,Q1,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,69319000,USD,,2026-03-31,10-Q,0001321655-26-000028,AccountsPayableCurrent
+PLTR,1321655,2026,Q2,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,3102000,USD,,2026-06-30,10-Q,0001321655-26-000041,AccountsPayableCurrent
+PLTR,1321655,2023,Q1,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,601413000,USD,,2023-03-31,10-Q,0001321655-23-000044,LiabilitiesCurrent
+PLTR,1321655,2023,Q2,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,685384000,USD,,2023-06-30,10-Q,0001321655-23-000090,LiabilitiesCurrent
+PLTR,1321655,2023,Q3,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,688925000,USD,,2023-09-30,10-Q,0001321655-23-000118,LiabilitiesCurrent
+PLTR,1321655,2023,FY,annual,total_current_liabilities,Total Current Liabilities,balance_sheet,746018000,USD,,2023-12-31,10-K,0001321655-24-000022,LiabilitiesCurrent
+PLTR,1321655,2024,Q1,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,750553000,USD,,2024-03-31,10-Q,0001321655-24-000071,LiabilitiesCurrent
+PLTR,1321655,2024,Q2,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,806919000,USD,,2024-06-30,10-Q,0001321655-24-000135,LiabilitiesCurrent
+PLTR,1321655,2024,Q3,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,943456000,USD,,2024-09-30,10-Q,0001321655-24-000209,LiabilitiesCurrent
+PLTR,1321655,2024,FY,annual,total_current_liabilities,Total Current Liabilities,balance_sheet,996018000,USD,,2024-12-31,10-K,0001321655-25-000022,LiabilitiesCurrent
+PLTR,1321655,2025,Q1,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,967443000,USD,,2025-03-31,10-Q,0001321655-25-000066,LiabilitiesCurrent
+PLTR,1321655,2025,Q2,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,1089640000,USD,,2025-06-30,10-Q,0001321655-25-000106,LiabilitiesCurrent
+PLTR,1321655,2025,Q3,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,1180403000,USD,,2025-09-30,10-Q,0001321655-25-000131,LiabilitiesCurrent
+PLTR,1321655,2025,FY,annual,total_current_liabilities,Total Current Liabilities,balance_sheet,1175581000,USD,,2025-12-31,10-K,0001321655-26-000011,LiabilitiesCurrent
+PLTR,1321655,2026,Q1,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,1382949000,USD,,2026-03-31,10-Q,0001321655-26-000028,LiabilitiesCurrent
+PLTR,1321655,2026,Q2,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,1535582000,USD,,2026-06-30,10-Q,0001321655-26-000041,LiabilitiesCurrent
+PLTR,1321655,2023,Q1,quarterly,deferred_revenue_current,Deferred / Contract Revenue (Current),balance_sheet,229551000,USD,,2023-03-31,10-Q,0001321655-23-000044,DeferredRevenueCurrent
+PLTR,1321655,2023,Q2,quarterly,deferred_revenue_current,Deferred / Contract Revenue (Current),balance_sheet,260335000,USD,,2023-06-30,10-Q,0001321655-23-000090,DeferredRevenueCurrent
+PLTR,1321655,2023,Q3,quarterly,deferred_revenue_current,Deferred / Contract Revenue (Current),balance_sheet,223507000,USD,,2023-09-30,10-Q,0001321655-23-000118,DeferredRevenueCurrent
+PLTR,1321655,2023,FY,annual,deferred_revenue_current,Deferred / Contract Revenue (Current),balance_sheet,246901000,USD,,2023-12-31,10-K,0001321655-24-000022,DeferredRevenueCurrent
+PLTR,1321655,2024,Q1,quarterly,deferred_revenue_current,Deferred / Contract Revenue (Current),balance_sheet,237195000,USD,,2024-03-31,10-Q,0001321655-24-000071,DeferredRevenueCurrent
+PLTR,1321655,2024,Q2,quarterly,deferred_revenue_current,Deferred / Contract Revenue (Current),balance_sheet,278441000,USD,,2024-06-30,10-Q,0001321655-24-000135,DeferredRevenueCurrent
+PLTR,1321655,2024,Q3,quarterly,deferred_revenue_current,Deferred / Contract Revenue (Current),balance_sheet,236608000,USD,,2024-09-30,10-Q,0001321655-24-000209,DeferredRevenueCurrent
+PLTR,1321655,2024,FY,annual,deferred_revenue_current,Deferred / Contract Revenue (Current),balance_sheet,259624000,USD,,2024-12-31,10-K,0001321655-25-000022,DeferredRevenueCurrent
+PLTR,1321655,2025,Q1,quarterly,deferred_revenue_current,Deferred / Contract Revenue (Current),balance_sheet,318556000,USD,,2025-03-31,10-Q,0001321655-25-000066,DeferredRevenueCurrent
+PLTR,1321655,2025,Q2,quarterly,deferred_revenue_current,Deferred / Contract Revenue (Current),balance_sheet,376784000,USD,,2025-06-30,10-Q,0001321655-25-000106,DeferredRevenueCurrent
+PLTR,1321655,2025,Q3,quarterly,deferred_revenue_current,Deferred / Contract Revenue (Current),balance_sheet,316722000,USD,,2025-09-30,10-Q,0001321655-25-000131,DeferredRevenueCurrent
+PLTR,1321655,2025,FY,annual,deferred_revenue_current,Deferred / Contract Revenue (Current),balance_sheet,408963000,USD,,2025-12-31,10-K,0001321655-26-000011,DeferredRevenueCurrent
+PLTR,1321655,2026,Q1,quarterly,deferred_revenue_current,Deferred / Contract Revenue (Current),balance_sheet,516868000,USD,,2026-03-31,10-Q,0001321655-26-000028,DeferredRevenueCurrent
+PLTR,1321655,2026,Q2,quarterly,deferred_revenue_current,Deferred / Contract Revenue (Current),balance_sheet,579437000,USD,,2026-06-30,10-Q,0001321655-26-000041,DeferredRevenueCurrent
+PLTR,1321655,2023,Q1,quarterly,deferred_revenue_noncurrent,Deferred / Contract Revenue (Non-Current),balance_sheet,54400000,USD,,2023-03-31,10-Q,0001321655-23-000044,DeferredRevenueNoncurrent
+PLTR,1321655,2023,Q2,quarterly,deferred_revenue_noncurrent,Deferred / Contract Revenue (Non-Current),balance_sheet,50408000,USD,,2023-06-30,10-Q,0001321655-23-000090,DeferredRevenueNoncurrent
+PLTR,1321655,2023,Q3,quarterly,deferred_revenue_noncurrent,Deferred / Contract Revenue (Non-Current),balance_sheet,34880000,USD,,2023-09-30,10-Q,0001321655-23-000118,DeferredRevenueNoncurrent
+PLTR,1321655,2023,FY,annual,deferred_revenue_noncurrent,Deferred / Contract Revenue (Non-Current),balance_sheet,28047000,USD,,2023-12-31,10-K,0001321655-24-000022,DeferredRevenueNoncurrent
+PLTR,1321655,2024,Q1,quarterly,deferred_revenue_noncurrent,Deferred / Contract Revenue (Non-Current),balance_sheet,20722000,USD,,2024-03-31,10-Q,0001321655-24-000071,DeferredRevenueNoncurrent
+PLTR,1321655,2024,Q2,quarterly,deferred_revenue_noncurrent,Deferred / Contract Revenue (Non-Current),balance_sheet,15649000,USD,,2024-06-30,10-Q,0001321655-24-000135,DeferredRevenueNoncurrent
+PLTR,1321655,2024,Q3,quarterly,deferred_revenue_noncurrent,Deferred / Contract Revenue (Non-Current),balance_sheet,7825000,USD,,2024-09-30,10-Q,0001321655-24-000209,DeferredRevenueNoncurrent
+PLTR,1321655,2024,FY,annual,deferred_revenue_noncurrent,Deferred / Contract Revenue (Non-Current),balance_sheet,39885000,USD,,2024-12-31,10-K,0001321655-25-000022,DeferredRevenueNoncurrent
+PLTR,1321655,2025,Q1,quarterly,deferred_revenue_noncurrent,Deferred / Contract Revenue (Non-Current),balance_sheet,36372000,USD,,2025-03-31,10-Q,0001321655-25-000066,DeferredRevenueNoncurrent
+PLTR,1321655,2025,Q2,quarterly,deferred_revenue_noncurrent,Deferred / Contract Revenue (Non-Current),balance_sheet,44638000,USD,,2025-06-30,10-Q,0001321655-25-000106,DeferredRevenueNoncurrent
+PLTR,1321655,2025,Q3,quarterly,deferred_revenue_noncurrent,Deferred / Contract Revenue (Non-Current),balance_sheet,43901000,USD,,2025-09-30,10-Q,0001321655-25-000131,DeferredRevenueNoncurrent
+PLTR,1321655,2025,FY,annual,deferred_revenue_noncurrent,Deferred / Contract Revenue (Non-Current),balance_sheet,46216000,USD,,2025-12-31,10-K,0001321655-26-000011,DeferredRevenueNoncurrent
+PLTR,1321655,2026,Q1,quarterly,deferred_revenue_noncurrent,Deferred / Contract Revenue (Non-Current),balance_sheet,41128000,USD,,2026-03-31,10-Q,0001321655-26-000028,DeferredRevenueNoncurrent
+PLTR,1321655,2026,Q2,quarterly,deferred_revenue_noncurrent,Deferred / Contract Revenue (Non-Current),balance_sheet,33722000,USD,,2026-06-30,10-Q,0001321655-26-000041,DeferredRevenueNoncurrent
+PLTR,1321655,2023,Q1,quarterly,total_liabilities,Total Liabilities,balance_sheet,879945000,USD,,2023-03-31,10-Q,0001321655-23-000044,Liabilities
+PLTR,1321655,2023,Q2,quarterly,total_liabilities,Total Liabilities,balance_sheet,945126000,USD,,2023-06-30,10-Q,0001321655-23-000090,Liabilities
+PLTR,1321655,2023,Q3,quarterly,total_liabilities,Total Liabilities,balance_sheet,921520000,USD,,2023-09-30,10-Q,0001321655-23-000118,Liabilities
+PLTR,1321655,2023,FY,annual,total_liabilities,Total Liabilities,balance_sheet,961460000,USD,,2023-12-31,10-K,0001321655-24-000022,Liabilities
+PLTR,1321655,2024,Q1,quarterly,total_liabilities,Total Liabilities,balance_sheet,945907000,USD,,2024-03-31,10-Q,0001321655-24-000071,Liabilities
+PLTR,1321655,2024,Q2,quarterly,total_liabilities,Total Liabilities,balance_sheet,1054074000,USD,,2024-06-30,10-Q,0001321655-24-000135,Liabilities
+PLTR,1321655,2024,Q3,quarterly,total_liabilities,Total Liabilities,balance_sheet,1176735000,USD,,2024-09-30,10-Q,0001321655-24-000209,Liabilities
+PLTR,1321655,2024,FY,annual,total_liabilities,Total Liabilities,balance_sheet,1246477000,USD,,2024-12-31,10-K,0001321655-25-000022,Liabilities
+PLTR,1321655,2025,Q1,quarterly,total_liabilities,Total Liabilities,balance_sheet,1217944000,USD,,2025-03-31,10-Q,0001321655-25-000066,Liabilities
+PLTR,1321655,2025,Q2,quarterly,total_liabilities,Total Liabilities,balance_sheet,1340124000,USD,,2025-06-30,10-Q,0001321655-25-000106,Liabilities
+PLTR,1321655,2025,Q3,quarterly,total_liabilities,Total Liabilities,balance_sheet,1425691000,USD,,2025-09-30,10-Q,0001321655-25-000131,Liabilities
+PLTR,1321655,2025,FY,annual,total_liabilities,Total Liabilities,balance_sheet,1412381000,USD,,2025-12-31,10-K,0001321655-26-000011,Liabilities
+PLTR,1321655,2026,Q1,quarterly,total_liabilities,Total Liabilities,balance_sheet,1642902000,USD,,2026-03-31,10-Q,0001321655-26-000028,Liabilities
+PLTR,1321655,2026,Q2,quarterly,total_liabilities,Total Liabilities,balance_sheet,1793680000,USD,,2026-06-30,10-Q,0001321655-26-000041,Liabilities
+PLTR,1321655,2023,Q1,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,2723733000,USD,,2023-03-31,10-Q,0001321655-23-000044,StockholdersEquity
+PLTR,1321655,2023,Q2,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,2955474000,USD,,2023-06-30,10-Q,0001321655-23-000090,StockholdersEquity
+PLTR,1321655,2023,Q3,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,3190015000,USD,,2023-09-30,10-Q,0001321655-23-000118,StockholdersEquity
+PLTR,1321655,2023,FY,annual,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,3475561000,USD,,2023-12-31,10-K,0001321655-24-000022,StockholdersEquity
+PLTR,1321655,2024,Q1,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,3775227000,USD,,2024-03-31,10-Q,0001321655-24-000071,StockholdersEquity
+PLTR,1321655,2024,Q2,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,4050524000,USD,,2024-06-30,10-Q,0001321655-24-000135,StockholdersEquity
+PLTR,1321655,2024,Q3,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,4498143000,USD,,2024-09-30,10-Q,0001321655-24-000209,StockholdersEquity
+PLTR,1321655,2024,FY,annual,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,5003275000,USD,,2024-12-31,10-K,0001321655-25-000022,StockholdersEquity
+PLTR,1321655,2025,Q1,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,5424155000,USD,,2025-03-31,10-Q,0001321655-25-000066,StockholdersEquity
+PLTR,1321655,2025,Q2,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,5928901000,USD,,2025-06-30,10-Q,0001321655-25-000106,StockholdersEquity
+PLTR,1321655,2025,Q3,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,6590457000,USD,,2025-09-30,10-Q,0001321655-25-000131,StockholdersEquity
+PLTR,1321655,2025,FY,annual,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,7387268000,USD,,2025-12-31,10-K,0001321655-26-000011,StockholdersEquity
+PLTR,1321655,2026,Q1,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,8449663000,USD,,2026-03-31,10-Q,0001321655-26-000028,StockholdersEquity
+PLTR,1321655,2026,Q2,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,9774194000,USD,,2026-06-30,10-Q,0001321655-26-000041,StockholdersEquity
+PLTR,1321655,2023,Q1,quarterly,net_cash_from_operating_activities,Cash Flow from Operations (CFO),cash_flow,187376000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,NetCashProvidedByUsedInOperatingActivities
+PLTR,1321655,2023,FY,annual,net_cash_from_operating_activities,Cash Flow from Operations (CFO),cash_flow,712183000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,NetCashProvidedByUsedInOperatingActivities
+PLTR,1321655,2024,Q1,quarterly,net_cash_from_operating_activities,Cash Flow from Operations (CFO),cash_flow,129579000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,NetCashProvidedByUsedInOperatingActivities
+PLTR,1321655,2024,FY,annual,net_cash_from_operating_activities,Cash Flow from Operations (CFO),cash_flow,1153865000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,NetCashProvidedByUsedInOperatingActivities
+PLTR,1321655,2025,Q1,quarterly,net_cash_from_operating_activities,Cash Flow from Operations (CFO),cash_flow,310263000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,NetCashProvidedByUsedInOperatingActivities
+PLTR,1321655,2025,FY,annual,net_cash_from_operating_activities,Cash Flow from Operations (CFO),cash_flow,2134473000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,NetCashProvidedByUsedInOperatingActivities
+PLTR,1321655,2026,Q1,quarterly,net_cash_from_operating_activities,Cash Flow from Operations (CFO),cash_flow,899165000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,NetCashProvidedByUsedInOperatingActivities
+PLTR,1321655,2023,Q1,quarterly,capital_expenditures,Capital Expenditures (Capex),cash_flow,4755000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,PaymentsToAcquirePropertyPlantAndEquipment
+PLTR,1321655,2023,FY,annual,capital_expenditures,Capital Expenditures (Capex),cash_flow,15114000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,PaymentsToAcquirePropertyPlantAndEquipment
+PLTR,1321655,2024,Q1,quarterly,capital_expenditures,Capital Expenditures (Capex),cash_flow,2664000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,PaymentsToAcquirePropertyPlantAndEquipment
+PLTR,1321655,2024,FY,annual,capital_expenditures,Capital Expenditures (Capex),cash_flow,12634000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,PaymentsToAcquirePropertyPlantAndEquipment
+PLTR,1321655,2025,Q1,quarterly,capital_expenditures,Capital Expenditures (Capex),cash_flow,6184000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,PaymentsToAcquirePropertyPlantAndEquipment
+PLTR,1321655,2025,FY,annual,capital_expenditures,Capital Expenditures (Capex),cash_flow,33882000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,PaymentsToAcquirePropertyPlantAndEquipment
+PLTR,1321655,2026,Q1,quarterly,capital_expenditures,Capital Expenditures (Capex),cash_flow,7401000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,PaymentsToAcquirePropertyPlantAndEquipment
+PLTR,1321655,2023,Q1,quarterly,net_cash_from_investing_activities,Cash Flow from Investing (CFI),cash_flow,-1554591000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,NetCashProvidedByUsedInInvestingActivities
+PLTR,1321655,2023,FY,annual,net_cash_from_investing_activities,Cash Flow from Investing (CFI),cash_flow,-2711180000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,NetCashProvidedByUsedInInvestingActivities
+PLTR,1321655,2024,Q1,quarterly,net_cash_from_investing_activities,Cash Flow from Investing (CFI),cash_flow,-511245000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,NetCashProvidedByUsedInInvestingActivities
+PLTR,1321655,2024,FY,annual,net_cash_from_investing_activities,Cash Flow from Investing (CFI),cash_flow,-340655000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,NetCashProvidedByUsedInInvestingActivities
+PLTR,1321655,2025,Q1,quarterly,net_cash_from_investing_activities,Cash Flow from Investing (CFI),cash_flow,-1390277000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,NetCashProvidedByUsedInInvestingActivities
+PLTR,1321655,2025,FY,annual,net_cash_from_investing_activities,Cash Flow from Investing (CFI),cash_flow,-2783551000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,NetCashProvidedByUsedInInvestingActivities
+PLTR,1321655,2026,Q1,quarterly,net_cash_from_investing_activities,Cash Flow from Investing (CFI),cash_flow,-26724000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,NetCashProvidedByUsedInInvestingActivities
+PLTR,1321655,2023,Q1,quarterly,net_cash_from_financing_activities,Cash Flow from Financing (CFF),cash_flow,25983000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,NetCashProvidedByUsedInFinancingActivities
+PLTR,1321655,2023,FY,annual,net_cash_from_financing_activities,Cash Flow from Financing (CFF),cash_flow,218839000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,NetCashProvidedByUsedInFinancingActivities
+PLTR,1321655,2024,Q1,quarterly,net_cash_from_financing_activities,Cash Flow from Financing (CFF),cash_flow,75248000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,NetCashProvidedByUsedInFinancingActivities
+PLTR,1321655,2024,FY,annual,net_cash_from_financing_activities,Cash Flow from Financing (CFF),cash_flow,463364000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,NetCashProvidedByUsedInFinancingActivities
+PLTR,1321655,2025,Q1,quarterly,net_cash_from_financing_activities,Cash Flow from Financing (CFF),cash_flow,-28897000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,NetCashProvidedByUsedInFinancingActivities
+PLTR,1321655,2025,FY,annual,net_cash_from_financing_activities,Cash Flow from Financing (CFF),cash_flow,-26910000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,NetCashProvidedByUsedInFinancingActivities
+PLTR,1321655,2026,Q1,quarterly,net_cash_from_financing_activities,Cash Flow from Financing (CFF),cash_flow,3397000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,NetCashProvidedByUsedInFinancingActivities
+PLTR,1321655,2023,Q1,quarterly,share_repurchases,Share Repurchases (Buybacks),cash_flow,0,USD,2023-01-01,2023-03-31,10-Q,0001321655-24-000071,PaymentsForRepurchaseOfCommonStock
+PLTR,1321655,2023,FY,annual,share_repurchases,Share Repurchases (Buybacks),cash_flow,0,USD,2023-01-01,2023-12-31,10-K,0001321655-25-000022,PaymentsForRepurchaseOfCommonStock
+PLTR,1321655,2024,Q1,quarterly,share_repurchases,Share Repurchases (Buybacks),cash_flow,9000000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,PaymentsForRepurchaseOfCommonStock
+PLTR,1321655,2024,FY,annual,share_repurchases,Share Repurchases (Buybacks),cash_flow,64196000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,PaymentsForRepurchaseOfCommonStock
+PLTR,1321655,2025,Q1,quarterly,share_repurchases,Share Repurchases (Buybacks),cash_flow,17998000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,PaymentsForRepurchaseOfCommonStock
+PLTR,1321655,2025,FY,annual,share_repurchases,Share Repurchases (Buybacks),cash_flow,74985000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,PaymentsForRepurchaseOfCommonStock
+PLTR,1321655,2023,Q1,quarterly,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,8320000,USD,2023-01-01,2023-03-31,10-Q,0001321655-23-000044,DepreciationDepletionAndAmortization
+PLTR,1321655,2023,FY,annual,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,33354000,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,DepreciationDepletionAndAmortization
+PLTR,1321655,2024,Q1,quarterly,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,8438000,USD,2024-01-01,2024-03-31,10-Q,0001321655-24-000071,DepreciationDepletionAndAmortization
+PLTR,1321655,2024,FY,annual,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,31587000,USD,2024-01-01,2024-12-31,10-K,0001321655-25-000022,DepreciationDepletionAndAmortization
+PLTR,1321655,2025,Q1,quarterly,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,6622000,USD,2025-01-01,2025-03-31,10-Q,0001321655-25-000066,DepreciationDepletionAndAmortization
+PLTR,1321655,2025,FY,annual,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,26145000,USD,2025-01-01,2025-12-31,10-K,0001321655-26-000011,DepreciationDepletionAndAmortization
+PLTR,1321655,2026,Q1,quarterly,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,6765000,USD,2026-01-01,2026-03-31,10-Q,0001321655-26-000028,DepreciationDepletionAndAmortization
+PLTR,1321655,2023,Q2,quarterly,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,6000000,USD,2023-04-01,2023-06-30,10-Q,0001321655-23-000090,Depreciation
+PLTR,1321655,2023,Q3,quarterly,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,6300000,USD,2023-07-01,2023-09-30,10-Q,0001321655-23-000118,Depreciation
+PLTR,1321655,2024,Q2,quarterly,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,6000000,USD,2024-04-01,2024-06-30,10-Q,0001321655-24-000135,Depreciation
+PLTR,1321655,2024,Q3,quarterly,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,6100000,USD,2024-07-01,2024-09-30,10-Q,0001321655-24-000209,Depreciation
+PLTR,1321655,2025,Q2,quarterly,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,5400000,USD,2025-04-01,2025-06-30,10-Q,0001321655-25-000106,Depreciation
+PLTR,1321655,2025,Q3,quarterly,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,4800000,USD,2025-07-01,2025-09-30,10-Q,0001321655-25-000131,Depreciation
+PLTR,1321655,2023,FY,annual,acquisitions_net_of_cash,"Acquisitions, Net of Cash Acquired",cash_flow,0,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,PaymentsToAcquireBusinessesNetOfCashAcquired
+PLTR,1321655,2023,FY,annual,debt_repaid,Repayments of Debt,cash_flow,0,USD,2023-01-01,2023-12-31,10-K,0001321655-24-000022,RepaymentsOfDebt
+INTC,50863,2023,Q1,quarterly,revenue,Total Revenue,income_statement,11715000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,RevenueFromContractWithCustomerExcludingAssessedTax
+INTC,50863,2023,Q2,quarterly,revenue,Total Revenue,income_statement,12949000000,USD,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,RevenueFromContractWithCustomerExcludingAssessedTax
+INTC,50863,2023,Q3,quarterly,revenue,Total Revenue,income_statement,14158000000,USD,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,RevenueFromContractWithCustomerExcludingAssessedTax
+INTC,50863,2023,FY,annual,revenue,Total Revenue,income_statement,54228000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,RevenueFromContractWithCustomerExcludingAssessedTax
+INTC,50863,2024,Q1,quarterly,revenue,Total Revenue,income_statement,12724000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,RevenueFromContractWithCustomerExcludingAssessedTax
+INTC,50863,2024,Q2,quarterly,revenue,Total Revenue,income_statement,12833000000,USD,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,RevenueFromContractWithCustomerExcludingAssessedTax
+INTC,50863,2024,Q3,quarterly,revenue,Total Revenue,income_statement,13284000000,USD,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,RevenueFromContractWithCustomerExcludingAssessedTax
+INTC,50863,2024,FY,annual,revenue,Total Revenue,income_statement,53101000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,RevenueFromContractWithCustomerExcludingAssessedTax
+INTC,50863,2025,Q1,quarterly,revenue,Total Revenue,income_statement,12667000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,RevenueFromContractWithCustomerExcludingAssessedTax
+INTC,50863,2025,Q2,quarterly,revenue,Total Revenue,income_statement,12859000000,USD,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,RevenueFromContractWithCustomerExcludingAssessedTax
+INTC,50863,2025,Q3,quarterly,revenue,Total Revenue,income_statement,13653000000,USD,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,RevenueFromContractWithCustomerExcludingAssessedTax
+INTC,50863,2025,FY,annual,revenue,Total Revenue,income_statement,52853000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,RevenueFromContractWithCustomerExcludingAssessedTax
+INTC,50863,2026,Q1,quarterly,revenue,Total Revenue,income_statement,13577000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,RevenueFromContractWithCustomerExcludingAssessedTax
+INTC,50863,2026,Q2,quarterly,revenue,Total Revenue,income_statement,16128000000,USD,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,RevenueFromContractWithCustomerExcludingAssessedTax
+INTC,50863,2023,Q1,quarterly,cost_of_revenue,Cost of Revenue,income_statement,7707000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,CostOfGoodsAndServicesSold
+INTC,50863,2023,Q2,quarterly,cost_of_revenue,Cost of Revenue,income_statement,8311000000,USD,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,CostOfGoodsAndServicesSold
+INTC,50863,2023,Q3,quarterly,cost_of_revenue,Cost of Revenue,income_statement,8140000000,USD,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,CostOfGoodsAndServicesSold
+INTC,50863,2023,FY,annual,cost_of_revenue,Cost of Revenue,income_statement,32517000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,CostOfGoodsAndServicesSold
+INTC,50863,2024,Q1,quarterly,cost_of_revenue,Cost of Revenue,income_statement,7507000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,CostOfGoodsAndServicesSold
+INTC,50863,2024,Q2,quarterly,cost_of_revenue,Cost of Revenue,income_statement,8286000000,USD,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,CostOfGoodsAndServicesSold
+INTC,50863,2024,Q3,quarterly,cost_of_revenue,Cost of Revenue,income_statement,11287000000,USD,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,CostOfGoodsAndServicesSold
+INTC,50863,2024,FY,annual,cost_of_revenue,Cost of Revenue,income_statement,35756000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,CostOfGoodsAndServicesSold
+INTC,50863,2025,Q1,quarterly,cost_of_revenue,Cost of Revenue,income_statement,7995000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,CostOfGoodsAndServicesSold
+INTC,50863,2025,Q2,quarterly,cost_of_revenue,Cost of Revenue,income_statement,9317000000,USD,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,CostOfGoodsAndServicesSold
+INTC,50863,2025,Q3,quarterly,cost_of_revenue,Cost of Revenue,income_statement,8435000000,USD,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,CostOfGoodsAndServicesSold
+INTC,50863,2025,FY,annual,cost_of_revenue,Cost of Revenue,income_statement,34478000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,CostOfGoodsAndServicesSold
+INTC,50863,2026,Q1,quarterly,cost_of_revenue,Cost of Revenue,income_statement,8230000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,CostOfGoodsAndServicesSold
+INTC,50863,2026,Q2,quarterly,cost_of_revenue,Cost of Revenue,income_statement,9619000000,USD,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,CostOfGoodsAndServicesSold
+INTC,50863,2023,Q1,quarterly,gross_profit,Gross Profit,income_statement,4008000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,GrossProfit
+INTC,50863,2023,Q2,quarterly,gross_profit,Gross Profit,income_statement,4638000000,USD,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,GrossProfit
+INTC,50863,2023,Q3,quarterly,gross_profit,Gross Profit,income_statement,6018000000,USD,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,GrossProfit
+INTC,50863,2023,FY,annual,gross_profit,Gross Profit,income_statement,21711000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,GrossProfit
+INTC,50863,2024,Q1,quarterly,gross_profit,Gross Profit,income_statement,5217000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,GrossProfit
+INTC,50863,2024,Q2,quarterly,gross_profit,Gross Profit,income_statement,4547000000,USD,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,GrossProfit
+INTC,50863,2024,Q3,quarterly,gross_profit,Gross Profit,income_statement,1997000000,USD,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,GrossProfit
+INTC,50863,2024,FY,annual,gross_profit,Gross Profit,income_statement,17345000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,GrossProfit
+INTC,50863,2025,Q1,quarterly,gross_profit,Gross Profit,income_statement,4672000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,GrossProfit
+INTC,50863,2025,Q2,quarterly,gross_profit,Gross Profit,income_statement,3542000000,USD,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,GrossProfit
+INTC,50863,2025,Q3,quarterly,gross_profit,Gross Profit,income_statement,5218000000,USD,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,GrossProfit
+INTC,50863,2025,FY,annual,gross_profit,Gross Profit,income_statement,18375000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,GrossProfit
+INTC,50863,2026,Q1,quarterly,gross_profit,Gross Profit,income_statement,5347000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,GrossProfit
+INTC,50863,2026,Q2,quarterly,gross_profit,Gross Profit,income_statement,6509000000,USD,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,GrossProfit
+INTC,50863,2023,Q1,quarterly,research_development_expense,Research & Development Expense,income_statement,4109000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,ResearchAndDevelopmentExpense
+INTC,50863,2023,Q2,quarterly,research_development_expense,Research & Development Expense,income_statement,4080000000,USD,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,ResearchAndDevelopmentExpense
+INTC,50863,2023,Q3,quarterly,research_development_expense,Research & Development Expense,income_statement,3870000000,USD,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,ResearchAndDevelopmentExpense
+INTC,50863,2023,FY,annual,research_development_expense,Research & Development Expense,income_statement,16046000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,ResearchAndDevelopmentExpense
+INTC,50863,2024,Q1,quarterly,research_development_expense,Research & Development Expense,income_statement,4382000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,ResearchAndDevelopmentExpense
+INTC,50863,2024,Q2,quarterly,research_development_expense,Research & Development Expense,income_statement,4239000000,USD,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,ResearchAndDevelopmentExpense
+INTC,50863,2024,Q3,quarterly,research_development_expense,Research & Development Expense,income_statement,4049000000,USD,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,ResearchAndDevelopmentExpense
+INTC,50863,2024,FY,annual,research_development_expense,Research & Development Expense,income_statement,16546000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,ResearchAndDevelopmentExpense
+INTC,50863,2025,Q1,quarterly,research_development_expense,Research & Development Expense,income_statement,3640000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,ResearchAndDevelopmentExpense
+INTC,50863,2025,Q2,quarterly,research_development_expense,Research & Development Expense,income_statement,3684000000,USD,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,ResearchAndDevelopmentExpense
+INTC,50863,2025,Q3,quarterly,research_development_expense,Research & Development Expense,income_statement,3231000000,USD,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,ResearchAndDevelopmentExpense
+INTC,50863,2025,FY,annual,research_development_expense,Research & Development Expense,income_statement,13774000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,ResearchAndDevelopmentExpense
+INTC,50863,2026,Q1,quarterly,research_development_expense,Research & Development Expense,income_statement,3375000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,ResearchAndDevelopmentExpense
+INTC,50863,2026,Q2,quarterly,research_development_expense,Research & Development Expense,income_statement,3368000000,USD,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,ResearchAndDevelopmentExpense
+INTC,50863,2023,Q1,quarterly,sga_expense,"Selling, General & Administrative Expense",income_statement,1303000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,SellingGeneralAndAdministrativeExpense
+INTC,50863,2023,Q2,quarterly,sga_expense,"Selling, General & Administrative Expense",income_statement,1374000000,USD,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,SellingGeneralAndAdministrativeExpense
+INTC,50863,2023,Q3,quarterly,sga_expense,"Selling, General & Administrative Expense",income_statement,1340000000,USD,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,SellingGeneralAndAdministrativeExpense
+INTC,50863,2023,FY,annual,sga_expense,"Selling, General & Administrative Expense",income_statement,5634000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,SellingGeneralAndAdministrativeExpense
+INTC,50863,2024,Q1,quarterly,sga_expense,"Selling, General & Administrative Expense",income_statement,1556000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,SellingGeneralAndAdministrativeExpense
+INTC,50863,2024,Q2,quarterly,sga_expense,"Selling, General & Administrative Expense",income_statement,1329000000,USD,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,SellingGeneralAndAdministrativeExpense
+INTC,50863,2024,Q3,quarterly,sga_expense,"Selling, General & Administrative Expense",income_statement,1383000000,USD,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,SellingGeneralAndAdministrativeExpense
+INTC,50863,2024,FY,annual,sga_expense,"Selling, General & Administrative Expense",income_statement,5507000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,SellingGeneralAndAdministrativeExpense
+INTC,50863,2025,Q1,quarterly,sga_expense,"Selling, General & Administrative Expense",income_statement,1177000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,SellingGeneralAndAdministrativeExpense
+INTC,50863,2025,Q2,quarterly,sga_expense,"Selling, General & Administrative Expense",income_statement,1144000000,USD,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,SellingGeneralAndAdministrativeExpense
+INTC,50863,2025,Q3,quarterly,sga_expense,"Selling, General & Administrative Expense",income_statement,1129000000,USD,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,SellingGeneralAndAdministrativeExpense
+INTC,50863,2025,FY,annual,sga_expense,"Selling, General & Administrative Expense",income_statement,4624000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,SellingGeneralAndAdministrativeExpense
+INTC,50863,2026,Q1,quarterly,sga_expense,"Selling, General & Administrative Expense",income_statement,1038000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,SellingGeneralAndAdministrativeExpense
+INTC,50863,2026,Q2,quarterly,sga_expense,"Selling, General & Administrative Expense",income_statement,1175000000,USD,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,SellingGeneralAndAdministrativeExpense
+INTC,50863,2023,Q1,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,5476000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,OperatingExpenses
+INTC,50863,2023,Q2,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,5654000000,USD,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,OperatingExpenses
+INTC,50863,2023,Q3,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,6026000000,USD,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,OperatingExpenses
+INTC,50863,2023,FY,annual,total_operating_expenses,Total Operating Expenses,income_statement,21618000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,OperatingExpenses
+INTC,50863,2024,Q1,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,6286000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,OperatingExpenses
+INTC,50863,2024,Q2,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,6511000000,USD,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,OperatingExpenses
+INTC,50863,2024,Q3,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,11054000000,USD,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,OperatingExpenses
+INTC,50863,2024,FY,annual,total_operating_expenses,Total Operating Expenses,income_statement,29023000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,OperatingExpenses
+INTC,50863,2025,Q1,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,4973000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,OperatingExpenses
+INTC,50863,2025,Q2,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,6718000000,USD,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,OperatingExpenses
+INTC,50863,2025,Q3,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,4535000000,USD,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,OperatingExpenses
+INTC,50863,2025,FY,annual,total_operating_expenses,Total Operating Expenses,income_statement,20589000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,OperatingExpenses
+INTC,50863,2026,Q1,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,8483000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,OperatingExpenses
+INTC,50863,2026,Q2,quarterly,total_operating_expenses,Total Operating Expenses,income_statement,4713000000,USD,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,OperatingExpenses
+INTC,50863,2023,Q1,quarterly,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,739000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,ShareBasedCompensation
+INTC,50863,2023,FY,annual,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,3229000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,ShareBasedCompensation
+INTC,50863,2024,Q1,quarterly,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,1179000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,ShareBasedCompensation
+INTC,50863,2024,FY,annual,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,3410000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,ShareBasedCompensation
+INTC,50863,2025,Q1,quarterly,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,684000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,ShareBasedCompensation
+INTC,50863,2025,FY,annual,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,2434000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,ShareBasedCompensation
+INTC,50863,2026,Q1,quarterly,stock_based_compensation,Stock-Based Compensation Expense,cash_flow,621000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,ShareBasedCompensation
+INTC,50863,2023,Q1,quarterly,operating_income,Operating Income,income_statement,-1468000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,OperatingIncomeLoss
+INTC,50863,2023,Q2,quarterly,operating_income,Operating Income,income_statement,-1016000000,USD,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,OperatingIncomeLoss
+INTC,50863,2023,Q3,quarterly,operating_income,Operating Income,income_statement,-8000000,USD,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,OperatingIncomeLoss
+INTC,50863,2023,FY,annual,operating_income,Operating Income,income_statement,93000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,OperatingIncomeLoss
+INTC,50863,2024,Q1,quarterly,operating_income,Operating Income,income_statement,-1069000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,OperatingIncomeLoss
+INTC,50863,2024,Q2,quarterly,operating_income,Operating Income,income_statement,-1964000000,USD,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,OperatingIncomeLoss
+INTC,50863,2024,Q3,quarterly,operating_income,Operating Income,income_statement,-9057000000,USD,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,OperatingIncomeLoss
+INTC,50863,2024,FY,annual,operating_income,Operating Income,income_statement,-11678000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,OperatingIncomeLoss
+INTC,50863,2025,Q1,quarterly,operating_income,Operating Income,income_statement,-301000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,OperatingIncomeLoss
+INTC,50863,2025,Q2,quarterly,operating_income,Operating Income,income_statement,-3176000000,USD,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,OperatingIncomeLoss
+INTC,50863,2025,Q3,quarterly,operating_income,Operating Income,income_statement,683000000,USD,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,OperatingIncomeLoss
+INTC,50863,2025,FY,annual,operating_income,Operating Income,income_statement,-2214000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,OperatingIncomeLoss
+INTC,50863,2026,Q1,quarterly,operating_income,Operating Income,income_statement,-3136000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,OperatingIncomeLoss
+INTC,50863,2026,Q2,quarterly,operating_income,Operating Income,income_statement,1796000000,USD,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,OperatingIncomeLoss
+INTC,50863,2023,Q1,quarterly,interest_expense,Interest Expense,income_statement,193000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,InterestExpense
+INTC,50863,2023,Q2,quarterly,interest_expense,Interest Expense,income_statement,214000000,USD,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,InterestExpense
+INTC,50863,2023,Q3,quarterly,interest_expense,Interest Expense,income_statement,204000000,USD,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,InterestExpense
+INTC,50863,2023,FY,annual,interest_expense,Interest Expense,income_statement,878000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,InterestExpense
+INTC,50863,2024,Q1,quarterly,interest_expense,Interest Expense,income_statement,258000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,InterestExpense
+INTC,50863,2024,Q2,quarterly,interest_expense,Interest Expense,income_statement,294000000,USD,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,InterestExpenseNonoperating
+INTC,50863,2024,Q3,quarterly,interest_expense,Interest Expense,income_statement,248000000,USD,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,InterestExpenseNonoperating
+INTC,50863,2024,FY,annual,interest_expense,Interest Expense,income_statement,1034000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,InterestExpenseNonoperating
+INTC,50863,2025,Q1,quarterly,interest_expense,Interest Expense,income_statement,299000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,InterestExpenseNonoperating
+INTC,50863,2025,Q2,quarterly,interest_expense,Interest Expense,income_statement,227000000,USD,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,InterestExpenseNonoperating
+INTC,50863,2025,Q3,quarterly,interest_expense,Interest Expense,income_statement,282000000,USD,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,InterestExpenseNonoperating
+INTC,50863,2025,FY,annual,interest_expense,Interest Expense,income_statement,1091000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,InterestExpenseNonoperating
+INTC,50863,2026,Q1,quarterly,interest_expense,Interest Expense,income_statement,264000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,InterestExpenseNonoperating
+INTC,50863,2026,Q2,quarterly,interest_expense,Interest Expense,income_statement,321000000,USD,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,InterestExpenseNonoperating
+INTC,50863,2023,Q1,quarterly,interest_investment_income,Interest & Investment Income,income_statement,334000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,InvestmentIncomeInterest
+INTC,50863,2023,Q2,quarterly,interest_investment_income,Interest & Investment Income,income_statement,313000000,USD,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,InvestmentIncomeInterest
+INTC,50863,2023,Q3,quarterly,interest_investment_income,Interest & Investment Income,income_statement,332000000,USD,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,InvestmentIncomeInterest
+INTC,50863,2023,FY,annual,interest_investment_income,Interest & Investment Income,income_statement,1335000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,InvestmentIncomeInterest
+INTC,50863,2024,Q1,quarterly,interest_investment_income,Interest & Investment Income,income_statement,323000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,InvestmentIncomeInterest
+INTC,50863,2024,Q2,quarterly,interest_investment_income,Interest & Investment Income,income_statement,320000000,USD,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,InvestmentIncomeInterest
+INTC,50863,2024,Q3,quarterly,interest_investment_income,Interest & Investment Income,income_statement,340000000,USD,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,InvestmentIncomeInterest
+INTC,50863,2024,FY,annual,interest_investment_income,Interest & Investment Income,income_statement,1245000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,InvestmentIncomeInterest
+INTC,50863,2025,Q1,quarterly,interest_investment_income,Interest & Investment Income,income_statement,245000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,InvestmentIncomeInterest
+INTC,50863,2025,Q2,quarterly,interest_investment_income,Interest & Investment Income,income_statement,210000000,USD,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,InvestmentIncomeInterest
+INTC,50863,2025,Q3,quarterly,interest_investment_income,Interest & Investment Income,income_statement,228000000,USD,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,InvestmentIncomeInterest
+INTC,50863,2025,FY,annual,interest_investment_income,Interest & Investment Income,income_statement,1007000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,InvestmentIncomeInterest
+INTC,50863,2026,Q1,quarterly,interest_investment_income,Interest & Investment Income,income_statement,333000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,InvestmentIncomeInterest
+INTC,50863,2026,Q2,quarterly,interest_investment_income,Interest & Investment Income,income_statement,334000000,USD,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,InvestmentIncomeInterest
+INTC,50863,2023,Q1,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,141000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,NonoperatingIncomeExpense
+INTC,50863,2023,Q2,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,224000000,USD,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,NonoperatingIncomeExpense
+INTC,50863,2023,Q3,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,147000000,USD,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,NonoperatingIncomeExpense
+INTC,50863,2023,FY,annual,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,629000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,NonoperatingIncomeExpense
+INTC,50863,2024,Q1,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,145000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,NonoperatingIncomeExpense
+INTC,50863,2024,Q2,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,80000000,USD,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,NonoperatingIncomeExpense
+INTC,50863,2024,Q3,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,130000000,USD,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,NonoperatingIncomeExpense
+INTC,50863,2024,FY,annual,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,226000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,NonoperatingIncomeExpense
+INTC,50863,2025,Q1,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,-173000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,NonoperatingIncomeExpense
+INTC,50863,2025,Q2,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,-95000000,USD,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,NonoperatingIncomeExpense
+INTC,50863,2025,Q3,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,3670000000,USD,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,NonoperatingIncomeExpense
+INTC,50863,2025,FY,annual,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,3257000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,NonoperatingIncomeExpense
+INTC,50863,2026,Q1,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,-738000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,NonoperatingIncomeExpense
+INTC,50863,2026,Q2,quarterly,other_nonoperating_income_expense,"Other Non-Operating Income/(Expense), Net",income_statement,-12576000000,USD,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,NonoperatingIncomeExpense
+INTC,50863,2023,Q1,quarterly,pretax_income,Pretax Income,income_statement,-1158000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+INTC,50863,2023,Q2,quarterly,pretax_income,Pretax Income,income_statement,-816000000,USD,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+INTC,50863,2023,Q3,quarterly,pretax_income,Pretax Income,income_statement,-52000000,USD,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+INTC,50863,2023,FY,annual,pretax_income,Pretax Income,income_statement,762000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+INTC,50863,2024,Q1,quarterly,pretax_income,Pretax Income,income_statement,-719000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+INTC,50863,2024,Q2,quarterly,pretax_income,Pretax Income,income_statement,-2004000000,USD,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+INTC,50863,2024,Q3,quarterly,pretax_income,Pretax Income,income_statement,-9086000000,USD,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+INTC,50863,2024,FY,annual,pretax_income,Pretax Income,income_statement,-11210000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+INTC,50863,2025,Q1,quarterly,pretax_income,Pretax Income,income_statement,-586000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+INTC,50863,2025,Q2,quarterly,pretax_income,Pretax Income,income_statement,-2769000000,USD,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+INTC,50863,2025,Q3,quarterly,pretax_income,Pretax Income,income_statement,4574000000,USD,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+INTC,50863,2025,FY,annual,pretax_income,Pretax Income,income_statement,1557000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+INTC,50863,2026,Q1,quarterly,pretax_income,Pretax Income,income_statement,-3946000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+INTC,50863,2026,Q2,quarterly,pretax_income,Pretax Income,income_statement,-10819000000,USD,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest
+INTC,50863,2023,Q1,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,1610000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,IncomeTaxExpenseBenefit
+INTC,50863,2023,Q2,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,-2289000000,USD,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,IncomeTaxExpenseBenefit
+INTC,50863,2023,Q3,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,-362000000,USD,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,IncomeTaxExpenseBenefit
+INTC,50863,2023,FY,annual,income_tax_expense,Income Tax Expense/(Benefit),income_statement,-913000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,IncomeTaxExpenseBenefit
+INTC,50863,2024,Q1,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,-282000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,IncomeTaxExpenseBenefit
+INTC,50863,2024,Q2,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,-350000000,USD,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,IncomeTaxExpenseBenefit
+INTC,50863,2024,Q3,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,7903000000,USD,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,IncomeTaxExpenseBenefit
+INTC,50863,2024,FY,annual,income_tax_expense,Income Tax Expense/(Benefit),income_statement,8023000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,IncomeTaxExpenseBenefit
+INTC,50863,2025,Q1,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,301000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,IncomeTaxExpenseBenefit
+INTC,50863,2025,Q2,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,255000000,USD,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,IncomeTaxExpenseBenefit
+INTC,50863,2025,Q3,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,304000000,USD,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,IncomeTaxExpenseBenefit
+INTC,50863,2025,FY,annual,income_tax_expense,Income Tax Expense/(Benefit),income_statement,1531000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,IncomeTaxExpenseBenefit
+INTC,50863,2026,Q1,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,335000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,IncomeTaxExpenseBenefit
+INTC,50863,2026,Q2,quarterly,income_tax_expense,Income Tax Expense/(Benefit),income_statement,29000000,USD,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,IncomeTaxExpenseBenefit
+INTC,50863,2023,Q1,quarterly,net_income,Net Income,income_statement,-2758000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,NetIncomeLoss
+INTC,50863,2023,Q2,quarterly,net_income,Net Income,income_statement,1481000000,USD,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,NetIncomeLoss
+INTC,50863,2023,Q3,quarterly,net_income,Net Income,income_statement,297000000,USD,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,NetIncomeLoss
+INTC,50863,2023,FY,annual,net_income,Net Income,income_statement,1689000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,NetIncomeLoss
+INTC,50863,2024,Q1,quarterly,net_income,Net Income,income_statement,-381000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,NetIncomeLoss
+INTC,50863,2024,Q2,quarterly,net_income,Net Income,income_statement,-1610000000,USD,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,NetIncomeLoss
+INTC,50863,2024,Q3,quarterly,net_income,Net Income,income_statement,-16639000000,USD,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,NetIncomeLoss
+INTC,50863,2024,FY,annual,net_income,Net Income,income_statement,-18756000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,NetIncomeLoss
+INTC,50863,2025,Q1,quarterly,net_income,Net Income,income_statement,-821000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,NetIncomeLoss
+INTC,50863,2025,Q2,quarterly,net_income,Net Income,income_statement,-2918000000,USD,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,NetIncomeLoss
+INTC,50863,2025,Q3,quarterly,net_income,Net Income,income_statement,4063000000,USD,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,NetIncomeLoss
+INTC,50863,2025,FY,annual,net_income,Net Income,income_statement,-267000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,NetIncomeLoss
+INTC,50863,2026,Q1,quarterly,net_income,Net Income,income_statement,-3728000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,NetIncomeLoss
+INTC,50863,2026,Q2,quarterly,net_income,Net Income,income_statement,-11033000000,USD,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,NetIncomeLoss
+INTC,50863,2023,Q1,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,-0.66,USD/shares,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,EarningsPerShareBasic
+INTC,50863,2023,Q2,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,0.35,USD/shares,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,EarningsPerShareBasic
+INTC,50863,2023,Q3,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,0.07,USD/shares,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,EarningsPerShareBasic
+INTC,50863,2023,FY,annual,eps_basic,Earnings Per Share - Basic,income_statement,0.4,USD/shares,2023-01-01,2023-12-30,10-K,0000050863-24-000010,EarningsPerShareBasic
+INTC,50863,2024,Q1,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,-0.09,USD/shares,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,EarningsPerShareBasic
+INTC,50863,2024,Q2,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,-0.38,USD/shares,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,EarningsPerShareBasic
+INTC,50863,2024,Q3,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,-3.88,USD/shares,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,EarningsPerShareBasic
+INTC,50863,2024,FY,annual,eps_basic,Earnings Per Share - Basic,income_statement,-4.38,USD/shares,2023-12-31,2024-12-28,10-K,0000050863-25-000009,EarningsPerShareBasic
+INTC,50863,2025,Q1,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,-0.19,USD/shares,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,EarningsPerShareBasic
+INTC,50863,2025,Q2,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,-0.67,USD/shares,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,EarningsPerShareBasic
+INTC,50863,2025,Q3,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,0.9,USD/shares,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,EarningsPerShareBasic
+INTC,50863,2025,FY,annual,eps_basic,Earnings Per Share - Basic,income_statement,-0.06,USD/shares,2024-12-29,2025-12-27,10-K,0000050863-26-000011,EarningsPerShareBasic
+INTC,50863,2026,Q1,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,-0.73,USD/shares,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,EarningsPerShareBasic
+INTC,50863,2026,Q2,quarterly,eps_basic,Earnings Per Share - Basic,income_statement,-2.16,USD/shares,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,EarningsPerShareBasic
+INTC,50863,2023,Q1,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,-0.66,USD/shares,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,EarningsPerShareDiluted
+INTC,50863,2023,Q2,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,0.35,USD/shares,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,EarningsPerShareDiluted
+INTC,50863,2023,Q3,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,0.07,USD/shares,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,EarningsPerShareDiluted
+INTC,50863,2023,FY,annual,eps_diluted,Earnings Per Share - Diluted,income_statement,0.4,USD/shares,2023-01-01,2023-12-30,10-K,0000050863-24-000010,EarningsPerShareDiluted
+INTC,50863,2024,Q1,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,-0.09,USD/shares,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,EarningsPerShareDiluted
+INTC,50863,2024,Q2,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,-0.38,USD/shares,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,EarningsPerShareDiluted
+INTC,50863,2024,Q3,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,-3.88,USD/shares,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,EarningsPerShareDiluted
+INTC,50863,2024,FY,annual,eps_diluted,Earnings Per Share - Diluted,income_statement,-4.38,USD/shares,2023-12-31,2024-12-28,10-K,0000050863-25-000009,EarningsPerShareDiluted
+INTC,50863,2025,Q1,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,-0.19,USD/shares,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,EarningsPerShareDiluted
+INTC,50863,2025,Q2,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,-0.67,USD/shares,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,EarningsPerShareDiluted
+INTC,50863,2025,Q3,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,0.9,USD/shares,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,EarningsPerShareDiluted
+INTC,50863,2025,FY,annual,eps_diluted,Earnings Per Share - Diluted,income_statement,-0.06,USD/shares,2024-12-29,2025-12-27,10-K,0000050863-26-000011,EarningsPerShareDiluted
+INTC,50863,2026,Q1,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,-0.73,USD/shares,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,EarningsPerShareDiluted
+INTC,50863,2026,Q2,quarterly,eps_diluted,Earnings Per Share - Diluted,income_statement,-2.16,USD/shares,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,EarningsPerShareDiluted
+INTC,50863,2023,Q3,quarterly,dividends_per_share,Dividends Declared Per Share,income_statement,0.13,USD/shares,2023-07-02,2023-09-30,10-Q,0000050863-24-000149,CommonStockDividendsPerShareDeclared
+INTC,50863,2023,FY,annual,dividends_per_share,Dividends Declared Per Share,income_statement,0.74,USD/shares,2023-01-01,2023-12-30,10-K,0000050863-25-000009,CommonStockDividendsPerShareDeclared
+INTC,50863,2024,Q1,quarterly,dividends_per_share,Dividends Declared Per Share,income_statement,0.13,USD/shares,2023-12-31,2024-03-30,10-Q,0000050863-25-000074,CommonStockDividendsPerShareDeclared
+INTC,50863,2024,Q2,quarterly,dividends_per_share,Dividends Declared Per Share,income_statement,0.13,USD/shares,2024-03-31,2024-06-29,10-Q,0000050863-25-000109,CommonStockDividendsPerShareDeclared
+INTC,50863,2024,Q3,quarterly,dividends_per_share,Dividends Declared Per Share,income_statement,0.13,USD/shares,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,CommonStockDividendsPerShareDeclared
+INTC,50863,2024,FY,annual,dividends_per_share,Dividends Declared Per Share,income_statement,0.38,USD/shares,2023-12-31,2024-12-28,10-K,0000050863-25-000009,CommonStockDividendsPerShareDeclared
+INTC,50863,2023,Q1,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,4154000000,shares,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,WeightedAverageNumberOfSharesOutstandingBasic
+INTC,50863,2023,Q2,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,4182000000,shares,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,WeightedAverageNumberOfSharesOutstandingBasic
+INTC,50863,2023,Q3,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,4202000000,shares,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,WeightedAverageNumberOfSharesOutstandingBasic
+INTC,50863,2023,FY,annual,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,4190000000,shares,2023-01-01,2023-12-30,10-K,0000050863-24-000010,WeightedAverageNumberOfSharesOutstandingBasic
+INTC,50863,2024,Q1,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,4242000000,shares,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,WeightedAverageNumberOfSharesOutstandingBasic
+INTC,50863,2024,Q2,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,4267000000,shares,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,WeightedAverageNumberOfSharesOutstandingBasic
+INTC,50863,2024,Q3,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,4292000000,shares,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,WeightedAverageNumberOfSharesOutstandingBasic
+INTC,50863,2024,FY,annual,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,4280000000,shares,2023-12-31,2024-12-28,10-K,0000050863-25-000009,WeightedAverageNumberOfSharesOutstandingBasic
+INTC,50863,2025,Q1,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,4343000000,shares,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,WeightedAverageNumberOfSharesOutstandingBasic
+INTC,50863,2025,Q2,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,4369000000,shares,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,WeightedAverageNumberOfSharesOutstandingBasic
+INTC,50863,2025,Q3,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,4514000000,shares,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,WeightedAverageNumberOfSharesOutstandingBasic
+INTC,50863,2025,FY,annual,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,4530000000,shares,2024-12-29,2025-12-27,10-K,0000050863-26-000011,WeightedAverageNumberOfSharesOutstandingBasic
+INTC,50863,2026,Q1,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,5083000000,shares,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,WeightedAverageNumberOfSharesOutstandingBasic
+INTC,50863,2026,Q2,quarterly,weighted_avg_shares_basic,Weighted Avg Shares Outstanding - Basic,shares,5104000000,shares,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,WeightedAverageNumberOfSharesOutstandingBasic
+INTC,50863,2023,Q1,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,4154000000,shares,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,WeightedAverageNumberOfDilutedSharesOutstanding
+INTC,50863,2023,Q2,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,4196000000,shares,2023-04-02,2023-07-01,10-Q,0000050863-23-000069,WeightedAverageNumberOfDilutedSharesOutstanding
+INTC,50863,2023,Q3,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,4229000000,shares,2023-07-02,2023-09-30,10-Q,0000050863-23-000103,WeightedAverageNumberOfDilutedSharesOutstanding
+INTC,50863,2023,FY,annual,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,4212000000,shares,2023-01-01,2023-12-30,10-K,0000050863-24-000010,WeightedAverageNumberOfDilutedSharesOutstanding
+INTC,50863,2024,Q1,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,4242000000,shares,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,WeightedAverageNumberOfDilutedSharesOutstanding
+INTC,50863,2024,Q2,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,4267000000,shares,2024-03-31,2024-06-29,10-Q,0000050863-24-000124,WeightedAverageNumberOfDilutedSharesOutstanding
+INTC,50863,2024,Q3,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,4292000000,shares,2024-06-30,2024-09-28,10-Q,0000050863-24-000149,WeightedAverageNumberOfDilutedSharesOutstanding
+INTC,50863,2024,FY,annual,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,4280000000,shares,2023-12-31,2024-12-28,10-K,0000050863-25-000009,WeightedAverageNumberOfDilutedSharesOutstanding
+INTC,50863,2025,Q1,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,4343000000,shares,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,WeightedAverageNumberOfDilutedSharesOutstanding
+INTC,50863,2025,Q2,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,4369000000,shares,2025-03-30,2025-06-28,10-Q,0000050863-25-000109,WeightedAverageNumberOfDilutedSharesOutstanding
+INTC,50863,2025,Q3,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,4531000000,shares,2025-06-29,2025-09-27,10-Q,0000050863-25-000179,WeightedAverageNumberOfDilutedSharesOutstanding
+INTC,50863,2025,FY,annual,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,4530000000,shares,2024-12-29,2025-12-27,10-K,0000050863-26-000011,WeightedAverageNumberOfDilutedSharesOutstanding
+INTC,50863,2026,Q1,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,5083000000,shares,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,WeightedAverageNumberOfDilutedSharesOutstanding
+INTC,50863,2026,Q2,quarterly,weighted_avg_shares_diluted,Weighted Avg Shares Outstanding - Diluted,shares,5104000000,shares,2026-03-29,2026-06-27,10-Q,0000050863-26-000157,WeightedAverageNumberOfDilutedSharesOutstanding
+INTC,50863,2024,FY,annual,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,8249000000,USD,,2024-12-28,10-K,0000050863-26-000011,CashAndCashEquivalentsAtCarryingValue
+INTC,50863,2025,Q2,quarterly,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,9643000000,USD,,2025-06-28,10-Q,0000050863-25-000109,CashAndCashEquivalentsAtCarryingValue
+INTC,50863,2025,Q3,quarterly,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,11141000000,USD,,2025-09-27,10-Q,0000050863-25-000179,CashAndCashEquivalentsAtCarryingValue
+INTC,50863,2025,FY,annual,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,14265000000,USD,,2025-12-27,10-K,0000050863-26-000011,CashAndCashEquivalentsAtCarryingValue
+INTC,50863,2026,Q1,quarterly,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,17247000000,USD,,2026-03-28,10-Q,0000050863-26-000079,CashAndCashEquivalentsAtCarryingValue
+INTC,50863,2026,Q2,quarterly,cash_and_cash_equivalents,Cash & Cash Equivalents,balance_sheet,12874000000,USD,,2026-06-27,10-Q,0000050863-26-000157,CashAndCashEquivalentsAtCarryingValue
+INTC,50863,2023,Q1,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,1421000000,USD,,2023-04-01,10-Q,0000050863-23-000028,MarketableSecurities
+INTC,50863,2023,Q2,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,1295000000,USD,,2023-07-01,10-Q,0000050863-23-000069,MarketableSecurities
+INTC,50863,2023,Q3,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,1117000000,USD,,2023-09-30,10-Q,0000050863-23-000103,MarketableSecurities
+INTC,50863,2023,FY,annual,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,1194000000,USD,,2023-12-30,10-K,0000050863-24-000010,MarketableSecurities
+INTC,50863,2024,Q1,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,1471000000,USD,,2024-03-30,10-Q,0000050863-24-000076,MarketableSecurities
+INTC,50863,2024,Q2,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,1246000000,USD,,2024-06-29,10-Q,0000050863-24-000124,MarketableSecurities
+INTC,50863,2024,Q3,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,980000000,USD,,2024-09-28,10-Q,0000050863-24-000149,MarketableSecurities
+INTC,50863,2024,FY,annual,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,848000000,USD,,2024-12-28,10-K,0000050863-25-000009,MarketableSecurities
+INTC,50863,2025,Q1,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,541000000,USD,,2025-03-29,10-Q,0000050863-25-000074,MarketableSecurities
+INTC,50863,2025,Q2,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,467000000,USD,,2025-06-28,10-Q,0000050863-25-000109,MarketableSecurities
+INTC,50863,2025,Q3,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,572000000,USD,,2025-09-27,10-Q,0000050863-25-000179,MarketableSecurities
+INTC,50863,2025,FY,annual,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,484000000,USD,,2025-12-27,10-K,0000050863-26-000011,MarketableSecurities
+INTC,50863,2026,Q1,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,317000000,USD,,2026-03-28,10-Q,0000050863-26-000079,MarketableSecurities
+INTC,50863,2026,Q2,quarterly,short_term_investments,Short-Term Investments / Marketable Securities (Current),balance_sheet,250000000,USD,,2026-06-27,10-Q,0000050863-26-000157,MarketableSecurities
+INTC,50863,2023,Q1,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,3847000000,USD,,2023-04-01,10-Q,0000050863-23-000028,AccountsReceivableNetCurrent
+INTC,50863,2023,Q2,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,2996000000,USD,,2023-07-01,10-Q,0000050863-23-000069,AccountsReceivableNetCurrent
+INTC,50863,2023,Q3,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,2843000000,USD,,2023-09-30,10-Q,0000050863-23-000103,AccountsReceivableNetCurrent
+INTC,50863,2023,FY,annual,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,3402000000,USD,,2023-12-30,10-K,0000050863-24-000010,AccountsReceivableNetCurrent
+INTC,50863,2024,Q1,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,3323000000,USD,,2024-03-30,10-Q,0000050863-24-000076,AccountsReceivableNetCurrent
+INTC,50863,2024,Q2,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,3131000000,USD,,2024-06-29,10-Q,0000050863-24-000124,AccountsReceivableNetCurrent
+INTC,50863,2024,Q3,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,3121000000,USD,,2024-09-28,10-Q,0000050863-24-000149,AccountsReceivableNetCurrent
+INTC,50863,2024,FY,annual,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,3478000000,USD,,2024-12-28,10-K,0000050863-25-000009,AccountsReceivableNetCurrent
+INTC,50863,2025,Q1,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,3064000000,USD,,2025-03-29,10-Q,0000050863-25-000074,AccountsReceivableNetCurrent
+INTC,50863,2025,Q2,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,2360000000,USD,,2025-06-28,10-Q,0000050863-25-000109,AccountsReceivableNetCurrent
+INTC,50863,2025,Q3,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,3202000000,USD,,2025-09-27,10-Q,0000050863-25-000179,AccountsReceivableNetCurrent
+INTC,50863,2025,FY,annual,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,3839000000,USD,,2025-12-27,10-K,0000050863-26-000011,AccountsReceivableNetCurrent
+INTC,50863,2026,Q1,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,4066000000,USD,,2026-03-28,10-Q,0000050863-26-000079,AccountsReceivableNetCurrent
+INTC,50863,2026,Q2,quarterly,accounts_receivable_net,"Accounts Receivable, Net (Current)",balance_sheet,4033000000,USD,,2026-06-27,10-Q,0000050863-26-000157,AccountsReceivableNetCurrent
+INTC,50863,2023,Q1,quarterly,inventory_net,"Inventory, Net",balance_sheet,12993000000,USD,,2023-04-01,10-Q,0000050863-23-000028,InventoryNet
+INTC,50863,2023,Q2,quarterly,inventory_net,"Inventory, Net",balance_sheet,11984000000,USD,,2023-07-01,10-Q,0000050863-23-000069,InventoryNet
+INTC,50863,2023,Q3,quarterly,inventory_net,"Inventory, Net",balance_sheet,11466000000,USD,,2023-09-30,10-Q,0000050863-23-000103,InventoryNet
+INTC,50863,2023,FY,annual,inventory_net,"Inventory, Net",balance_sheet,11127000000,USD,,2023-12-30,10-K,0000050863-24-000010,InventoryNet
+INTC,50863,2024,Q1,quarterly,inventory_net,"Inventory, Net",balance_sheet,11494000000,USD,,2024-03-30,10-Q,0000050863-24-000076,InventoryNet
+INTC,50863,2024,Q2,quarterly,inventory_net,"Inventory, Net",balance_sheet,11244000000,USD,,2024-06-29,10-Q,0000050863-24-000124,InventoryNet
+INTC,50863,2024,Q3,quarterly,inventory_net,"Inventory, Net",balance_sheet,12062000000,USD,,2024-09-28,10-Q,0000050863-24-000149,InventoryNet
+INTC,50863,2024,FY,annual,inventory_net,"Inventory, Net",balance_sheet,12198000000,USD,,2024-12-28,10-K,0000050863-25-000009,InventoryNet
+INTC,50863,2025,Q1,quarterly,inventory_net,"Inventory, Net",balance_sheet,12281000000,USD,,2025-03-29,10-Q,0000050863-25-000074,InventoryNet
+INTC,50863,2025,Q2,quarterly,inventory_net,"Inventory, Net",balance_sheet,11377000000,USD,,2025-06-28,10-Q,0000050863-25-000109,InventoryNet
+INTC,50863,2025,Q3,quarterly,inventory_net,"Inventory, Net",balance_sheet,11489000000,USD,,2025-09-27,10-Q,0000050863-25-000179,InventoryNet
+INTC,50863,2025,FY,annual,inventory_net,"Inventory, Net",balance_sheet,11618000000,USD,,2025-12-27,10-K,0000050863-26-000011,InventoryNet
+INTC,50863,2026,Q1,quarterly,inventory_net,"Inventory, Net",balance_sheet,12426000000,USD,,2026-03-28,10-Q,0000050863-26-000079,InventoryNet
+INTC,50863,2026,Q2,quarterly,inventory_net,"Inventory, Net",balance_sheet,12492000000,USD,,2026-06-27,10-Q,0000050863-26-000157,InventoryNet
+INTC,50863,2023,Q1,quarterly,total_current_assets,Total Current Assets,balance_sheet,48314000000,USD,,2023-04-01,10-Q,0000050863-23-000028,AssetsCurrent
+INTC,50863,2023,Q2,quarterly,total_current_assets,Total Current Assets,balance_sheet,43356000000,USD,,2023-07-01,10-Q,0000050863-23-000069,AssetsCurrent
+INTC,50863,2023,Q3,quarterly,total_current_assets,Total Current Assets,balance_sheet,43811000000,USD,,2023-09-30,10-Q,0000050863-23-000103,AssetsCurrent
+INTC,50863,2023,FY,annual,total_current_assets,Total Current Assets,balance_sheet,43269000000,USD,,2023-12-30,10-K,0000050863-24-000010,AssetsCurrent
+INTC,50863,2024,Q1,quarterly,total_current_assets,Total Current Assets,balance_sheet,42608000000,USD,,2024-03-30,10-Q,0000050863-24-000076,AssetsCurrent
+INTC,50863,2024,Q2,quarterly,total_current_assets,Total Current Assets,balance_sheet,50829000000,USD,,2024-06-29,10-Q,0000050863-24-000124,AssetsCurrent
+INTC,50863,2024,Q3,quarterly,total_current_assets,Total Current Assets,balance_sheet,46137000000,USD,,2024-09-28,10-Q,0000050863-24-000149,AssetsCurrent
+INTC,50863,2024,FY,annual,total_current_assets,Total Current Assets,balance_sheet,47324000000,USD,,2024-12-28,10-K,0000050863-25-000009,AssetsCurrent
+INTC,50863,2025,Q1,quarterly,total_current_assets,Total Current Assets,balance_sheet,42134000000,USD,,2025-03-29,10-Q,0000050863-25-000074,AssetsCurrent
+INTC,50863,2025,Q2,quarterly,total_current_assets,Total Current Assets,balance_sheet,43375000000,USD,,2025-06-28,10-Q,0000050863-25-000109,AssetsCurrent
+INTC,50863,2025,Q3,quarterly,total_current_assets,Total Current Assets,balance_sheet,51731000000,USD,,2025-09-27,10-Q,0000050863-25-000179,AssetsCurrent
+INTC,50863,2025,FY,annual,total_current_assets,Total Current Assets,balance_sheet,63688000000,USD,,2025-12-27,10-K,0000050863-26-000011,AssetsCurrent
+INTC,50863,2026,Q1,quarterly,total_current_assets,Total Current Assets,balance_sheet,62157000000,USD,,2026-03-28,10-Q,0000050863-26-000079,AssetsCurrent
+INTC,50863,2026,Q2,quarterly,total_current_assets,Total Current Assets,balance_sheet,57213000000,USD,,2026-06-27,10-Q,0000050863-26-000157,AssetsCurrent
+INTC,50863,2023,Q1,quarterly,goodwill,Goodwill,balance_sheet,27591000000,USD,,2023-04-01,10-Q,0000050863-23-000028,Goodwill
+INTC,50863,2023,Q2,quarterly,goodwill,Goodwill,balance_sheet,27591000000,USD,,2023-07-01,10-Q,0000050863-23-000069,Goodwill
+INTC,50863,2023,Q3,quarterly,goodwill,Goodwill,balance_sheet,27591000000,USD,,2023-09-30,10-Q,0000050863-23-000103,Goodwill
+INTC,50863,2023,FY,annual,goodwill,Goodwill,balance_sheet,27591000000,USD,,2023-12-30,10-K,0000050863-24-000010,Goodwill
+INTC,50863,2024,Q1,quarterly,goodwill,Goodwill,balance_sheet,27440000000,USD,,2024-03-30,10-Q,0000050863-24-000076,Goodwill
+INTC,50863,2024,Q2,quarterly,goodwill,Goodwill,balance_sheet,27442000000,USD,,2024-06-29,10-Q,0000050863-24-000124,Goodwill
+INTC,50863,2024,Q3,quarterly,goodwill,Goodwill,balance_sheet,24680000000,USD,,2024-09-28,10-Q,0000050863-24-000149,Goodwill
+INTC,50863,2024,FY,annual,goodwill,Goodwill,balance_sheet,24693000000,USD,,2024-12-28,10-K,0000050863-25-000009,Goodwill
+INTC,50863,2025,Q1,quarterly,goodwill,Goodwill,balance_sheet,24693000000,USD,,2025-03-29,10-Q,0000050863-25-000074,Goodwill
+INTC,50863,2025,Q2,quarterly,goodwill,Goodwill,balance_sheet,23912000000,USD,,2025-06-28,10-Q,0000050863-25-000109,Goodwill
+INTC,50863,2025,Q3,quarterly,goodwill,Goodwill,balance_sheet,23912000000,USD,,2025-09-27,10-Q,0000050863-25-000179,Goodwill
+INTC,50863,2025,FY,annual,goodwill,Goodwill,balance_sheet,23912000000,USD,,2025-12-27,10-K,0000050863-26-000011,Goodwill
+INTC,50863,2026,Q1,quarterly,goodwill,Goodwill,balance_sheet,20465000000,USD,,2026-03-28,10-Q,0000050863-26-000079,Goodwill
+INTC,50863,2026,Q2,quarterly,goodwill,Goodwill,balance_sheet,20465000000,USD,,2026-06-27,10-Q,0000050863-26-000157,Goodwill
+INTC,50863,2023,Q1,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,5567000000,USD,,2023-04-01,10-Q,0000050863-23-000028,IntangibleAssetsNetExcludingGoodwill
+INTC,50863,2023,Q2,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,5173000000,USD,,2023-07-01,10-Q,0000050863-23-000069,IntangibleAssetsNetExcludingGoodwill
+INTC,50863,2023,Q3,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,4970000000,USD,,2023-09-30,10-Q,0000050863-23-000103,IntangibleAssetsNetExcludingGoodwill
+INTC,50863,2023,FY,annual,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,4589000000,USD,,2023-12-30,10-K,0000050863-24-000010,IntangibleAssetsNetExcludingGoodwill
+INTC,50863,2024,Q1,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,4675000000,USD,,2024-03-30,10-Q,0000050863-24-000076,IntangibleAssetsNetExcludingGoodwill
+INTC,50863,2024,Q2,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,4383000000,USD,,2024-06-29,10-Q,0000050863-24-000124,IntangibleAssetsNetExcludingGoodwill
+INTC,50863,2024,Q3,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,3975000000,USD,,2024-09-28,10-Q,0000050863-24-000149,IntangibleAssetsNetExcludingGoodwill
+INTC,50863,2024,FY,annual,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,3691000000,USD,,2024-12-28,10-K,0000050863-25-000009,IntangibleAssetsNetExcludingGoodwill
+INTC,50863,2025,Q1,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,3568000000,USD,,2025-03-29,10-Q,0000050863-25-000074,IntangibleAssetsNetExcludingGoodwill
+INTC,50863,2025,Q2,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,3057000000,USD,,2025-06-28,10-Q,0000050863-25-000109,IntangibleAssetsNetExcludingGoodwill
+INTC,50863,2025,Q3,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,2877000000,USD,,2025-09-27,10-Q,0000050863-25-000179,IntangibleAssetsNetExcludingGoodwill
+INTC,50863,2025,FY,annual,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,2772000000,USD,,2025-12-27,10-K,0000050863-26-000011,IntangibleAssetsNetExcludingGoodwill
+INTC,50863,2026,Q1,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,2722000000,USD,,2026-03-28,10-Q,0000050863-26-000079,IntangibleAssetsNetExcludingGoodwill
+INTC,50863,2026,Q2,quarterly,intangible_assets_net,"Intangible Assets, Net (Excl. Goodwill)",balance_sheet,2545000000,USD,,2026-06-27,10-Q,0000050863-26-000157,IntangibleAssetsNetExcludingGoodwill
+INTC,50863,2023,Q1,quarterly,total_assets,Total Assets,balance_sheet,185303000000,USD,,2023-04-01,10-Q,0000050863-23-000028,Assets
+INTC,50863,2023,Q2,quarterly,total_assets,Total Assets,balance_sheet,185629000000,USD,,2023-07-01,10-Q,0000050863-23-000069,Assets
+INTC,50863,2023,Q3,quarterly,total_assets,Total Assets,balance_sheet,188837000000,USD,,2023-09-30,10-Q,0000050863-23-000103,Assets
+INTC,50863,2023,FY,annual,total_assets,Total Assets,balance_sheet,191572000000,USD,,2023-12-30,10-K,0000050863-24-000010,Assets
+INTC,50863,2024,Q1,quarterly,total_assets,Total Assets,balance_sheet,192733000000,USD,,2024-03-30,10-Q,0000050863-24-000076,Assets
+INTC,50863,2024,Q2,quarterly,total_assets,Total Assets,balance_sheet,206205000000,USD,,2024-06-29,10-Q,0000050863-24-000124,Assets
+INTC,50863,2024,Q3,quarterly,total_assets,Total Assets,balance_sheet,193542000000,USD,,2024-09-28,10-Q,0000050863-24-000149,Assets
+INTC,50863,2024,FY,annual,total_assets,Total Assets,balance_sheet,196485000000,USD,,2024-12-28,10-K,0000050863-25-000009,Assets
+INTC,50863,2025,Q1,quarterly,total_assets,Total Assets,balance_sheet,192242000000,USD,,2025-03-29,10-Q,0000050863-25-000074,Assets
+INTC,50863,2025,Q2,quarterly,total_assets,Total Assets,balance_sheet,192520000000,USD,,2025-06-28,10-Q,0000050863-25-000109,Assets
+INTC,50863,2025,Q3,quarterly,total_assets,Total Assets,balance_sheet,204514000000,USD,,2025-09-27,10-Q,0000050863-25-000179,Assets
+INTC,50863,2025,FY,annual,total_assets,Total Assets,balance_sheet,211429000000,USD,,2025-12-27,10-K,0000050863-26-000011,Assets
+INTC,50863,2026,Q1,quarterly,total_assets,Total Assets,balance_sheet,205332000000,USD,,2026-03-28,10-Q,0000050863-26-000079,Assets
+INTC,50863,2026,Q2,quarterly,total_assets,Total Assets,balance_sheet,202439000000,USD,,2026-06-27,10-Q,0000050863-26-000157,Assets
+INTC,50863,2023,Q1,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,8083000000,USD,,2023-04-01,10-Q,0000050863-23-000028,AccountsPayableCurrent
+INTC,50863,2023,Q2,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,8757000000,USD,,2023-07-01,10-Q,0000050863-23-000069,AccountsPayableCurrent
+INTC,50863,2023,Q3,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,8669000000,USD,,2023-09-30,10-Q,0000050863-23-000103,AccountsPayableCurrent
+INTC,50863,2023,FY,annual,accounts_payable,Accounts Payable (Current),balance_sheet,8578000000,USD,,2023-12-30,10-K,0000050863-24-000010,AccountsPayableCurrent
+INTC,50863,2024,Q1,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,8559000000,USD,,2024-03-30,10-Q,0000050863-24-000076,AccountsPayableCurrent
+INTC,50863,2024,Q2,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,9618000000,USD,,2024-06-29,10-Q,0000050863-24-000124,AccountsPayableCurrent
+INTC,50863,2024,Q3,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,11074000000,USD,,2024-09-28,10-Q,0000050863-24-000149,AccountsPayableCurrent
+INTC,50863,2024,FY,annual,accounts_payable,Accounts Payable (Current),balance_sheet,12556000000,USD,,2024-12-28,10-K,0000050863-25-000009,AccountsPayableCurrent
+INTC,50863,2025,Q1,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,10896000000,USD,,2025-03-29,10-Q,0000050863-25-000074,AccountsPayableCurrent
+INTC,50863,2025,Q2,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,10666000000,USD,,2025-06-28,10-Q,0000050863-25-000109,AccountsPayableCurrent
+INTC,50863,2025,Q3,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,10268000000,USD,,2025-09-27,10-Q,0000050863-25-000179,AccountsPayableCurrent
+INTC,50863,2025,FY,annual,accounts_payable,Accounts Payable (Current),balance_sheet,9882000000,USD,,2025-12-27,10-K,0000050863-26-000011,AccountsPayableCurrent
+INTC,50863,2026,Q1,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,7159000000,USD,,2026-03-28,10-Q,0000050863-26-000079,AccountsPayableCurrent
+INTC,50863,2026,Q2,quarterly,accounts_payable,Accounts Payable (Current),balance_sheet,8756000000,USD,,2026-06-27,10-Q,0000050863-26-000157,AccountsPayableCurrent
+INTC,50863,2023,Q1,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,27393000000,USD,,2023-04-01,10-Q,0000050863-23-000028,LiabilitiesCurrent
+INTC,50863,2023,Q2,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,27180000000,USD,,2023-07-01,10-Q,0000050863-23-000069,LiabilitiesCurrent
+INTC,50863,2023,Q3,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,28614000000,USD,,2023-09-30,10-Q,0000050863-23-000103,LiabilitiesCurrent
+INTC,50863,2023,FY,annual,total_current_liabilities,Total Current Liabilities,balance_sheet,28053000000,USD,,2023-12-30,10-K,0000050863-24-000010,LiabilitiesCurrent
+INTC,50863,2024,Q1,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,27213000000,USD,,2024-03-30,10-Q,0000050863-24-000076,LiabilitiesCurrent
+INTC,50863,2024,Q2,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,32027000000,USD,,2024-06-29,10-Q,0000050863-24-000124,LiabilitiesCurrent
+INTC,50863,2024,Q3,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,35159000000,USD,,2024-09-28,10-Q,0000050863-24-000149,LiabilitiesCurrent
+INTC,50863,2024,FY,annual,total_current_liabilities,Total Current Liabilities,balance_sheet,35666000000,USD,,2024-12-28,10-K,0000050863-25-000009,LiabilitiesCurrent
+INTC,50863,2025,Q1,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,32174000000,USD,,2025-03-29,10-Q,0000050863-25-000074,LiabilitiesCurrent
+INTC,50863,2025,Q2,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,34966000000,USD,,2025-06-28,10-Q,0000050863-25-000109,LiabilitiesCurrent
+INTC,50863,2025,Q3,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,32297000000,USD,,2025-09-27,10-Q,0000050863-25-000179,LiabilitiesCurrent
+INTC,50863,2025,FY,annual,total_current_liabilities,Total Current Liabilities,balance_sheet,31575000000,USD,,2025-12-27,10-K,0000050863-26-000011,LiabilitiesCurrent
+INTC,50863,2026,Q1,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,26885000000,USD,,2026-03-28,10-Q,0000050863-26-000079,LiabilitiesCurrent
+INTC,50863,2026,Q2,quarterly,total_current_liabilities,Total Current Liabilities,balance_sheet,35670000000,USD,,2026-06-27,10-Q,0000050863-26-000157,LiabilitiesCurrent
+INTC,50863,2023,FY,annual,short_term_debt,Short-Term / Current Portion of Debt,balance_sheet,2288000000,USD,,2023-12-30,10-K,0000050863-24-000010,LongTermDebtCurrent
+INTC,50863,2024,FY,annual,short_term_debt,Short-Term / Current Portion of Debt,balance_sheet,3729000000,USD,,2024-12-28,10-K,0000050863-25-000009,LongTermDebtCurrent
+INTC,50863,2025,FY,annual,short_term_debt,Short-Term / Current Portion of Debt,balance_sheet,2499000000,USD,,2025-12-27,10-K,0000050863-26-000011,LongTermDebtCurrent
+INTC,50863,2023,Q1,quarterly,short_term_debt,Short-Term / Current Portion of Debt,balance_sheet,1437000000,USD,,2023-04-01,10-Q,0000050863-23-000028,DebtCurrent
+INTC,50863,2023,Q2,quarterly,short_term_debt,Short-Term / Current Portion of Debt,balance_sheet,2711000000,USD,,2023-07-01,10-Q,0000050863-23-000069,DebtCurrent
+INTC,50863,2023,Q3,quarterly,short_term_debt,Short-Term / Current Portion of Debt,balance_sheet,2288000000,USD,,2023-09-30,10-Q,0000050863-23-000103,DebtCurrent
+INTC,50863,2024,Q1,quarterly,short_term_debt,Short-Term / Current Portion of Debt,balance_sheet,4581000000,USD,,2024-03-30,10-Q,0000050863-24-000076,DebtCurrent
+INTC,50863,2024,Q2,quarterly,short_term_debt,Short-Term / Current Portion of Debt,balance_sheet,4695000000,USD,,2024-06-29,10-Q,0000050863-24-000124,DebtCurrent
+INTC,50863,2024,Q3,quarterly,short_term_debt,Short-Term / Current Portion of Debt,balance_sheet,3765000000,USD,,2024-09-28,10-Q,0000050863-24-000149,DebtCurrent
+INTC,50863,2025,Q1,quarterly,short_term_debt,Short-Term / Current Portion of Debt,balance_sheet,5240000000,USD,,2025-03-29,10-Q,0000050863-25-000074,DebtCurrent
+INTC,50863,2025,Q2,quarterly,short_term_debt,Short-Term / Current Portion of Debt,balance_sheet,6731000000,USD,,2025-06-28,10-Q,0000050863-25-000109,DebtCurrent
+INTC,50863,2025,Q3,quarterly,short_term_debt,Short-Term / Current Portion of Debt,balance_sheet,2496000000,USD,,2025-09-27,10-Q,0000050863-25-000179,DebtCurrent
+INTC,50863,2026,Q1,quarterly,short_term_debt,Short-Term / Current Portion of Debt,balance_sheet,2004000000,USD,,2026-03-28,10-Q,0000050863-26-000079,DebtCurrent
+INTC,50863,2026,Q2,quarterly,short_term_debt,Short-Term / Current Portion of Debt,balance_sheet,1988000000,USD,,2026-06-27,10-Q,0000050863-26-000157,DebtCurrent
+INTC,50863,2023,Q1,quarterly,commercial_paper,Commercial Paper,balance_sheet,1000000000,USD,,2023-04-01,10-Q,0000050863-23-000028,CommercialPaper
+INTC,50863,2023,FY,annual,commercial_paper,Commercial Paper,balance_sheet,0,USD,,2023-12-30,10-K,0000050863-24-000010,CommercialPaper
+INTC,50863,2024,Q1,quarterly,commercial_paper,Commercial Paper,balance_sheet,793000000,USD,,2024-03-30,10-Q,0000050863-24-000076,CommercialPaper
+INTC,50863,2024,Q2,quarterly,commercial_paper,Commercial Paper,balance_sheet,3200000000,USD,,2024-06-29,10-Q,0000050863-24-000124,CommercialPaper
+INTC,50863,2024,Q3,quarterly,commercial_paper,Commercial Paper,balance_sheet,0,USD,,2024-09-28,10-Q,0000050863-24-000149,CommercialPaper
+INTC,50863,2024,FY,annual,commercial_paper,Commercial Paper,balance_sheet,0,USD,,2024-12-28,10-K,0000050863-25-000009,CommercialPaper
+INTC,50863,2025,Q1,quarterly,commercial_paper,Commercial Paper,balance_sheet,1500000000,USD,,2025-03-29,10-Q,0000050863-25-000074,CommercialPaper
+INTC,50863,2025,Q2,quarterly,commercial_paper,Commercial Paper,balance_sheet,2000000000,USD,,2025-06-28,10-Q,0000050863-25-000109,CommercialPaper
+INTC,50863,2025,FY,annual,commercial_paper,Commercial Paper,balance_sheet,0,USD,,2025-12-27,10-K,0000050863-26-000011,CommercialPaper
+INTC,50863,2023,Q1,quarterly,long_term_debt,Long-Term Debt (Non-Current),balance_sheet,48836000000,USD,,2023-04-01,10-Q,0000050863-23-000028,LongTermDebtNoncurrent
+INTC,50863,2023,Q2,quarterly,long_term_debt,Long-Term Debt (Non-Current),balance_sheet,46335000000,USD,,2023-07-01,10-Q,0000050863-23-000069,LongTermDebtNoncurrent
+INTC,50863,2023,Q3,quarterly,long_term_debt,Long-Term Debt (Non-Current),balance_sheet,46591000000,USD,,2023-09-30,10-Q,0000050863-23-000103,LongTermDebtNoncurrent
+INTC,50863,2023,FY,annual,long_term_debt,Long-Term Debt (Non-Current),balance_sheet,46978000000,USD,,2023-12-30,10-K,0000050863-24-000010,LongTermDebtNoncurrent
+INTC,50863,2024,Q1,quarterly,long_term_debt,Long-Term Debt (Non-Current),balance_sheet,47869000000,USD,,2024-03-30,10-Q,0000050863-24-000076,LongTermDebtNoncurrent
+INTC,50863,2024,Q2,quarterly,long_term_debt,Long-Term Debt (Non-Current),balance_sheet,48334000000,USD,,2024-06-29,10-Q,0000050863-24-000124,LongTermDebtNoncurrent
+INTC,50863,2024,Q3,quarterly,long_term_debt,Long-Term Debt (Non-Current),balance_sheet,46471000000,USD,,2024-09-28,10-Q,0000050863-24-000149,LongTermDebtNoncurrent
+INTC,50863,2024,FY,annual,long_term_debt,Long-Term Debt (Non-Current),balance_sheet,46282000000,USD,,2024-12-28,10-K,0000050863-25-000009,LongTermDebtNoncurrent
+INTC,50863,2025,Q1,quarterly,long_term_debt,Long-Term Debt (Non-Current),balance_sheet,44911000000,USD,,2025-03-29,10-Q,0000050863-25-000074,LongTermDebtNoncurrent
+INTC,50863,2025,Q2,quarterly,long_term_debt,Long-Term Debt (Non-Current),balance_sheet,44026000000,USD,,2025-06-28,10-Q,0000050863-25-000109,LongTermDebtNoncurrent
+INTC,50863,2025,Q3,quarterly,long_term_debt,Long-Term Debt (Non-Current),balance_sheet,44057000000,USD,,2025-09-27,10-Q,0000050863-25-000179,LongTermDebtNoncurrent
+INTC,50863,2025,FY,annual,long_term_debt,Long-Term Debt (Non-Current),balance_sheet,44086000000,USD,,2025-12-27,10-K,0000050863-26-000011,LongTermDebtNoncurrent
+INTC,50863,2026,Q1,quarterly,long_term_debt,Long-Term Debt (Non-Current),balance_sheet,43027000000,USD,,2026-03-28,10-Q,0000050863-26-000079,LongTermDebtNoncurrent
+INTC,50863,2026,Q2,quarterly,long_term_debt,Long-Term Debt (Non-Current),balance_sheet,48549000000,USD,,2026-06-27,10-Q,0000050863-26-000157,LongTermDebtNoncurrent
+INTC,50863,2023,Q1,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,98059000000,USD,,2023-04-01,10-Q,0000050863-23-000028,StockholdersEquity
+INTC,50863,2023,Q2,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,101017000000,USD,,2023-07-01,10-Q,0000050863-23-000069,StockholdersEquity
+INTC,50863,2023,Q3,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,101813000000,USD,,2023-09-30,10-Q,0000050863-23-000103,StockholdersEquity
+INTC,50863,2023,FY,annual,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,105590000000,USD,,2023-12-30,10-K,0000050863-24-000010,StockholdersEquity
+INTC,50863,2024,Q1,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,105973000000,USD,,2024-03-30,10-Q,0000050863-24-000076,StockholdersEquity
+INTC,50863,2024,Q2,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,115229000000,USD,,2024-06-29,10-Q,0000050863-24-000124,StockholdersEquity
+INTC,50863,2024,Q3,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,99532000000,USD,,2024-09-28,10-Q,0000050863-24-000149,StockholdersEquity
+INTC,50863,2024,FY,annual,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,99270000000,USD,,2024-12-28,10-K,0000050863-25-000009,StockholdersEquity
+INTC,50863,2025,Q1,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,99756000000,USD,,2025-03-29,10-Q,0000050863-25-000074,StockholdersEquity
+INTC,50863,2025,Q2,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,97883000000,USD,,2025-06-28,10-Q,0000050863-25-000109,StockholdersEquity
+INTC,50863,2025,Q3,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,106376000000,USD,,2025-09-27,10-Q,0000050863-25-000179,StockholdersEquity
+INTC,50863,2025,FY,annual,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,114281000000,USD,,2025-12-27,10-K,0000050863-26-000011,StockholdersEquity
+INTC,50863,2026,Q1,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,111394000000,USD,,2026-03-28,10-Q,0000050863-26-000079,StockholdersEquity
+INTC,50863,2026,Q2,quarterly,total_stockholders_equity,Total Stockholders' Equity (parent),balance_sheet,87542000000,USD,,2026-06-27,10-Q,0000050863-26-000157,StockholdersEquity
+INTC,50863,2023,Q1,quarterly,net_cash_from_operating_activities,Cash Flow from Operations (CFO),cash_flow,-1785000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,NetCashProvidedByUsedInOperatingActivities
+INTC,50863,2023,FY,annual,net_cash_from_operating_activities,Cash Flow from Operations (CFO),cash_flow,11471000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,NetCashProvidedByUsedInOperatingActivities
+INTC,50863,2024,Q1,quarterly,net_cash_from_operating_activities,Cash Flow from Operations (CFO),cash_flow,-1223000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,NetCashProvidedByUsedInOperatingActivities
+INTC,50863,2024,FY,annual,net_cash_from_operating_activities,Cash Flow from Operations (CFO),cash_flow,8288000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,NetCashProvidedByUsedInOperatingActivities
+INTC,50863,2025,Q1,quarterly,net_cash_from_operating_activities,Cash Flow from Operations (CFO),cash_flow,813000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,NetCashProvidedByUsedInOperatingActivities
+INTC,50863,2025,FY,annual,net_cash_from_operating_activities,Cash Flow from Operations (CFO),cash_flow,9697000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,NetCashProvidedByUsedInOperatingActivities
+INTC,50863,2026,Q1,quarterly,net_cash_from_operating_activities,Cash Flow from Operations (CFO),cash_flow,1096000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,NetCashProvidedByUsedInOperatingActivities
+INTC,50863,2023,Q1,quarterly,capital_expenditures,Capital Expenditures (Capex),cash_flow,7413000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,PaymentsToAcquirePropertyPlantAndEquipment
+INTC,50863,2023,FY,annual,capital_expenditures,Capital Expenditures (Capex),cash_flow,25750000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,PaymentsToAcquirePropertyPlantAndEquipment
+INTC,50863,2024,Q1,quarterly,capital_expenditures,Capital Expenditures (Capex),cash_flow,5970000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,PaymentsToAcquirePropertyPlantAndEquipment
+INTC,50863,2024,FY,annual,capital_expenditures,Capital Expenditures (Capex),cash_flow,23944000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,PaymentsToAcquirePropertyPlantAndEquipment
+INTC,50863,2025,Q1,quarterly,capital_expenditures,Capital Expenditures (Capex),cash_flow,5183000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,PaymentsToAcquirePropertyPlantAndEquipment
+INTC,50863,2025,FY,annual,capital_expenditures,Capital Expenditures (Capex),cash_flow,14646000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,PaymentsToAcquirePropertyPlantAndEquipment
+INTC,50863,2026,Q1,quarterly,capital_expenditures,Capital Expenditures (Capex),cash_flow,3636000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,PaymentsToAcquirePropertyPlantAndEquipment
+INTC,50863,2023,Q1,quarterly,net_cash_from_investing_activities,Cash Flow from Investing (CFI),cash_flow,-8521000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,NetCashProvidedByUsedInInvestingActivities
+INTC,50863,2023,FY,annual,net_cash_from_investing_activities,Cash Flow from Investing (CFI),cash_flow,-24041000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,NetCashProvidedByUsedInInvestingActivities
+INTC,50863,2024,Q1,quarterly,net_cash_from_investing_activities,Cash Flow from Investing (CFI),cash_flow,-2563000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,NetCashProvidedByUsedInInvestingActivities
+INTC,50863,2024,FY,annual,net_cash_from_investing_activities,Cash Flow from Investing (CFI),cash_flow,-18256000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,NetCashProvidedByUsedInInvestingActivities
+INTC,50863,2025,Q1,quarterly,net_cash_from_investing_activities,Cash Flow from Investing (CFI),cash_flow,81000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,NetCashProvidedByUsedInInvestingActivities
+INTC,50863,2025,FY,annual,net_cash_from_investing_activities,Cash Flow from Investing (CFI),cash_flow,-14821000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,NetCashProvidedByUsedInInvestingActivities
+INTC,50863,2026,Q1,quarterly,net_cash_from_investing_activities,Cash Flow from Investing (CFI),cash_flow,3093000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,NetCashProvidedByUsedInInvestingActivities
+INTC,50863,2023,Q1,quarterly,net_cash_from_financing_activities,Cash Flow from Financing (CFF),cash_flow,7394000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,NetCashProvidedByUsedInFinancingActivities
+INTC,50863,2023,FY,annual,net_cash_from_financing_activities,Cash Flow from Financing (CFF),cash_flow,8505000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,NetCashProvidedByUsedInFinancingActivities
+INTC,50863,2024,Q1,quarterly,net_cash_from_financing_activities,Cash Flow from Financing (CFF),cash_flow,3630000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,NetCashProvidedByUsedInFinancingActivities
+INTC,50863,2024,FY,annual,net_cash_from_financing_activities,Cash Flow from Financing (CFF),cash_flow,11138000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,NetCashProvidedByUsedInFinancingActivities
+INTC,50863,2025,Q1,quarterly,net_cash_from_financing_activities,Cash Flow from Financing (CFF),cash_flow,-196000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,NetCashProvidedByUsedInFinancingActivities
+INTC,50863,2025,FY,annual,net_cash_from_financing_activities,Cash Flow from Financing (CFF),cash_flow,11587000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,NetCashProvidedByUsedInFinancingActivities
+INTC,50863,2026,Q1,quarterly,net_cash_from_financing_activities,Cash Flow from Financing (CFF),cash_flow,-1206000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,NetCashProvidedByUsedInFinancingActivities
+INTC,50863,2023,FY,annual,share_repurchases,Share Repurchases (Buybacks),cash_flow,0,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,PaymentsForRepurchaseOfCommonStock
+INTC,50863,2023,Q1,quarterly,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,1901000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,Depreciation
+INTC,50863,2023,FY,annual,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,7847000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,Depreciation
+INTC,50863,2024,Q1,quarterly,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,2200000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,Depreciation
+INTC,50863,2024,FY,annual,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,9951000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,Depreciation
+INTC,50863,2025,Q1,quarterly,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,2425000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,Depreciation
+INTC,50863,2025,FY,annual,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,10757000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,Depreciation
+INTC,50863,2026,Q1,quarterly,depreciation_and_amortization,Depreciation & Amortization (D&A),cash_flow,2902000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,Depreciation
+INTC,50863,2023,Q1,quarterly,dividends_paid,Dividends Paid,cash_flow,1512000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,PaymentsOfDividendsCommonStock
+INTC,50863,2023,FY,annual,dividends_paid,Dividends Paid,cash_flow,3088000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,PaymentsOfDividendsCommonStock
+INTC,50863,2024,Q1,quarterly,dividends_paid,Dividends Paid,cash_flow,529000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,PaymentsOfDividendsCommonStock
+INTC,50863,2024,FY,annual,dividends_paid,Dividends Paid,cash_flow,1599000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,PaymentsOfDividendsCommonStock
+INTC,50863,2025,Q1,quarterly,dividends_paid,Dividends Paid,cash_flow,0,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,PaymentsOfDividendsCommonStock
+INTC,50863,2025,FY,annual,dividends_paid,Dividends Paid,cash_flow,0,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,PaymentsOfDividendsCommonStock
+INTC,50863,2023,FY,annual,acquisitions_net_of_cash,"Acquisitions, Net of Cash Acquired",cash_flow,13000000,USD,2023-01-01,2023-12-30,10-K,0000050863-25-000009,PaymentsToAcquireBusinessesNetOfCashAcquired
+INTC,50863,2024,FY,annual,acquisitions_net_of_cash,"Acquisitions, Net of Cash Acquired",cash_flow,82000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,PaymentsToAcquireBusinessesNetOfCashAcquired
+INTC,50863,2025,Q1,quarterly,acquisitions_net_of_cash,"Acquisitions, Net of Cash Acquired",cash_flow,0,USD,2024-12-29,2025-03-29,10-Q,0000050863-26-000079,PaymentsToAcquireBusinessesNetOfCashAcquired
+INTC,50863,2026,Q1,quarterly,acquisitions_net_of_cash,"Acquisitions, Net of Cash Acquired",cash_flow,596000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,PaymentsToAcquireBusinessesNetOfCashAcquired
+INTC,50863,2023,Q1,quarterly,debt_issued,Proceeds from Issuance of Debt,cash_flow,10968000000,USD,2023-01-01,2023-04-01,10-Q,0000050863-23-000028,ProceedsFromIssuanceOfLongTermDebt
+INTC,50863,2023,FY,annual,debt_issued,Proceeds from Issuance of Debt,cash_flow,11391000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,ProceedsFromIssuanceOfLongTermDebt
+INTC,50863,2024,Q1,quarterly,debt_issued,Proceeds from Issuance of Debt,cash_flow,2537000000,USD,2023-12-31,2024-03-30,10-Q,0000050863-24-000076,ProceedsFromIssuanceOfLongTermDebt
+INTC,50863,2024,FY,annual,debt_issued,Proceeds from Issuance of Debt,cash_flow,2975000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,ProceedsFromIssuanceOfLongTermDebt
+INTC,50863,2025,Q1,quarterly,debt_issued,Proceeds from Issuance of Debt,cash_flow,0,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,ProceedsFromIssuanceOfLongTermDebt
+INTC,50863,2025,FY,annual,debt_issued,Proceeds from Issuance of Debt,cash_flow,0,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,ProceedsFromIssuanceOfLongTermDebt
+INTC,50863,2023,FY,annual,debt_repaid,Repayments of Debt,cash_flow,423000000,USD,2023-01-01,2023-12-30,10-K,0000050863-24-000010,RepaymentsOfLongTermDebt
+INTC,50863,2024,Q1,quarterly,debt_repaid,Repayments of Debt,cash_flow,0,USD,2023-12-31,2024-03-30,10-Q,0000050863-25-000074,RepaymentsOfLongTermDebt
+INTC,50863,2024,FY,annual,debt_repaid,Repayments of Debt,cash_flow,2288000000,USD,2023-12-31,2024-12-28,10-K,0000050863-25-000009,RepaymentsOfLongTermDebt
+INTC,50863,2025,Q1,quarterly,debt_repaid,Repayments of Debt,cash_flow,1500000000,USD,2024-12-29,2025-03-29,10-Q,0000050863-25-000074,RepaymentsOfLongTermDebt
+INTC,50863,2025,FY,annual,debt_repaid,Repayments of Debt,cash_flow,3750000000,USD,2024-12-29,2025-12-27,10-K,0000050863-26-000011,RepaymentsOfLongTermDebt
+INTC,50863,2026,Q1,quarterly,debt_repaid,Repayments of Debt,cash_flow,1500000000,USD,2025-12-28,2026-03-28,10-Q,0000050863-26-000079,RepaymentsOfLongTermDebt

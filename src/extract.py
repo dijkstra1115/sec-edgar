@@ -233,6 +233,13 @@ def main():
     all_rows = []
     coverage_report = {}
     for c in companies:
+        # Foreign private issuers report under IFRS and carry zero us-gaap facts, so
+        # every tag in the dictionary misses. Skip them loudly rather than emitting an
+        # all-blank coverage row that looks like a pipeline bug.
+        taxonomy = c.get("xbrl_taxonomy", "us-gaap")
+        if taxonomy != "us-gaap":
+            print(f"{c['ticker']:6}     - skipped: files under {taxonomy}, not us-gaap")
+            continue
         rows, cov = extract_company(c, field_dict)
         all_rows.extend(rows)
         coverage_report[c["ticker"]] = cov

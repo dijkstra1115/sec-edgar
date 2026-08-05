@@ -44,11 +44,33 @@ they are running degraded, not so they have to fix it first.
 Also confirm `drafts/` and `drafts/ledger/` exist; create them if not. An absent or empty ledger on a
 fresh clone is expected and is not an error — it only means stage 4 has nothing to draw on yet.
 
+`scripts/post_context.py` needs no MCP and no network. On a fresh clone its sections will report
+that the alert logs and dataset have not been built yet; that is expected and it still runs.
+
 ### 0. Scope
+
+**Start here, always:**
+
+```
+python scripts/post_context.py TICKER      # one name
+python scripts/post_context.py --scout     # no ticker given
+```
+
+This is the bridge to the rest of the repo. It reports what the user's own alert system has
+already flagged, the latest 13F institutional flow, and the curated valuation row — material no
+public source has. Run it before touching the web.
+
 - Ticker given → confirm the next (pre) or last (post) earnings date. Ticker absent → scout mode.
 - **pre** requires earnings within ~10 days. If further out, say so and offer scout mode instead.
-- Scout ranking favours: semis / AI infrastructure / hyperscalers, a technical angle the user's CS
-  background can exploit, and a name with prior coverage in the ledger (cheap peer callbacks).
+- Scout output ranks watchlist names by alert volume. **Cross that against the FMP earnings
+  calendar and pick the overlap**: a name the user's own system keeps flagging *and* that reports
+  soon. That intersection is the strongest possible topic signal, because it means the interest is
+  already demonstrated rather than assumed.
+- Also favour a technical angle the user's CS background can exploit, and a name with prior ledger
+  coverage (cheap peer callbacks).
+- If `post_context` reports the ticker is **not on the watchlist**, say so once: there will be no
+  alert history, no flow and no curated financials, so the post leans entirely on the transcript.
+  Consider suggesting the user add it to `config/companies.json`.
 
 ### 1. Acquire transcripts
 Follow the source chain in `references/sources.md` exactly. Summary:
@@ -75,8 +97,25 @@ Query the ledger for the three moves that single-company analysis cannot produce
 - **Supply-chain read-through** — one company's capex is another's revenue.
 
 ### 5. Valuation (照妖鏡)
-Pull price / market cap / TTM PE / forward PE / TTM EPS / 52-week range from stockanalysis.com, and
-TTM ratios (P/FCF, OCF per share, capex per share, gross and operating margin) from FMP.
+
+**The repo's own numbers come first** — they are the differentiated ones. From stage 0's
+`post_context` output you already have:
+
+- **Institutional flow (13F)** — the single most under-used asset here. "Institutions net sold
+  $92.7bn of NVDA last quarter while adding $7.1bn of INTC" is a sentence no other zh-TW writer
+  is producing, and it is a *fact from a filing*, not an opinion.
+- **Curated valuation** — price, market cap, trailing PE, forward PE (both consensus and Yahoo,
+  which often disagree — say so when they do), P/S, P/B, EV/EBITDA, FCF yield, TTM FCF, TTM net
+  income, analyst target upside.
+
+Check the `as_of` date. If `post_context` prints a staleness warning, **rebuild before quoting**:
+
+```
+cd src && python market_client.py && python build_dataset.py
+```
+
+Then fill gaps from the web: 52-week range and per-share cash-flow detail (OCF per share, capex
+per share) from stockanalysis.com or FMP `statements metrics-ratios-ttm`.
 
 Two checks that are mandatory because they have repeatedly found the real story:
 - **Is the E real?** Search the transcript for a CFO "absent the…" / "excluding…" construction.
@@ -120,9 +159,10 @@ Works fully with the FMP MCP server configured; degrades gracefully without it.
 
 | Need | Primary | Fallback if no MCP |
 |---|---|---|
+| Alert history, 13F flow, curated valuation | `scripts/post_context.py` (local, no network) | none needed |
 | Earnings calendar | FMP `calendar` | WebSearch "<ticker> earnings date" / investor relations page |
 | Transcripts | WebFetch + Read (no MCP needed) | same |
-| Price, PE, 52w range | stockanalysis.com via WebFetch (no MCP needed) | same |
+| Price, PE, 52w range | `post_context`, then stockanalysis.com for the 52w range | same |
 | TTM ratios (P/FCF, capex/OCF) | FMP `statements metrics-ratios-ttm` | stockanalysis.com financials tab |
 
 If FMP is absent in a fresh environment, add the official remote server:
