@@ -13,8 +13,10 @@ Run every item before writing prose. The entire format rests on one promise — 
    Intel — Lip-Bu Tan 陳立武 (CEO), David Zinsner (CFO).
    Meta — Mark Zuckerberg (CEO), Susan Li (CFO).
    Alphabet — Sundar Pichai (CEO), Anat Ashkenazi (CFO), Philipp Schindler (CBO).
-3. **Every product, technology and company name verified to exist as named.** Do not trust
-   recall on hardware names. If it cannot be confirmed, cut the sentence.
+3. **Every product, technology and company name checked by search, not by recall.** This cuts both
+   ways. Do not assert a name from memory, and do not challenge one from memory either — an
+   unfamiliar name is far more likely to be a product released after the knowledge cutoff than a
+   fabrication. Search first. Only cut a claim once a search has actually failed to support it.
 4. **Every number traceable** to a transcript line or a named market-data source, with the basis
    stated (GAAP vs non-GAAP, quarterly vs TTM, US$ vs local currency).
 5. **Arithmetic re-derived**, not asserted. Run-rates, percentages of high and low, ratios.
@@ -26,13 +28,24 @@ Run every item before writing prose. The entire format rests on one promise — 
 
 ## Incident log
 
-Real errors from the user's own posts and from drafting. Each one is here because it nearly shipped.
+Errors caught while drafting, plus one the assistant got badly wrong in the other direction.
 
-**"NVIDIA Groq 3 LPX" (published, MU post).** Conflated Groq the company, xAI's Grok 3, and NVIDIA's
-CPX line into a product that does not exist, and paired it with an implausible "128GB SRAM per rack"
-(on-die SRAM is measured in hundreds of MB). The same paragraph said DDR5 where Grace uses LPDDR5X,
-which undercut the post's own SOCAMM/LPDRAM argument. Lesson: hardware product names are the highest-
-risk sentences in any post; verify each one, and sanity-check magnitudes against physics.
+**"NVIDIA Groq 3 LPX" — a false accusation, not a false claim.** The assistant told the user their
+published MU post had invented this product, calling it a conflation of Groq the company, xAI's
+Grok 3 and NVIDIA's CPX line, and calling the "128GB SRAM per rack" figure physically implausible.
+Every part of that challenge was wrong. The product is real: announced at GTC 2026 out of NVIDIA's
+$20B licensing and talent deal with Groq, built by Samsung on 4nm, 256 LPUs per rack at 500MB SRAM
+each — which is exactly 128GB — alongside 12TB of DDR5. The user's sentence was correct in every
+element, including the DDR5 the assistant tried to "fix" to LPDDR5X.
+
+Two causes worth naming. Reasoning from GPU architecture, where on-die SRAM is hundreds of MB, onto
+an LPU rack whose entire design premise is aggregate SRAM in place of HBM. And a stale model of who
+owns the Groq name, from before the deal.
+
+**The lesson runs opposite to the rest of this file: an unfamiliar product name is not evidence of
+fabrication.** Anything plausibly dated after the knowledge cutoff must be treated as
+unverifiable-by-memory and searched. Telling an author their published work contains an invented
+fact is expensive when wrong — it costs their confidence in the post and in the whole review.
 
 **Intel's −5.86% day (caught in draft).** Nearly written as the earnings-day reaction. It was five
 sessions later; the actual post-earnings move was up. Lesson: check the date of every price move.
