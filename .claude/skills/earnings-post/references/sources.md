@@ -54,7 +54,14 @@ the story.
   capex per share, free cash flow per share, gross and operating and net margin, P/S, P/B.
 - `calendar` → `earnings-calendar` (date range) for scouting, `earnings-company` for one ticker's
   history and the consensus EPS and revenue estimates for the upcoming quarter.
-- `quote` endpoints are plan-locked on this account; get price from stockanalysis instead.
+- `quote` → `quote`: live price, day range, 52-week high and low, market cap, 50- and 200-day
+  averages. Verified working. It does **not** return trailing or forward PE, so stockanalysis is
+  still required for the PE pair — and the trailing-versus-forward comparison is a mandatory check.
+
+Verified plan status on this account (tested with live calls, not inferred from docs):
+`earningsTranscript` is **blocked** (Ultimate/Enterprise only, returns ACCESS DENIED).
+`calendar`, `statements` and `quote` all **work**. Do not assume a plan restriction from a tool
+description alone — call it once and find out.
 
 Derived figures worth computing every time, because they are the ones nobody else publishes:
 - **capex as a share of operating cash flow** = capex per share ÷ OCF per share. Anything above ~60%

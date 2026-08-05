@@ -27,6 +27,23 @@ self-verifying after the fact. Only use `post` when the user asks or when no cov
 
 ## Pipeline
 
+### Preflight — run once per session, before stage 0
+
+Check whether the FMP MCP server is reachable: `ToolSearch` for `fmp calendar`. If no FMP tools come
+back, it is not configured in this environment.
+
+When it is missing, tell the user **once**, in one line, and keep going:
+
+> FMP MCP 沒裝，這次走網路來源（選股和 TTM 現金流比率會比較粗）。要裝的話：
+> `claude mcp add --transport http fmp "https://financialmodelingprep.com/mcp?apikey=<YOUR_KEY>"`
+
+Do not block, do not ask permission, do not offer to install it mid-run. Every stage has a working
+fallback and a complete post can be produced with no MCP at all — the notice exists so the user knows
+they are running degraded, not so they have to fix it first.
+
+Also confirm `drafts/` and `drafts/ledger/` exist; create them if not. An absent or empty ledger on a
+fresh clone is expected and is not an error — it only means stage 4 has nothing to draw on yet.
+
 ### 0. Scope
 - Ticker given → confirm the next (pre) or last (post) earnings date. Ticker absent → scout mode.
 - **pre** requires earnings within ~10 days. If further out, say so and offer scout mode instead.
