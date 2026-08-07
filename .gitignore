@@ -10,9 +10,10 @@ data/raw/
 data/news/
 data/alerts/
 
-# Personal content drafts (Threads posts) — not part of the pipeline
+# Generated post drafts, the claims ledger and follow-up checklists. Working
+# output, not source. The published posts kept as voice reference live in
+# .claude/skills/earnings-post/references/examples.md and ARE tracked.
 drafts/
-threads.md
 
 # Claude Code project config. Local machine settings stay out; the earnings-post
 # skill ships so a fresh clone can generate posts. Note `.claude/*` + negation:
