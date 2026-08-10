@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import csv
 import json
+from datetime import date
 from pathlib import Path
 
 import market_client as mc
@@ -54,17 +55,84 @@ def _quarter_series(rows, ticker, field):
     return sorted(pts.values(), key=lambda x: x[0])
 
 
+def _field_maps(rows, ticker, field):
+    """(quarterly {(fy,fp): (end, val)}, annual {fy: (end, val)}) for one ticker/field.
+
+    Fiscal years are coerced to int: facts_long.json types them as int and the CSV as str,
+    so the bridge below would silently never match if it trusted whichever it was handed.
+    """
+    q, ann = {}, {}
+    for r in rows:
+        if r["ticker"] != ticker or r["field_key"] != field or r.get("value") is None:
+            continue
+        try:
+            fy = int(r["fiscal_year"])
+        except (TypeError, ValueError):
+            continue
+        if r["period"] == "quarterly":
+            q[(fy, r["fiscal_period"])] = (r["period_end"], r["value"])
+        elif r["period"] == "annual":
+            ann[fy] = (r["period_end"], r["value"])
+    return q, ann
+
+
+def _spans_one_year(series):
+    """True when 4 quarter end-dates really are 4 CONSECUTIVE quarters.
+
+    Four consecutive quarter-ends span three quarters, so the first-to-last gap is ~273
+    days. Anything far outside that means the series has holes and must not be summed:
+    NVDA's cash-flow fields, for instance, only ever carry Q1 (10-Q cash-flow statements
+    are cumulative year-to-date), so the 'last 4 quarters' were four Q1s from four
+    different fiscal years and the resulting 'TTM' spanned four years.
+    """
+    try:
+        first, last = date.fromisoformat(series[0][0]), date.fromisoformat(series[-1][0])
+    except (ValueError, TypeError):
+        return False
+    return 210 <= (last - first).days <= 330
+
+
+def _ttm_fy_bridge(q, ann):
+    """TTM as FY(n) - YTD(n) + YTD(n+1), for fields filed only as year-to-date.
+
+    Uses the contiguous Q1..Qk present in the newest fiscal year and the same quarters of
+    the prior year, so it stays on a like-for-like basis.
+    """
+    if not q or not ann:
+        return None
+    fy_latest = max(fy for fy, _ in q)
+    quarters = []
+    for i in (1, 2, 3):
+        if (fy_latest, f"Q{i}") not in q:
+            break
+        quarters.append(f"Q{i}")
+    if not quarters:
+        return None
+    fy_prior = fy_latest - 1
+    if fy_prior not in ann or any((fy_prior, fp) not in q for fp in quarters):
+        return None
+    return (ann[fy_prior][1]
+            - sum(q[(fy_prior, fp)][1] for fp in quarters)
+            + sum(q[(fy_latest, fp)][1] for fp in quarters))
+
+
 def _ttm(rows, ticker, field):
-    """Sum of the trailing 4 quarters; falls back to the latest annual value if a full
-    4 quarters aren't available (e.g. SNDK's short post-spin history)."""
+    """Trailing twelve months, with the window VALIDATED rather than assumed.
+
+    Order: 4 genuinely consecutive quarters -> FY/year-to-date bridge -> latest annual.
+    The basis string says which was used, so a caller can tell a real TTM from a fallback.
+    """
     series = _quarter_series(rows, ticker, field)
-    if len(series) >= 4:
+    if len(series) >= 4 and _spans_one_year(series[-4:]):
         return sum(v for _, v in series[-4:]), "ttm_4q"
-    ann = [(r["period_end"], r["value"]) for r in rows
-           if r["ticker"] == ticker and r["field_key"] == field
-           and r["period"] == "annual" and r.get("value") is not None]
+
+    q, ann = _field_maps(rows, ticker, field)
+    bridged = _ttm_fy_bridge(q, ann)
+    if bridged is not None:
+        return bridged, "ttm_fy_bridge"
+
     if ann:
-        return max(ann, key=lambda x: x[0])[1], "latest_fy"
+        return max(ann.values(), key=lambda x: x[0])[1], "latest_fy"
     return None, None
 
 
