@@ -37,7 +37,8 @@ Keep tags consistent or cross-company queries silently miss. Current set:
 
 `capex` · `supply-constraint` · `packaging` · `custom-silicon` · `foundry` · `memory` ·
 `gross-margin` · `depreciation` · `inference-cost` · `recommendation-models` · `ad-pricing` ·
-`cloud-backlog` · `tpu` · `agentic-ai` · `headcount` · `guidance` · `valuation`
+`cloud-backlog` · `tpu` · `agentic-ai` · `headcount` · `guidance` · `valuation` ·
+`vendor-financing` · `collateral` · `neocloud` · `balance-sheet`
 
 Add new tags when needed and record them here.
 
