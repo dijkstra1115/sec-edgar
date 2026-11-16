@@ -1,6 +1,6 @@
 # Voice examples
 
-Three of the user's own posts, verbatim. These are the ground truth for the six-part structure
+Four of the user's own posts, verbatim. These are the ground truth for the six-part structure
 described in `voice.md` — read them when the abstract rules are not enough to settle a wording
 choice. They are reproduced exactly as published; the annotations are separate, above each one.
 
@@ -126,12 +126,83 @@ release is what stops the post reading as a lecture.
 
 ---
 
+## 4. NVDA — 沒有黃仁勳的輝達
+
+**Published** 2026-11-16, the day before NVIDIA's Q3 FY2027 results and four days after Jensen
+Huang resigned as CEO (Colette Kress interim). Drafted with this skill and then edited by the user;
+the text below is the user's final version, not the draft.
+
+**Job:** 敘事型, riding a news event. It turns "the CEO is gone" into a technical question — what
+part of the moat does not depend on him — and answers it as an engineer.
+
+**Parts 1 to 3 present, plus a self-rebuttal close.** No common enemy, no 📊 checklist, and the ⚖️
+close attacks the thesis (AMD Helios, Anthropic's 2 GW MI450 deal) but carries no price, multiple or
+position line. So part 6 is only half there by the `voice.md` definition.
+
+**What the user cut from the draft** (useful signal, not yet a rule): the news lead with the
+resignation details and the share price; the 白話 line closing part 2; the whole 📊 checklist; the
+valuation and position lines. They also changed 「每天自己訓練、微調模型」 to
+「每天工作都在訓練、微調模型」. The result is leaner and reads as an argument, not a trade setup.
+In a post that rides a scandal, the user chose to keep the scandal and the price out of it entirely.
+
+**The moves worth stealing:** the arithmetic opener for part 1 (1 TB of weights against 288 GB of
+HBM, so the model must be split), which makes the reader derive the thesis themselves; the
+meeting-table metaphor (email versus one table, with NCCL as the chair), which is load-bearing in
+the same way 靈魂綁架 was in post 1; and the RCCL copyright line as a single verifiable detail that
+proves "the code is not the moat."
+
+**Two-part serial.** This is the second half of an argument that starts with "CUDA's moat is
+narrowing because of AI." The ending 「明天開獎，我會回來對答案」 promises a follow-up, but there is no
+stored checklist, so a `--review` would have to score the thesis itself: Vera Rubin's share of data
+center revenue (guided at ~20%), networking growth against compute, and gross margin against the 74%
+guide.
+
+沒有黃仁勳的輝達，還剩下什麼⋯？
+這幾天我把過去兩季、近 17,000 字的法說會逐字稿重新啃了一遍，就為了回答這個問題。
+CUDA 絕對是多數人的第一直覺。但身為每天工作都在訓練、微調模型的資工宅，我認為 CUDA 的護城河正因 AI 而慢慢變窄⋯
+AI 最會做的，就是寫出可以在一張卡上驗證對錯的程式。kernel 正好就是這種程式。
+真正更強大的，是另一個很少人在講的東西：NVLink 與 NCCL 的生態系。
+因為現在的大模型，光靠一顆 GPU 早已無法負荷。
+1️⃣ 為什麼一顆 GPU 裝不下？
+用最簡單的算術：一個上兆參數的模型，就算用 FP8 每個參數只存 1 byte，光權重就要約 1TB。
+NVIDIA 官方規格寫的是 Vera Rubin 單顆 GPU 有 288GB HBM4。也就是說，至少要 4 顆才裝得下權重，這還沒算推理時不斷變長的 KV Cache。
+所以模型只能切開，分散到很多顆 GPU 上。
+問題來了：切開的模型每算一層，GPU 之間就要交換一次結果。生成一個字要跑過幾十層，等於幾十顆 GPU 每秒要開上萬次會。
+這時候決定速度的，已經不是單顆 GPU 多會算，而是 GPU 之間「開會」有多快。
+2️⃣ NVLink：讓 72 顆 GPU 坐在同一張會議桌
+一般網路連起來的 GPU，像 72 個人用 email 開會；NVLink 則是讓 72 顆 GPU 坐在同一張桌子，直接看彼此的筆記。NVIDIA 把這個叫做 rack-scale（整櫃級）架構。
+老黃在 Q2 法說會說，第一代 NVLink-72 推出時「it was a big surprise on the world」（讓全世界大吃一驚），而且「It was hardly easy」（一點都不容易）。
+接著是我覺得最關鍵的一句：
+「We had to reinvent the entire supply chain, reinvent systems, reinvent the technology, redistribute our software, refactor our software, everything, every aspect of it was hard.」（我們得重新發明整條供應鏈、系統和技術，重構軟體。每一個環節都很難。）
+現在 NVIDIA 已經在做第三代 NVLink-72 整櫃系統。
+3️⃣ NCCL：程式碼可以抄，經驗抄不走
+如果 NVLink 是會議桌，NCCL 就是主持會議的人：決定資料走哪條路、誰先講、怎麼彙整。
+有個很有趣的細節。AMD 的通訊函式庫 RCCL，原始碼版權聲明的第一行，寫的是 NVIDIA。
+代表 NCCL 的程式碼本身不是秘密，連對手都拿去改。
+真正抄不走的，是它和 NVLink 硬體在萬卡叢集上一起調了好幾年的實戰經驗。
+資工宅的觀察：kernel 的 bug 可以在一張卡上重現，AI 可以反覆試到對為止；但通訊層的問題，常常只在幾千張卡一起跑了好幾天之後才冒出來。越難重現的問題，AI 越難幫你解。
+4️⃣ 沒有黃仁勳，這些還在嗎？
+我認為還在。NVLink、NCCL、整櫃系統，都已經寫進硬體、產品路線圖和簽好的供應合約裡。網路部門的底子，還來自 2020 年收購的 Mellanox。
+數字也說明了一切：Q1 資料中心網路營收 150 億美元，年增將近 3 倍；Q2 網路營收再季增 18%。
+老黃在 Q2 說：「the vast majority of the world’s data centers will just be Vera Rubin NVLink-72」（全世界絕大多數的資料中心，都會是 Vera Rubin NVLink-72）。
+這句話要成真，靠的是工程團隊，不是一個人。
+沒有黃仁勳，最容易少掉的是那些靠人脈談下來的主權 AI 與實驗室大單；最不容易少掉的，正是這座用銅纜和程式碼蓋起來的城牆。
+⚖️ 說完 NVLink 有多強，我也得打自己的臉。
+AMD 的 Helios 整櫃系統，同樣把 72 顆 GPU 綁成一個網域，用的是開放標準 UALink over Ethernet。Anthropic 7 月宣布最多導入 2 GW 的 AMD MI450，第一個 GW 預計 2027 上半年開始部署。AMD 還承諾最多投資 Anthropic 50 億美元，連老黃「入股換訂單」那招都學走了。
+所以 NVLink 的護城河不是「只有它做得到」，而是「只有它已經量產到第三代」。這是時間上的領先，而時間領先終究會被追上。
+沒有黃仁勳的輝達，剩下的是最硬的那一半。問題只剩一個：這道牆的領先，還有幾年？
+明天（台灣 11/18 清晨）開獎，我會回來對答案。
+
+---
+
 ## What the corpus says in aggregate
 
-- **Part 6 appears once in three posts.** It is the highest-trust element and the main
+- **A complete part 6 appears once in four posts.** It is the highest-trust element and the main
   follower-to-customer converter, and it is the thing most likely to be dropped under time
-  pressure. Enforce it.
-- **All three are timed to the days around an earnings call.** Timing supplies roughly half the
+  pressure. Enforce it. Post 4 kept the self-rebuttal but cut the price, multiple and position, and
+  that was the user's own edit, not time pressure. So when the user trims part 6, ask whether it
+  was intended rather than putting it back silently.
+- **All four are timed to the days around an earnings call.** Timing supplies roughly half the
   distribution; a great post published a week late underperforms a good post published on the day.
 - **None has a follow-up.** Every one sets up a checkable prediction and none of them ever came back
   to score it. That is why `--review` mode exists.
