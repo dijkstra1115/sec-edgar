@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <script src="timing.js"></script>
+    <link rel="stylesheet" href="film.css" />
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="105.59" data-width="1080" data-height="1920">
+      <!-- ambient world -->
+      <div id="bg">
+        <div id="bg-dots"></div>
+        <div class="glow" id="glow-a"></div>
+        <div class="glow" id="glow-b"></div>
+        <div class="glow" id="glow-r"></div>
+      </div>
+
+      <!-- S1 · hook -->
+      <section class="scene" id="s1">
+        <div class="cam">
+          <div class="spot" id="s1-spot"></div>
+          <div class="floor" id="s1-floor"></div>
+          <div id="s1-title" class="serif">
+            <div id="s1-t1"></div>
+            <div id="s1-t2">還剩下什麼<i>？</i></div>
+          </div>
+          <div id="s1-rig">
+            <div id="s1-hanger"></div>
+            <div id="s1-jacket"></div>
+            <div id="s1-sign">
+              <div class="strings"></div>
+              <div class="plate">
+                <span class="tag">多數人的答案</span>
+                <b id="s1-cuda">CUDA</b>
+                <i id="s1-strike"></i>
+              </div>
+            </div>
+          </div>
+          <div id="s1-me"><b>資工宅</b>每天工作都在訓練、微調模型</div>
+          <div id="s1-stamp" class="stamp">護城河，正在變窄</div>
+        </div>
+      </section>
+
+      <!-- S2 · the CUDA moat -->
+      <section class="scene" id="s2">
+        <div class="cam">
+          <div class="head">
+            <div class="kicker"><b>01</b>多數人的第一直覺</div>
+            <h2 class="serif">CUDA 這條護城河</h2>
+          </div>
+          <div id="s2-castle">
+            <div class="battlements"></div>
+            <div class="wall"><b>CUDA</b><span>輝達獨門的程式工具</span></div>
+          </div>
+          <div id="s2-moat">
+            <div class="waves"></div>
+            <div class="moat-name">護　城　河</div>
+            <div id="s2-fill"></div>
+            <div id="s2-gauge"><i></i><span>寬度</span></div>
+          </div>
+          <div id="s2-bank">
+            <div id="s2-rivals"></div>
+            <div id="s2-nope" class="stamp red">抄不走</div>
+            <div id="s2-ai">
+              <div class="ai-chip">AI</div>
+              <span>寫 kernel 程式</span>
+            </div>
+            <div id="s2-verify">
+              <div class="gpu-card"></div>
+              <div class="v-text"><b>1 張顯示卡</b>跑一次，就知道對不對</div>
+              <div class="v-check">✓</div>
+            </div>
+          </div>
+          <div id="s2-narrow" class="serif">正在變窄</div>
+        </div>
+      </section>
+
+      <!-- S3 · one chip is not enough -->
+      <section class="scene" id="s3">
+        <div class="cam">
+          <div id="s3-open" class="serif">
+            <div>真正的城牆</div>
+            <div class="sub">在別的地方 ↓</div>
+          </div>
+          <div class="head" id="s3-head">
+            <div class="kicker"><b>02</b>先算一道簡單的算術</div>
+            <h2 class="serif">一顆晶片，裝不下</h2>
+          </div>
+          <div id="s3-slab-wrap">
+            <div id="s3-slab"></div>
+            <div id="s3-size"><span class="lab">一個 AI 模型</span><b id="s3-num">0</b><em>GB</em></div>
+            <div id="s3-over" class="stamp red">裝不下</div>
+          </div>
+          <div id="s3-chips"></div>
+          <div id="s3-eq"><span>1,000 ÷ 288 ≈ 3.5</span><b>→ 至少 4 顆</b></div>
+        </div>
+      </section>
+
+      <!-- S4 · chips have to hold meetings -->
+      <section class="scene" id="s4">
+        <div class="cam">
+          <div class="head">
+            <div class="kicker"><b>03</b>模型被切開之後</div>
+            <h2 class="serif">晶片得一直「開會」</h2>
+          </div>
+          <div id="s4-net"></div>
+          <div id="s4-count">
+            <span class="lab">每秒開會次數</span>
+            <div class="num"><b id="s4-num">0</b><em>次+</em></div>
+          </div>
+          <div id="s4-vs">
+            <div class="lose"><i>✕</i>誰算得快</div>
+            <div class="win"><i>→</i>誰<b>開會</b>快</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- S5 · email vs one table -->
+      <section class="scene" id="s5">
+        <div class="cam">
+          <div class="head" id="s5-head-a">
+            <div class="kicker"><b>04</b>晶片怎麼連起來？</div>
+            <h2 class="serif">一般的連法</h2>
+          </div>
+          <div class="head" id="s5-head-b">
+            <div class="kicker"><b>04</b>輝達的連法</div>
+            <h2 class="display">NVLink</h2>
+          </div>
+          <div id="s5-field">
+            <div id="s5-table"><div class="rim"></div><div class="hub"></div></div>
+            <svg id="s5-spokes" viewBox="0 0 1080 1040"></svg>
+            <div id="s5-ripple"></div>
+            <div id="s5-dots"></div>
+            <div id="s5-mail"></div>
+          </div>
+          <div id="s5-label-a" class="plaque"><b>72 個人用 email 開會</b><span>寄出 → 等 → 回信 → 再等<i>…</i></span></div>
+          <div id="s5-label-b" class="plaque green"><b>72 顆晶片，同一張桌子</b><span>直接看彼此的筆記　延遲 ≈ 0</span></div>
+        </div>
+      </section>
+
+      <!-- S6 · the moderator: code can be copied, experience cannot -->
+      <section class="scene" id="s6">
+        <div class="cam">
+          <div class="head">
+            <div class="kicker"><b>05</b>桌上的主持人</div>
+            <h2 class="serif">程式碼抄得走，經驗抄不走</h2>
+          </div>
+          <div id="s6-top">
+            <div id="s6-tablewrap">
+              <div id="s6-table"><div class="rim"></div></div>
+              <svg id="s6-route" viewBox="0 0 1080 620"></svg>
+              <div id="s6-dots"></div>
+              <div id="s6-host"><div class="mic"></div><b>NCCL</b><span>主持人</span></div>
+            </div>
+            <div id="s6-farm">
+              <div class="matrix"></div>
+              <div class="scan"></div>
+              <div class="farm-lab"><b>上萬顆晶片</b><span>一起跑好幾天，問題才冒出來</span></div>
+            </div>
+          </div>
+          <div id="s6-code">
+            <div class="bar"><i></i><i></i><i></i><span>RCCL　AMD 的通訊函式庫 · 原始碼開頭</span></div>
+            <pre><span class="ln">1</span>/*
+<span class="ln">2</span> <span id="s6-l1" class="mark g">* Copyright (c) … NVIDIA CORPORATION.</span>
+<span class="ln">3</span> <span id="s6-l2" class="mark r">* Modifications Copyright (c) … AMD</span>
+<span class="ln">4</span> */</pre>
+            <div id="s6-call">版權聲明第一行，寫的是 <b>NVIDIA</b></div>
+          </div>
+          <div id="s6-years">
+            <div class="track"><i id="s6-yfill"></i></div>
+            <div class="ticks"><span>第 1 代</span><span>第 2 代</span><span>第 3 代</span></div>
+          </div>
+          <div id="s6-stamp" class="stamp">實戰經驗　抄不走</div>
+        </div>
+      </section>
+
+      <!-- S7 · is it still there without him? -->
+      <section class="scene" id="s7">
+        <div class="cam">
+          <div id="s7-q">
+            <div class="spot small"></div>
+            <div id="s7-hanger"></div>
+            <div class="serif q1">沒有黃仁勳，</div>
+            <div class="serif q2">這些還在嗎？</div>
+          </div>
+          <div id="s7-yes" class="serif">還在</div>
+          <div id="s7-plaques">
+            <div class="brick"><i>①</i><b>硬體</b><span>NVLink 已做到第三代整櫃</span></div>
+            <div class="brick"><i>②</i><b>產品藍圖</b><span>下一代早就排好了</span></div>
+            <div class="brick"><i>③</i><b>簽好的合約</b><span>供應鏈白紙黑字</span></div>
+          </div>
+          <div id="s7-money">
+            <div class="lab">資料中心「網路」營收 · 單季</div>
+            <div class="big"><em>$</em><b id="s7-num">0</b><em>億美元</em></div>
+            <div class="bars">
+              <div class="row"><span>去年同期</span><i id="s7-b1"></i></div>
+              <div class="row now"><span>今年</span><i id="s7-b2"></i><b>年增近 3 倍</b></div>
+            </div>
+            <div class="src">資料來源：NVIDIA 法說會逐字稿（Q1）</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- S8 · the self-rebuttal -->
+      <section class="scene" id="s8">
+        <div class="cam">
+          <div id="s8-slap" class="serif"><span>但</span>我得打自己的臉</div>
+          <div class="head" id="s8-head">
+            <div class="kicker red"><b>反方</b>說完它有多強之後</div>
+            <h2 class="serif">對手也坐上了同一張桌</h2>
+          </div>
+          <div id="s8-duel">
+            <div class="side nv">
+              <div class="mini" id="s8-nv"></div>
+              <div class="who"><b>輝達 NVLink</b><span>72 顆 · 自家規格</span></div>
+              <div class="gens" id="s8-gnv"><i>第 1 代</i><i>第 2 代</i><i class="now">第 3 代</i></div>
+            </div>
+            <div class="side amd">
+              <div class="mini" id="s8-amd"></div>
+              <div class="who"><b>AMD Helios</b><span>72 顆 · 開放標準</span></div>
+              <div class="gens" id="s8-gamd"><i class="now">第 1 代</i><i class="ghost">?</i><i class="ghost">?</i></div>
+              <div id="s8-order" class="stamp red">Anthropic 已下單<small>最多 2 GW · 2027 上半年起</small></div>
+            </div>
+          </div>
+          <div id="s8-race">
+            <div class="lab">領先的不是「只有它會」，而是<b>時間</b></div>
+            <div class="lane"><i class="car nv" id="s8-c1">輝達</i><i class="car amd" id="s8-c2">AMD</i><div id="s8-gap"></div><b id="s8-gaplab">← 領先</b></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- S9 · close -->
+      <section class="scene" id="s9">
+        <div class="cam">
+          <div id="s9-wall"></div>
+          <div id="s9-shade"></div>
+          <div class="spot" id="s9-spot"></div>
+          <div id="s9-hanger"></div>
+          <div id="s9-a" class="serif">
+            <div class="l1">沒有黃仁勳的輝達</div>
+            <div class="l2">剩下的，是<b>最硬的那一半</b></div>
+          </div>
+          <div id="s9-q" class="serif">
+            <div class="l1">這道牆</div>
+            <div class="l2">還能領先<span id="s9-slot"><span id="s9-reel"></span></span>年<i>？</i></div>
+          </div>
+          <div id="s9-cta">
+            <div class="ask">留言告訴我你的答案<i>↓</i></div>
+            <div class="follow"><b>資工宅</b>財報開獎後，回來對答案</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- persistent chrome -->
+      <div id="flash"></div>
+      <div id="hud">
+        <div class="brand"><b class="serif">資工宅</b><span>法說會逐字稿解讀</span></div>
+        <div class="pill">
+          <div class="cell"><small>NASDAQ</small><b>NVDA</b></div>
+          <div class="cell wide"><small>我啃完了</small><b>17,000 字逐字稿</b></div>
+          <div class="cell right"><small>財報開獎（台灣）</small><b class="hot">11/18 清晨</b></div>
+        </div>
+        <div id="prog"></div>
+      </div>
+      <div id="caps"></div>
+      <div id="grain"></div>
+
+      <audio id="vo" data-start="0" data-duration="105.59" data-track-index="1" src="audio/narration.wav" data-volume="1"></audio>
+      <audio id="bed" data-start="0" data-duration="105.59" data-track-index="2" src="audio/bed.wav" data-volume="0.5"></audio>
+    </div>
+    <script src="film.js"></script>
+  </body>
+</html>

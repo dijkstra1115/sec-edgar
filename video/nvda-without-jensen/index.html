@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <script src="lib/three.min.js"></script>
+    <script src="timing.js"></script>
+    <link rel="stylesheet" href="film.css" />
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="105.59" data-width="1080" data-height="1920">
+      <!-- the 3D world: one continuous camera take -->
+      <canvas id="gl" width="1080" height="1920"></canvas>
+      <!-- text that lives inside the world (projected every frame) -->
+      <div id="labels"></div>
+      <div id="vignette"></div>
+
+      <!-- screen-space punctuation -->
+      <div id="s1-title" class="serif ov">
+        <div id="s1-t1"></div>
+        <div id="s1-t2">還剩下什麼<i>？</i></div>
+      </div>
+      <div id="s1-me" class="ov">每天工作都在訓練、微調模型</div>
+      <div id="ov-real" class="serif ov"><div>真正的城牆</div><div class="sub">在別的地方 →</div></div>
+      <div id="s4-vs" class="ov">
+        <div class="lose"><i>✕</i>誰算得快</div>
+        <div class="win"><i>→</i>誰<b>開會</b>快</div>
+      </div>
+      <div id="ov-stamp6" class="stamp ov">實戰經驗　抄不走</div>
+      <div id="s7-q" class="ov">
+        <div class="serif q1">沒有黃仁勳，</div>
+        <div class="serif q2">這些還在嗎？</div>
+      </div>
+      <div id="s7-yes" class="serif ov">還在</div>
+      <div id="s8-slap" class="serif ov"><span>但</span>我得打自己的臉</div>
+      <div id="s9-a" class="serif ov">
+        <div class="l1">沒有黃仁勳的輝達</div>
+        <div class="l2">剩下的，是<b>最硬的那一半</b></div>
+      </div>
+      <div id="s9-q" class="serif ov">
+        <div class="l1">這道牆</div>
+        <div class="l2">還能領先<span id="s9-slot"><span id="s9-reel"></span></span>年<i>？</i></div>
+      </div>
+      <div id="s9-cta" class="ov">
+        <div class="ask">留言告訴我你的答案<i>↓</i></div>
+        <div class="follow">財報開獎後，回來對答案</div>
+      </div>
+      <div id="flash"></div>
+
+      <!-- persistent chrome -->
+      <div id="hud">
+        <div class="pill">
+          <div class="cell"><small>NASDAQ</small><b>NVDA</b></div>
+          <div class="cell wide"><small>我啃完了</small><b>17,000 字逐字稿</b></div>
+          <div class="cell right"><small>財報開獎（台灣）</small><b class="hot">11/18 清晨</b></div>
+        </div>
+        <div id="prog"></div>
+        <div id="kicker" class="kicker"></div>
+      </div>
+      <div id="capshade"></div>
+      <div id="caps"></div>
+      <div id="grain"></div>
+
+      <audio id="vo" data-start="0" data-duration="105.59" data-track-index="1" src="audio/narration.wav" data-volume="1"></audio>
+      <audio id="bed" data-start="0" data-duration="105.59" data-track-index="2" src="audio/bed.wav" data-volume="0.5"></audio>
+    </div>
+    <script src="world.js"></script>
+  </body>
+</html>
