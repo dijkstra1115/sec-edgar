@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <script src="lib/three.min.js"></script>
+    <script src="timing.js"></script>
+    <link rel="stylesheet" href="film.css" />
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="115.91" data-width="1080" data-height="1920">
+      <!-- the 3D world: one continuous camera take around the loop -->
+      <canvas id="gl" width="1080" height="1920"></canvas>
+      <div id="labels"></div>
+      <div id="vignette"></div>
+
+      <!-- screen-space punctuation -->
+      <div id="s1-a" class="ov"><div class="l1">一季賺</div><div class="l2"><b id="s1-num">600</b> 億美元</div></div>
+      <div id="s1-b" class="ov">為什麼要替客戶<b>當保證人</b><i>？</i></div>
+      <div id="s1-c" class="ov"><small>而且一保，就是</small><b>1,050</b><span>億美元</span></div>
+      <div id="s1-d" class="ov"><div class="lose"><i>✕</i>大家搶著買 GPU</div><div class="win">其實是<b>一個圓</b></div></div>
+      <div id="ov-stamp4" class="stamp ov">最後的買家</div>
+      <div id="s6-end" class="ov">錢繞一圈，又回到<b>建商口袋</b></div>
+      <div id="s8-slap" class="ov"><span>但</span>我得打自己的臉</div>
+      <div id="s9-a" class="ov">
+        <div class="l1">上一集：輝達<b>最硬的那一半</b></div>
+        <div class="l2">這一集：<b>最需要盯的那一半</b></div>
+      </div>
+      <div id="s9-cta" class="ov">
+        <div class="head">第三季季報一出來，回來對這三個數字</div>
+        <div class="row"><i>1</i><span>股權投資</span><b>≈ 1,000 億</b></div>
+        <div class="row"><i>2</i><span>回租承諾</span><b>360 億</b></div>
+        <div class="row"><i>3</i><span>擔保總額</span><b>1,085 億</b></div>
+        <div class="foot">數字：NVIDIA 10-Q（截至 2026/7/26）・非投資建議</div>
+      </div>
+      <div id="flash"></div>
+
+      <!-- persistent chrome -->
+      <div id="hud">
+        <div class="pill">
+          <div class="cell"><small>NASDAQ</small><b>NVDA</b></div>
+          <div class="cell wide"><small>我翻完了</small><b>10-Q 財報附註</b></div>
+          <div class="cell right"><small>數字截至</small><b class="hot">2026/7/26</b></div>
+        </div>
+        <div id="prog"></div>
+        <div id="kicker" class="kicker"></div>
+      </div>
+      <div id="capshade"></div>
+      <div id="caps"></div>
+      <div id="grain"></div>
+
+      <audio id="vo" data-start="0" data-duration="115.91" data-track-index="1" src="audio/narration.wav" data-volume="1"></audio>
+      <audio id="bed" data-start="0" data-duration="115.91" data-track-index="2" src="audio/bed.wav" data-volume="0.5"></audio>
+    </div>
+    <script src="world.js"></script>
+  </body>
+</html>
