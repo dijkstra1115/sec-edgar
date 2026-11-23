@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <script src="lib/three.min.js"></script>
+    <script src="timing.js"></script>
+    <link rel="stylesheet" href="film.css" />
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="153.59" data-width="1080" data-height="1920">
+      <!-- the 3D world: the same loop as last episode, now running backward -->
+      <canvas id="gl" width="1080" height="1920"></canvas>
+      <div id="labels"></div>
+      <div id="vignette"></div>
+
+      <!-- screen-space punctuation -->
+      <div id="s1-a" class="ov"><div class="tk">NVDA 市值・11/20 一天</div><b>−4,930<i>億美元</i></b><em>一個半月・股價 <span>−47%</span></em></div>
+      <div id="s1-b" class="ov"><div class="tk">NVDA・11/20</div><b>−14<i>%</i></b><small>一天</small></div>
+      <div id="s1-c" class="ov">
+        <div class="row"><span>那斯達克</span><b>−5.3%</b></div>
+        <div class="row"><span>標普 500</span><b>連跌 7 天</b></div>
+      </div>
+      <div id="s2-card" class="ov card">
+        <div class="head">輝達的三個數字・<b>Q2 → Q3</b></div>
+        <div class="row"><i>1</i><span>股權</span><s>≈ 1,000</s><u>→</u><b>≈ 1,100 億</b></div>
+        <div class="row"><i>2</i><span>回租承諾</span><s>360</s><u>→</u><b class="dn">320 億</b></div>
+        <div class="row"><i>3</i><span>擔保總額</span><s>1,085</s><u>→</u><b>1,180 億</b></div>
+        <div class="foot">Q2 10-Q（7/26）→ Q3 CFO 評論（10/25）</div>
+      </div>
+      <div id="s4-card" class="ov card">
+        <div class="row"><span>投資收益佔獲利</span><s>1/6</s><u>→</u><b class="r">2%</b></div>
+        <div class="row"><span>未上市股權</span><b class="r">減損 18 億</b></div>
+      </div>
+      <div id="s7-slap" class="ov"><span>但</span>我得打自己的臉</div>
+      <div id="ov-stamp7" class="stamp ov">嚴格評估</div>
+      <div id="s8-card" class="ov card">
+        <div class="head"><em>據路透報導</em>SEC 在查輝達的會計</div>
+        <div class="row"><span>查哪一塊？</span><q></q><b class="m">沒說</b></div>
+        <div class="row"><span>何時開始？</span><q></q><b class="m">沒說</b></div>
+        <div class="big">被調查 <b>≠</b> 有錯</div>
+      </div>
+      <div id="s9-cta" class="ov card">
+        <div class="head">答案在還沒交的<b>季報附註</b>裡</div>
+        <div class="vs"><div><small>上一季</small>和財報<b>同一天</b>交</div><div><small>這一季</small><b class="c">未來幾週</b></div></div>
+        <div class="row"><i>1</i><span>股權明細</span><b>待確認</b></div>
+        <div class="row"><i>2</i><span>回租條款</span><b>待確認</b></div>
+        <div class="row"><i>3</i><span>擔保條件</span><b>待確認</b></div>
+        <div class="foot">資料更新至 2026/11/20・非投資建議</div>
+      </div>
+      <div id="flash"></div>
+
+      <!-- persistent chrome -->
+      <div id="hud">
+        <div class="pill">
+          <div class="cell"><small>NASDAQ</small><b>NVDA</b></div>
+          <div class="cell wide"><small>我翻完了</small><b>8-K・CFO 評論・13F</b></div>
+          <div class="cell right"><small>資料更新</small><b class="hot">2026/11/20</b></div>
+        </div>
+        <div id="prog"></div>
+        <div id="kicker" class="kicker"></div>
+      </div>
+      <div id="capshade"></div>
+      <div id="caps"></div>
+      <div id="grain"></div>
+
+      <audio id="vo" data-start="0" data-duration="153.59" data-track-index="1" src="audio/narration.wav" data-volume="1"></audio>
+      <audio id="bed" data-start="0" data-duration="153.59" data-track-index="2" src="audio/bed.wav" data-volume="0.5"></audio>
+    </div>
+    <script src="world.js"></script>
+  </body>
+</html>
