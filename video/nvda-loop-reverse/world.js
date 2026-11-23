@@ -448,7 +448,7 @@
       const gEd = edges(ghost, COL.red, 0.5);
       const h0 = o.v0 * U4, h1 = o.v1 * U4;
       const tag = lab(`${o.name}<small>${Math.round(o.v0)} 億</small>`, "tag w", { pos: [P1.x, 0, z], f: 0.62, upd: show(k2 + 0.3 + i * 0.25, k5 - 0.1) });
-      const dl = lab(o.d, "tag r", { pos: [P1.x + 2.5, 0, z], f: 0.62, upd: show(k3 + 0.6 + o.lag, end) });
+      const dl = lab(o.d, "tag r", { pos: [P1.x + 2.5, 0, z], f: 0.62, upd: show(k3 + 0.6 + o.lag, i === 0 ? Ln("s4", 6) - 0.1 : end) });
       updaters.push((t) => {
         const up = pr(t, k2 + 0.2 + i * 0.25, 0.8, "power3.out") * (1 - pr(t, end - 0.2, 0.5));
         const down = pr(t, k3 + 0.2 + o.lag, 1.0, "power3.inOut");
@@ -505,7 +505,7 @@
     const top = mesh(unitBox(), std(COL.cyan, { emissive: 0x1e5a6a, emissiveIntensity: 0.6, roughness: 0.35, metalness: 0.4 }), scene, V(SUP.x, 0.5, SUP.z));
     edges(top, 0xffffff, 0.7);
     const hB = 2790 * U6, hT = 1110 * U6;
-    const LT = lab('採購承諾 <span class="n">2,790</span> → <span class="n">3,900</span> 億', "tag g", { pos: [SUP.x, 0, SUP.z], f: 0.85, upd: show(m1 + 0.6, end) });
+    const LT = lab('採購承諾 <span class="n">2,790</span> → <span class="n">3,900</span> 億', "tag g", { pos: [SUP.x, 0, SUP.z], f: 0.85, upd: show(m1 + 0.6, m4 + 1.4) });
     const RT = V(-0.9, 0, -0.43); // screen-right for the s6 camera
     const TC = V(0.43, 0, -0.9); // toward the s6 camera
     const at = (dx, y, dc) => [SUP.x + RT.x * dx + TC.x * dc, y, SUP.z + RT.z * dx + TC.z * dc];
@@ -543,10 +543,10 @@
     });
     lab('擔保上限 <span class="n">1,050</span> 億<small>OpenAI・俄亥俄州</small>', "tag c", { pos: [P4.x, 13.5, P4.z], f: 0.85, upd: show(n2 + 0.3, n3 + 0.2) });
     lab('<span class="n">2028</span> 年起分批上線', "tag w", { pos: [P4.x, 6.5, P4.z + 9], f: 0.8, upd: show(n2 + 1.3, n3 + 0.2) });
-    lab("完工一棟・生效一棟", "tag c", { pos: [P4.x - 4, 17, P4.z + 4], f: 0.85, upd: show(n3 + 0.3, end) });
+    lab("完工一棟・生效一棟", "tag c", { pos: [P4.x - 4, 17, P4.z + 4], f: 0.85, upd: show(n3 + 0.3, Ln("s7", 5) - 0.2) });
     const FAIL = 2; // back corner of the campus
     const tFail = n3 + 3.0;
-    lab("蓋不起來 → 擔保不存在", "tag r", { pos: [campus[FAIL].dm.position.x, 7.5, campus[FAIL].dm.position.z], f: 0.72, upd: show(tFail + 0.2, end) });
+    lab("蓋不起來 → 擔保不存在", "tag r", { pos: [campus[FAIL].dm.position.x, 7.5, campus[FAIL].dm.position.z], f: 0.72, upd: show(tFail + 0.2, Ln("s7", 5) - 0.2) });
     updaters.push((t) => {
       campus.forEach((o, i) => {
         const on = pr(t, n3 + 0.4 + i * 0.22, 0.4, "back.out(1.8)") * (1 - pr(t, end, 0.4));
