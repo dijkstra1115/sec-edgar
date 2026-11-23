@@ -606,7 +606,7 @@
     key(S("s9"), [60, 160, 140], [0, 0, 0], "lin");
     key(TM.total + 0.2, [112, 132, 92], [0, 0, 0], "lin");
   })();
-  const shakes = [[Ln("s1", 2, 0.45), 0.4], [Ln("s1", 4, 1.5), 0.3], [Ln("s4", 4, 1.4), 0.4], [S("s7") + 0.05, 0.55]];
+  const shakes = [[Ln("s1", 0, 0.95), 0.4], [Ln("s1", 2, 0.45), 0.35], [Ln("s1", 4, 1.5), 0.3], [Ln("s4", 4, 1.4), 0.4], [S("s7") + 0.05, 0.55]];
   const EASE = { io: "power2.inOut", in: "power2.in", out: "power2.out", xo: "expo.out", lin: "none" };
   const cp = new THREE.Vector3();
   const cl = new THREE.Vector3();
@@ -697,7 +697,7 @@
   tl.fromTo(clock, { t: 0 }, { t: TM.total, duration: TM.total, ease: "none", onUpdate: () => render(clock.t) }, 0);
 
   // HUD
-  const kick = [null, ["對答案", "上一集的三個數字"], ["順轉", "估值漲，帳面漲"], ["倒轉", "持股縮水"], ["現金流", "一邊投資，一邊借錢"], ["台灣", "採購承諾"], ["反方", "實打實的那一半"], ["SEC", "據報導・未證實"], ["下一步", "等 10-Q"]];
+  const kick = [null, ["那個圓", "輝達的三個數字"], ["順轉", "估值漲，帳面漲"], ["倒轉", "持股縮水"], ["現金流", "一邊投資，一邊借錢"], ["台灣", "採購承諾"], ["反方", "實打實的那一半"], ["SEC", "據報導・未證實"], ["下一步", "等 10-Q"]];
   const kcol = { 3: "var(--red)", 4: "var(--red)", 5: "var(--copper)", 7: "var(--copper)" };
   TM.scenes.forEach((s, i) => {
     const u = h("u", "", h("i", "", $("#prog")));
@@ -713,7 +713,10 @@
   // S1: the hook
   (function () {
     const a0 = Ln("s1", 0), a2 = Ln("s1", 2), a3 = Ln("s1", 3), a4 = Ln("s1", 4);
-    F("#s1-a", { scale: 1.25, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.4, ease: "expo.out" }, a0 + 0.1);
+    const a1 = Ln("s1", 1);
+    F("#s1-a .tk", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "power3.out" }, a0 + 0.05);
+    F("#s1-a b", { scale: 2.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.24, ease: "power4.out" }, a0 + 0.9);
+    F("#s1-a em", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.35, ease: "back.out(1.6)" }, a1 + 0.3);
     out("#s1-a", a2 - 0.3, -100);
     F("#s1-b .tk", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.3, ease: "power3.out" }, a2 - 0.05);
     F("#s1-b b", { scale: 2.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.24, ease: "power4.out" }, a2 + 0.4);

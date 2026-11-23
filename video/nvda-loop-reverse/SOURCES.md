@@ -1,6 +1,6 @@
 # 輝達的錢繞一圈：倒著轉 — 數字出處
 
-《輝達的錢繞一圈》的續集，也是它 s9 承諾的「對答案」。Q3 FY2027 季末是 2026-10-25。
+《輝達的錢繞一圈》的續集（影片本身不提上一集）。Q3 FY2027 季末是 2026-10-25。
 
 主要來源：
 - **8-K 新聞稿**（Q3 FY2027，2026-11-17）：https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm
@@ -12,6 +12,9 @@
 
 | 腳本 | 數字 | 出處 |
 | --- | --- | --- |
+| s1 一天蒸發將近 5,000 億美元 | 收盤市值 $3,025.3B ÷ $125.53 = 24.10B 股；跌 $20.45 × 24.10B = $492.8B（畫面寫 −4,930 億） | FMP quote（marketCap） |
+| s1 一個半月、將近腰斬 | 收盤高點 10/6 $239.24 → 11/20 $125.53 = −47.5%（盤中高點 $243.37）；市值約少 $2.74T | FMP 日線 |
+| s1 DeepSeek 之後最慘的一天 | 2025-01-27 −16.97%（$142.62 → $118.42）；之後到 11/19 沒有單日跌幅超過 14% 的交易日 | FMP 日線 |
 | s1 輝達一天跌 14% | 11/20 收 $125.53，前收 $145.98，−14.0% | FMP quote |
 | s1 那斯達克 −5.3% | 22,617.73 vs 23,879.20 = −5.28% | FMP ^IXIC |
 | s1 標普連跌 7 天、跌進修正 | 11/12–11/20 連 7 個交易日收低，11/20 收 6,910.39（單日 −3.70%，單週 −8.61%）；「修正」是 Bloomberg、Fox Business 的說法 | FMP ^GSPC；[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-19/stock-market-today-dow-s-p-live-updates)、[Fox Business](https://foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory) |

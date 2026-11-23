@@ -79,9 +79,12 @@ i, em { font-style: normal; }
 .w3.tag .d { color: var(--red); font-family: var(--num); font-weight: 400; margin-left: 14px; }
 .w3.tag small.tw { color: var(--green); }
 #s1-a, #s1-b, #s1-c, #s7-slap { left: 0; right: 0; text-align: center; white-space: nowrap; letter-spacing: -0.01em; font-weight: 900; text-shadow: 0 10px 50px rgba(0, 0, 0, 0.95); -webkit-text-stroke: 10px var(--bg); paint-order: stroke fill; }
-#s1-a { top: 400px; font-size: 76px; }
-#s1-a small { display: block; font-size: 52px; color: var(--mute); margin-bottom: 10px; }
-#s1-a b { color: var(--green); }
+#s1-a { top: 380px; }
+#s1-a .tk { font-family: var(--mono); font-size: 48px; color: var(--ink); }
+#s1-a b { display: block; font-family: var(--num); font-weight: 400; font-size: 184px; line-height: 1.05; color: var(--red); letter-spacing: -0.03em; text-shadow: 0 0 140px rgba(255, 90, 69, 0.55), 0 10px 60px rgba(0, 0, 0, 0.9); }
+#s1-a b i { font-family: var(--sans); font-weight: 900; font-style: normal; font-size: 0.34em; margin-left: 12px; }
+#s1-a em { display: block; font-style: normal; font-size: 70px; color: var(--ink); margin-top: 6px; }
+#s1-a em span { color: var(--red); font-family: var(--num); font-weight: 400; }
 #s1-b { top: 400px; }
 #s1-b .tk { font-family: var(--mono); font-size: 48px; color: var(--ink); }
 #s1-b b { display: block; font-family: var(--num); font-weight: 400; font-size: 330px; line-height: 1.02; color: var(--red); letter-spacing: -0.03em; text-shadow: 0 0 140px rgba(255, 90, 69, 0.55), 0 10px 60px rgba(0, 0, 0, 0.9); }
